@@ -1,0 +1,20 @@
+[
+    {
+        "name": "PS5",
+        "description": "20% de descuento sobre el total. Descuento máximo de $30.000",
+        "categories": [["Videojuegos", "#0b2ad8"]],
+        "saved": 20000
+    },
+    {
+        "name": "ASE23CFS",
+        "description": "10% de descuento sobre el total. Descuento máximo de $50.000",
+        "categories": [["Ropa", "#b83c3c"], ["Casa", "#21b32d"]],
+        "saved": 30000
+    },
+    {
+        "name": "123WSAU",
+        "description": "50% de descuento sobre el total. Descuento máximo de $5.000",
+        "categories": [["Ropa", "#b83c3c"], ["Comida", "#73078b80"], ["Deporte", "#06958280"]],
+        "saved": 2000
+    }
+]

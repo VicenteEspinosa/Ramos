@@ -1,0 +1,378 @@
+[
+  {
+    "model": "backend_app.metadata",
+    "pk": 1,
+    "fields": {
+      "name": "TimeStamp",
+      "route": ["timestamp_data", "final_timestamp"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 2,
+    "fields": {
+      "name": "Email Address",
+      "route": ["auditor_data", "auditor_email"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 3,
+    "fields": {
+      "name": "Fecha Auditoria",
+      "route": ["timestamp_data", "initial_date"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 4,
+    "fields": {
+      "name": "Hora Auditoria",
+      "route": ["timestamp_data", "initial_time"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 5,
+    "fields": {
+      "name": "Auditor OSAM",
+      "route": ["auditor_data", "auditor_name"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 6,
+    "fields": {
+      "name": "Rut Auditor",
+      "route": ["auditor_data", "auditor_rut"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 7,
+    "fields": {
+      "name": "Tipo Auditoria",
+      "route": ["category_data", "audit_type"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 8,
+    "fields": {
+      "name": "Tipo Tarea",
+      "route": ["category_data", "task_type"],
+      "category": { "category_ids": ["1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 9,
+    "fields": {
+      "name": "Numero Tarea",
+      "route": ["category_data", "task_number"],
+      "category": { "category_ids": ["1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 10,
+    "fields": {
+      "name": "CRM",
+      "route": ["location_data", "zone_crm"],
+      "category": { "category_ids": ["1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 11,
+    "fields": {
+      "name": "Region",
+      "route": ["location_data", "region"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 12,
+    "fields": {
+      "name": "Provincia",
+      "route": ["location_data", "province"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 13,
+    "fields": {
+      "name": "Comuna",
+      "route": ["location_data", "commune"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 14,
+    "fields": {
+      "name": "Zona ATT",
+      "route": ["location_data", "zone_att"],
+      "category": { "category_ids": ["0"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 15,
+    "fields": {
+      "name": "Calle",
+      "route": ["location_data", "street_name"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 16,
+    "fields": {
+      "name": "Numeracion Calle",
+      "route": ["location_data", "street_number"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 17,
+    "fields": {
+      "name": "Depto u Oficina",
+      "route": ["location_data", "dpt_or_office"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 18,
+    "fields": {
+      "name": "Tipo Servicio",
+      "route": ["category_data", "service_type"],
+      "category": { "category_ids": ["0"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 19,
+    "fields": {
+      "name": "Tipo Tarea",
+      "route": ["category_data", "task_type"],
+      "category": { "category_ids": ["0"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 20,
+    "fields": {
+      "name": "Auditoria Realizada",
+      "route": ["extras", "audit_done"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 21,
+    "fields": {
+      "name": "Observaciones Auditoria NOK",
+      "route": ["extras", "comments_nok"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 22,
+    "fields": {
+      "name": "Nombre Tecnico",
+      "route": [
+        "technician_data",
+        "technicians",
+        "technician_1",
+        "technician_name"
+      ],
+      "category": { "category_ids": ["0"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 23,
+    "fields": {
+      "name": "Rut Tecnico",
+      "route": [
+        "technician_data",
+        "technicians",
+        "technician_1",
+        "technician_rut"
+      ],
+      "category": { "category_ids": ["0"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 24,
+    "fields": {
+      "name": "Telefono",
+      "route": ["technician_data", "technicians", "technician_1", "technician_phone"],
+      "category": { "category_ids": ["0"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 25,
+    "fields": {
+      "name": "ID Externo",
+      "route": [
+        "category_data",
+        "task_number"
+      ],
+      "category": { "category_ids": ["0"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 26,
+    "fields": {
+      "name": "Nombre Tecnico 1",
+      "route": [
+        "technician_data",
+        "technicians",
+        "technician_1",
+        "technician_name_redes"
+      ],
+      "category": { "category_ids": ["1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 27,
+    "fields": {
+      "name": "Nombre Tecnico 2",
+      "route": [
+        "technician_data",
+        "technicians",
+        "technician_2",
+        "technician_name_redes"
+      ],
+      "category": { "category_ids": ["1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 28,
+    "fields": {
+      "name": "Rut Tecnico 1",
+      "route": [
+        "technician_data",
+        "technicians",
+        "technician_1",
+        "technician_rut"
+      ],
+      "category": { "category_ids": ["1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 29,
+    "fields": {
+      "name": "Rut Tecnico 2",
+      "route": [
+        "technician_data",
+        "technicians",
+        "technician_2",
+        "technician_rut"
+      ],
+      "category": { "category_ids": ["1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 30,
+    "fields": {
+      "name": "Telefono 1",
+      "route": [
+        "technician_data",
+        "technicians",
+        "technician_1",
+        "technician_phone"
+      ],
+      "category": { "category_ids": ["1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 31,
+    "fields": {
+      "name": "Telefono 2",
+      "route": [
+        "technician_data",
+        "technicians",
+        "technician_2",
+        "technician_phone"
+      ],
+      "category": { "category_ids": ["1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 32,
+    "fields": {
+      "name": "ID Grupo Team",
+      "route": ["technician_data", "id_group_team"],
+      "category": { "category_ids": ["1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 33,
+    "fields": {
+      "name": "ID Team",
+      "route": ["technician_data", "team_id"],
+      "category": { "category_ids": ["1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 34,
+    "fields": {
+      "name": "Empresa",
+      "route": ["technician_data", "enterprise"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 35,
+    "fields": {
+      "name": "Tipo Camioneta",
+      "route": ["truck_data", "truck_type"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 36,
+    "fields": {
+      "name": "Patente",
+      "route": ["truck_data", "truck_license"],
+      "category": { "category_ids": ["0", "1"] }
+    }
+  },
+  {
+    "model": "backend_app.metadata",
+    "pk": 37,
+    "fields": {
+      "name": "Tipo Auditoria",
+      "route": ["category_data", "audit_type"],
+      "category": { "category_ids": ["0"] }
+    }
+  }
+]

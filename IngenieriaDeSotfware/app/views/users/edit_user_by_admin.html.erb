@@ -1,0 +1,67 @@
+
+<div class="edit-box" style="width: 50%">
+  <h3 class="title is-3" style="text-align:center">Editar perfil</h3>
+    <%= form_with(model: @user, url: edit_user_by_admin_path, method: :patch) do |f| %>
+    <div class="field">
+      <%= f.label :email, 'Email', class: "label" %>
+      <div class="control">
+        <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "input" %>
+      </div>
+    </div>
+
+    <div class="field">
+      <%= f.label :name, 'Nombre', class: "label" %>
+      <div class="controll">
+        <%= f.text_field :name, autofocus: true, autocomplete: "name", class: "input" %>
+      </div>
+    </div>
+
+    <% if f.object.avatar? %> 
+      <%= f.label 'Eliminar foto de perfil', class: "label"%>
+      <input type="checkbox" name="borrar_avatar">
+    <% end %>
+
+    <div class="field">
+      <%= f.label :city_id, 'Comuna', class: 'label'%>
+      <div class="control">
+        <div class="select">
+          <%= f.collection_select(:city_id, City.all, :id, :name, {:prompt=>"Selecciona una comuna"}, {:required => true})%>
+        </div>
+      </div>
+    </div>
+
+    <div class="field">
+      <%= f.label :birthdate, 'Fecha de nacimiento', class: "label" %>
+      <div class="control">
+        <%= f.date_field :birthdate, class: "input" %>
+      </div>
+    </div>
+
+    <div class="field">
+      <%= f.label :description, 'Descripción', class: "label" %>
+      <div class="control">
+        <%= f.text_area :description, autofocus: true, autocomplete: "description", class: "textarea" %>
+      </div>
+    </div>
+
+    <div class="field">
+      <%= f.label :phone_number, 'Número de celular', class: "label" %>
+      <div class="control">
+        <%= f.text_field :phone_number, autofocus: true, autocomplete: "phone number", class: "input" %>
+      </div>
+    </div>  
+
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <%= f.submit "Confirmar cambios", class: "button is-success is-light" %>
+      </div>
+    </div>
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+          <%= link_to 'Lista de usuarios', index_users_path, class: "tag is-link is-light" %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

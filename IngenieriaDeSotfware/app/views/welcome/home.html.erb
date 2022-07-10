@@ -1,0 +1,37 @@
+<div>
+  <section class="hero is-primary is-bold" style="margin: 2rem 0 2rem 0">
+    <div class="hero-body">
+      <div class="container">
+          <%= link_to '¿Buscas conocer nuevas personas? ¡Haz Match!', show_user_recommendations_path, class: "title"%>
+      </div>
+      <h2 class="subtitle">
+          Se han realizado <%= @quantity %> match hasta ahora :D 
+      </h2>
+    </div>
+  </section>
+  <section class="hero is-info is-bold" style="margin: 2rem 0 2rem 0">
+    <div class="hero-body">
+      <div class="container">
+        <%= link_to '¡Agrega gustos y mejora tus recomendaciones!', show_user_gustos_path, class: "title"%>
+      </div>
+    </div>
+  </section>
+  <section class="hero is-link is-bold" style="margin: 2rem 0 2rem 0">
+    <div class="hero-body">
+      <div class="container">
+        <%= link_to '¿Tienes un local? ¡Postula!', new_restaurant_path, class: "title"%>
+      </div>
+      <h2 class="subtitle">
+        <% if !@approved_restaurants.empty?%>
+          Hay <%= @approved_restaurants.size %> locales registrados!
+        <% else %>
+          Hay 0 locales registrados
+        <% end %>
+      </h2>
+    </div>
+  </section>
+</div>
+
+
+
+

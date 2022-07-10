@@ -1,0 +1,20 @@
+# --------------------------------------------
+# Python
+# --------------------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+Enunciado.pdf
+Ranking.txt
+mapas
+sprites
+parametros_acciones.py
+parametros_plantas.py
+parametros_precios.py
+prueba.py
+prueba_2.py
+
+*.idea
+*.DS_STORE

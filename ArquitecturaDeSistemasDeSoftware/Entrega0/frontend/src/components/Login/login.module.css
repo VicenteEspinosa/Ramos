@@ -1,0 +1,66 @@
+.general {
+  position: absolute;
+  top: 0;
+  left: 80vw;
+  width: 20vw;
+  height: 30vh;
+  background-color: #24478e;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  margin-left: 2vh;
+}
+
+.label {
+  flex: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  display: block;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.input {
+  width: 10vh;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  margin: 0vh 0.6vw;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.postButton {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 20px;
+  color: #4caf50;
+  font-weight: 1000;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.success {
+  color: rgb(44, 173, 30);
+  font-size: 12px;
+}

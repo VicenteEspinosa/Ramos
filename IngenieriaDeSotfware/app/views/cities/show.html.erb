@@ -1,0 +1,30 @@
+
+<div class="card" style="width: 50%; text-align: center; margin: 2rem auto auto auto">
+  <header class="card-header">
+    <p class="card-header-title">
+      Detalles de la comuna
+    </p>
+  </header>
+  <div class="card-content">
+    <div class="content">
+      <p><strong>Nombre: </strong><%= @city.name %></p>
+    </div>
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+          <%= link_to "Editar", city_edit_path(@city.id), class: "button is-warning is-light" %>
+        </div>
+        <div class="control">
+          <%= link_to "Eliminar", city_path(@city.id), method: :delete, data: {confirm: '¿Estás Seguro?'}, class: "button is-danger is-light" %>
+        </div>
+      </div>
+    </div>
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+          <%= link_to 'Lista de comunas', cities_path, class: "tag is-link is-light" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

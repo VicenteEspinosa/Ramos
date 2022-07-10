@@ -1,0 +1,44 @@
+[
+    {
+      "pk": 1,
+      "model": "recipelib.measurement",
+      "fields": {
+        "name": "gr"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "recipelib.measurement",
+      "fields": {
+        "name": "cucharada"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "recipelib.measurement",
+      "fields": {
+        "name": "unidad"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "recipelib.measurement",
+      "fields": {
+        "name": "taza"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "recipelib.measurement",
+      "fields": {
+        "name": "kilo"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "recipelib.measurement",
+      "fields": {
+        "name": "cucharadita"
+      }
+    }
+]

@@ -1,0 +1,80 @@
+.Purchase {
+  border: 1px solid rgb(2, 2, 2);
+  border-radius: 5px;
+  margin: 20px;
+  background-color: rgb(204, 204, 204);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-gap: 10px;
+}
+
+.purchaseItems {
+  margin-top: 10px;
+}
+
+.purchasePricing {
+  grid-row: 3;
+  position: relative;
+  top: -40%;
+  margin: 5%;
+}
+
+.purchaseDate {
+  background-color: rgb(124, 124, 124);
+  text-align: left;
+  text-indent: 10px;
+}
+
+.Puchase-pricing-subtotal > div {
+  display: inline;
+}
+
+.Puchase-pricing-discount > div {
+  display: inline;
+}
+
+.Puchase-pricing-subtotal-value {
+  text-decoration: line-through;
+}
+
+.Puchase-pricing-discount-value {
+  color: red;
+}
+
+.buttons {
+  grid-row: 1;
+  margin: 10px;
+}
+
+.buttonsPricing {
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: 20% 60%;
+}
+
+.buyAgainButton {
+  margin: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #a6b2ef;
+  color: #4b64e4;
+  border-radius: 20px;
+  height: 3vh;
+  width: 151px;
+  height: 39px;
+}
+
+.seeButton {
+  margin: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #4b64e4;
+  color: #ffffff;
+  border-radius: 20px;
+  height: 3vh;
+  width: 151px;
+  height: 39px;
+}

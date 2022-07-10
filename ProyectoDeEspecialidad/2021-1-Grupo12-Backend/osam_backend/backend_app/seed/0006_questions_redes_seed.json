@@ -1,0 +1,563 @@
+[
+  {
+    "model": "backend_app.question",
+    "pk": 343,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿En la camioneta se transportan sólo elementos asociados al trabajo diario?",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 344,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Están categorizadas las herramientas según prioridad?",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 345,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿La camioneta se observa limpia al interior? (sin basura, podrá existir polvo y barro)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 346,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Están los elementos de trabajo en buen estado?",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 347,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Los elementos de la camioneta 5S se observan en buen estado? (cajas, slingas, malla, morral, etc.)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 348,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Ponchadora krone",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 349,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llaves punta corona 8 a 22 (+32) pulgadas",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 350,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tijeras",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 351,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Atornilladores de precisión cruz, paleta, estrella",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 352,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Rotuladora",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 353,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Corta cartón",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 354,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Pela-cables",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 355,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tester para medición de tensión (Dc-Ac) de tenaza",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 356,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alicates punta, cortante, fuerza",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 357,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Linterna",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 358,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Test para RJ-45",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 359,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Hidrolavadora",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 360,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Power meter",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 361,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Grupo Generador Portátil (No aplica si se transporta combustible en estanque de 600 lt.)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 362,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llave para retiro de filtros de GG (Aceite)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 363,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llave francesa",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 364,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Termómetro para medición de inyección A/A",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 365,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Soplador para limpieza de equipos",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 366,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Atornilladores normal aislados (paleta, cruz)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 367,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llaves allen",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 368,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Caimán",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 369,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Apreta terminales",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 370,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cables de prueba",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 371,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Picoloro",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 372,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Crimpeadora RJ45",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 373,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Crimpeadora BNC",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 374,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Bolso de seguridad (Morral con elementos de trabajo en altura)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 375,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Foco Faenero",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 376,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Inclinómetro",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 377,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Brújula",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 378,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conectores bnc para coaxial 3002",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 379,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conectores macho volante para coaxial 3002",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 380,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Coaxial 3002 para cruzadas",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 381,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cable utp y conectoras RJ-45",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 382,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Aire comprimido",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 383,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Amarras plásticas",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 384,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conectores N para coaxial de enlaces Ericsson",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 385,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alcohol isopropilico",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 386,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Mangueras para calefacción de GG",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 387,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guaipe y paños para limpieza",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 388,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Mangueras para inyectores de GG",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 389,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Detergente para lavado de A/A (condensador evaporador) (Obligatoria a partir de Octubre 2017)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 390,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Bidón de transporte de combustible (tiene que ser plástico) (Obligatoria a partir de Octubre 2017)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 391,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Bidón de agua para mantención A/A",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 392,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cable para respaldo de sitios con GG portátil",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 393,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cinta aisladora y vulco",
+      "status": true,
+      "category_id": 1
+    }
+  }
+]

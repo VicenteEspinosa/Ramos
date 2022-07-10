@@ -1,0 +1,552 @@
+[
+  {
+    "model": "backend_app.question",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿La camioneta solo tiene elementos necesarios en su interior?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿La camioneta se observa limpia? (por dentro y fuera)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Están los elementos de la camioneta 5S en buen estado y según el criterio de orden y prioridad definido?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿La camioneta se observa en buen estado? (neumáticos, carrocería, pintura, etc.)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Vehículo tiene toda la documentación al día? (Permiso de circulación, Revisión Técnica, Padrón.)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 6,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alicate de Fuerza, Cortante y de Punta  (mínimo 1 unidad de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 7,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Roseta Fibra Optica",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 8,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Jumper FO SC/APC",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 9,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Brocas Madera, Concreto, Metal y Pasa Muro Concreto (mínimo 2 unidades de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 10,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "FO Drop para FTTH Norma G 657",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 11,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conector de Campo para FO Roma",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 12,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cable UTP Categoria 5e",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 13,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cadena y Candado escaleras (Ambos)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 14,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alcohol isopropílico 99%",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 15,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cautín 25W (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 16,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Clavija krone lsa plus, Mondragon, Sistema 71 (mínimo 1 unidad de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 17,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cable Pin Telefónico",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 18,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Roseta Telefonica con gel",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 19,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conectora lsa 71 ",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 20,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Destornillador Cruz, Paleta y Torx (forma estrella)  (mínimo 1 unidad de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 21,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conectores RJ45 Categoria 5e",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 22,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Deschaquetador de primera cubierta para DROP de baja Fricción",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 23,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Escalera telescópica de 3 a 6 m y de Tijera interior de 1,5 m (Ambas)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 24,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tijera para Cortar Aramida",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 25,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Power meter GPON",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 26,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Gancho (de cámara)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 27,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Generador de tono",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 28,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Grimpiadora para conector rj-45, rj-11",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 29,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Herr. de limpieza (pala, escoba)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 30,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Huincha de medir y Nivel (Ambos)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 31,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Inductor",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 32,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Juego de llaves punta y corona",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 33,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Laucha Pasa Cable de Acero y Platico (Ambas)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 34,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Paños secos para FO",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 35,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Maleta porta herramientas con ruedas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 36,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Marco de sierra",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 37,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Deschaquetador de recubrimiento de FO 125micras Tipo Miller",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 38,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cortadora de precisión 3 pasos, con receptáculo para residuos",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 39,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Protector de cable para pasadas de muro",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 40,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Taladro tipo Hilti",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 41,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Teléfono de prueba",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 42,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tizador (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 43,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Brújula, GPS (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 44,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Multitester",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 45,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Notebook (mínimo core 5, 4 GB de RAM)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 46,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Odómetro (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 47,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "PinPass",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 48,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tester para cable de red (UTP) ",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 49,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alcohol isopropílico 99%",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 50,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Brocas Madera, Concreto, Metal y Pasa Muro Concreto (mínimo 2 unidades de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  }
+]

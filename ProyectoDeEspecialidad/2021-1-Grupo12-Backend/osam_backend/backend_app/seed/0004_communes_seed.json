@@ -1,0 +1,3462 @@
+[
+  {
+    "model": "backend_app.commune",
+    "pk": "1",
+    "fields": {
+      "name": "Iquique",
+      "province_id": 3,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "2",
+    "fields": {
+      "name": "Alto Hospicio",
+      "province_id": 3,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "3",
+    "fields": {
+      "name": "Pozo Almonte",
+      "province_id": 4,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "4",
+    "fields": {
+      "name": "Camiña",
+      "province_id": 4,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "5",
+    "fields": {
+      "name": "Colchane",
+      "province_id": 4,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "6",
+    "fields": {
+      "name": "Huara",
+      "province_id": 4,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "7",
+    "fields": {
+      "name": "Pica",
+      "province_id": 4,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "8",
+    "fields": {
+      "name": "Antofagasta",
+      "province_id": 5,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "9",
+    "fields": {
+      "name": "Mejillones",
+      "province_id": 5,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "10",
+    "fields": {
+      "name": "Sierra Gorda",
+      "province_id": 5,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "11",
+    "fields": {
+      "name": "Taltal",
+      "province_id": 5,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "12",
+    "fields": {
+      "name": "Calama",
+      "province_id": 6,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "13",
+    "fields": {
+      "name": "Ollagüe",
+      "province_id": 6,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "14",
+    "fields": {
+      "name": "San Pedro de Atacama",
+      "province_id": 6,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "15",
+    "fields": {
+      "name": "Tocopilla",
+      "province_id": 7,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "16",
+    "fields": {
+      "name": "María Elena",
+      "province_id": 7,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "17",
+    "fields": {
+      "name": "Copiapó",
+      "province_id": 9,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "18",
+    "fields": {
+      "name": "Caldera",
+      "province_id": 9,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "19",
+    "fields": {
+      "name": "Tierra Amarilla",
+      "province_id": 9,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "20",
+    "fields": {
+      "name": "Chañaral",
+      "province_id": 8,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "21",
+    "fields": {
+      "name": "Diego de Almagro",
+      "province_id": 8,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "22",
+    "fields": {
+      "name": "Vallenar",
+      "province_id": 10,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "23",
+    "fields": {
+      "name": "Alto del Carmen",
+      "province_id": 10,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "24",
+    "fields": {
+      "name": "Freirina",
+      "province_id": 10,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "25",
+    "fields": {
+      "name": "Huasco",
+      "province_id": 10,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "26",
+    "fields": {
+      "name": "La Serena",
+      "province_id": 12,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "27",
+    "fields": {
+      "name": "Coquimbo",
+      "province_id": 12,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "28",
+    "fields": {
+      "name": "Andacollo",
+      "province_id": 12,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "29",
+    "fields": {
+      "name": "La Higuera",
+      "province_id": 12,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "30",
+    "fields": {
+      "name": "Paiguano",
+      "province_id": 12,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "31",
+    "fields": {
+      "name": "Vicuña",
+      "province_id": 12,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "32",
+    "fields": {
+      "name": "Illapel",
+      "province_id": 11,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "33",
+    "fields": {
+      "name": "Canela",
+      "province_id": 11,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "34",
+    "fields": {
+      "name": "Los Vilos",
+      "province_id": 11,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "35",
+    "fields": {
+      "name": "Salamanca",
+      "province_id": 11,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "36",
+    "fields": {
+      "name": "Ovalle",
+      "province_id": 13,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "37",
+    "fields": {
+      "name": "Combarbalá",
+      "province_id": 13,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "38",
+    "fields": {
+      "name": "Monte Patria",
+      "province_id": 13,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "39",
+    "fields": {
+      "name": "Punitaqui",
+      "province_id": 13,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "40",
+    "fields": {
+      "name": "Río Hurtado",
+      "province_id": 13,
+      "region_zona_att": 3,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "41",
+    "fields": {
+      "name": "Valparaíso",
+      "province_id": 20,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "42",
+    "fields": {
+      "name": "Casablanca",
+      "province_id": 20,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "43",
+    "fields": {
+      "name": "Concón",
+      "province_id": 20,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "44",
+    "fields": {
+      "name": "Juan Fernández",
+      "province_id": 20,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "45",
+    "fields": {
+      "name": "Puchuncaví",
+      "province_id": 20,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "46",
+    "fields": {
+      "name": "Quilpué",
+      "province_id": 20,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "47",
+    "fields": {
+      "name": "Quintero",
+      "province_id": 20,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "48",
+    "fields": {
+      "name": "Villa Alemana",
+      "province_id": 20,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "49",
+    "fields": {
+      "name": "Viña del Mar",
+      "province_id": 20,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "50",
+    "fields": {
+      "name": "Isla de Pascua",
+      "province_id": 14,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "51",
+    "fields": {
+      "name": "Los Andes",
+      "province_id": 15,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "52",
+    "fields": {
+      "name": "Calle Larga",
+      "province_id": 15,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "53",
+    "fields": {
+      "name": "Rinconada",
+      "province_id": 15,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "54",
+    "fields": {
+      "name": "San Esteban",
+      "province_id": 15,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "55",
+    "fields": {
+      "name": "La Ligua",
+      "province_id": 16,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "56",
+    "fields": {
+      "name": "Cabildo",
+      "province_id": 16,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "57",
+    "fields": {
+      "name": "Papudo",
+      "province_id": 16,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "58",
+    "fields": {
+      "name": "Petorca",
+      "province_id": 16,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "59",
+    "fields": {
+      "name": "Zapallar",
+      "province_id": 16,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "60",
+    "fields": {
+      "name": "Quillota",
+      "province_id": 17,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "61",
+    "fields": {
+      "name": "Calera",
+      "province_id": 17,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "62",
+    "fields": {
+      "name": "Hijuelas",
+      "province_id": 17,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "63",
+    "fields": {
+      "name": "La Cruz",
+      "province_id": 17,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "64",
+    "fields": {
+      "name": "Limache",
+      "province_id": 17,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "65",
+    "fields": {
+      "name": "Nogales",
+      "province_id": 17,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "66",
+    "fields": {
+      "name": "Olmué",
+      "province_id": 17,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "67",
+    "fields": {
+      "name": "San Antonio",
+      "province_id": 18,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "68",
+    "fields": {
+      "name": "Algarrobo",
+      "province_id": 18,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "69",
+    "fields": {
+      "name": "Cartagena",
+      "province_id": 18,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "70",
+    "fields": {
+      "name": "El Quisco",
+      "province_id": 18,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "71",
+    "fields": {
+      "name": "El Tabo",
+      "province_id": 18,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "72",
+    "fields": {
+      "name": "Santo Domingo",
+      "province_id": 18,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "73",
+    "fields": {
+      "name": "San Felipe",
+      "province_id": 19,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "74",
+    "fields": {
+      "name": "Catemu",
+      "province_id": 19,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "75",
+    "fields": {
+      "name": "Llaillay",
+      "province_id": 19,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "76",
+    "fields": {
+      "name": "Panquehue",
+      "province_id": 19,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "77",
+    "fields": {
+      "name": "Putaendo",
+      "province_id": 19,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "78",
+    "fields": {
+      "name": "Santa María",
+      "province_id": 19,
+      "region_zona_att": 6,
+      "region_crm": 6
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "79",
+    "fields": {
+      "name": "Rancagua",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "80",
+    "fields": {
+      "name": "Codegua",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "81",
+    "fields": {
+      "name": "Coinco",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "82",
+    "fields": {
+      "name": "Coltauco",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "83",
+    "fields": {
+      "name": "Doñihue",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "84",
+    "fields": {
+      "name": "Graneros",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "85",
+    "fields": {
+      "name": "Las Cabras",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "86",
+    "fields": {
+      "name": "Machalí",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "87",
+    "fields": {
+      "name": "Malloa",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "88",
+    "fields": {
+      "name": "Mostazal",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "89",
+    "fields": {
+      "name": "Olivar",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "90",
+    "fields": {
+      "name": "Peumo",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "91",
+    "fields": {
+      "name": "Pichidegua",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "92",
+    "fields": {
+      "name": "Quinta de Tilcoco",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "93",
+    "fields": {
+      "name": "Rengo",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "94",
+    "fields": {
+      "name": "Requínoa",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "95",
+    "fields": {
+      "name": "San Vicente",
+      "province_id": 27,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "96",
+    "fields": {
+      "name": "Pichilemu",
+      "province_id": 28,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "97",
+    "fields": {
+      "name": "La Estrella",
+      "province_id": 28,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "98",
+    "fields": {
+      "name": "Litueche",
+      "province_id": 28,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "99",
+    "fields": {
+      "name": "Marchihue",
+      "province_id": 28,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "100",
+    "fields": {
+      "name": "Navidad",
+      "province_id": 28,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "101",
+    "fields": {
+      "name": "Paredones",
+      "province_id": 28,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "102",
+    "fields": {
+      "name": "San Fernando",
+      "province_id": 29,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "103",
+    "fields": {
+      "name": "Chépica",
+      "province_id": 29,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "104",
+    "fields": {
+      "name": "Chimbarongo",
+      "province_id": 29,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "105",
+    "fields": {
+      "name": "Lolol",
+      "province_id": 29,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "106",
+    "fields": {
+      "name": "Nancagua",
+      "province_id": 29,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "107",
+    "fields": {
+      "name": "Palmilla",
+      "province_id": 29,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "108",
+    "fields": {
+      "name": "Peralillo",
+      "province_id": 29,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "109",
+    "fields": {
+      "name": "Placilla",
+      "province_id": 29,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "110",
+    "fields": {
+      "name": "Pumanque",
+      "province_id": 29,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "111",
+    "fields": {
+      "name": "Santa Cruz",
+      "province_id": 29,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "112",
+    "fields": {
+      "name": "Talca",
+      "province_id": 33,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "113",
+    "fields": {
+      "name": "Constitución",
+      "province_id": 33,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "114",
+    "fields": {
+      "name": "Curepto",
+      "province_id": 33,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "115",
+    "fields": {
+      "name": "Empedrado",
+      "province_id": 33,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "116",
+    "fields": {
+      "name": "Maule",
+      "province_id": 33,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "117",
+    "fields": {
+      "name": "Pelarco",
+      "province_id": 33,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "118",
+    "fields": {
+      "name": "Pencahue",
+      "province_id": 33,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "119",
+    "fields": {
+      "name": "Río Claro",
+      "province_id": 33,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "120",
+    "fields": {
+      "name": "San Clemente",
+      "province_id": 33,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "121",
+    "fields": {
+      "name": "San Rafael",
+      "province_id": 33,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "122",
+    "fields": {
+      "name": "Cauquenes",
+      "province_id": 30,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "123",
+    "fields": {
+      "name": "Chanco",
+      "province_id": 30,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "124",
+    "fields": {
+      "name": "Pelluhue",
+      "province_id": 30,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "125",
+    "fields": {
+      "name": "Curicó",
+      "province_id": 31,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "126",
+    "fields": {
+      "name": "Hualañé",
+      "province_id": 31,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "127",
+    "fields": {
+      "name": "Licantén",
+      "province_id": 31,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "128",
+    "fields": {
+      "name": "Molina",
+      "province_id": 31,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "129",
+    "fields": {
+      "name": "Rauco",
+      "province_id": 31,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "130",
+    "fields": {
+      "name": "Romeral",
+      "province_id": 31,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "131",
+    "fields": {
+      "name": "Sagrada Familia",
+      "province_id": 31,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "132",
+    "fields": {
+      "name": "Teno",
+      "province_id": 31,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "133",
+    "fields": {
+      "name": "Vichuquén",
+      "province_id": 31,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "134",
+    "fields": {
+      "name": "Linares",
+      "province_id": 32,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "135",
+    "fields": {
+      "name": "Colbún",
+      "province_id": 32,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "136",
+    "fields": {
+      "name": "Longaví",
+      "province_id": 32,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "137",
+    "fields": {
+      "name": "Parral",
+      "province_id": 32,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "138",
+    "fields": {
+      "name": "Retiro",
+      "province_id": 32,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "139",
+    "fields": {
+      "name": "San Javier",
+      "province_id": 32,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "140",
+    "fields": {
+      "name": "Villa Alegre",
+      "province_id": 32,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "141",
+    "fields": {
+      "name": "Yerbas Buenas",
+      "province_id": 32,
+      "region_zona_att": 1,
+      "region_crm": 5
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "142",
+    "fields": {
+      "name": "Concepción",
+      "province_id": 36,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "143",
+    "fields": {
+      "name": "Coronel",
+      "province_id": 36,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "144",
+    "fields": {
+      "name": "Chiguayante",
+      "province_id": 36,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "145",
+    "fields": {
+      "name": "Florida",
+      "province_id": 36,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "146",
+    "fields": {
+      "name": "Hualqui",
+      "province_id": 36,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "147",
+    "fields": {
+      "name": "Lota",
+      "province_id": 36,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "148",
+    "fields": {
+      "name": "Penco",
+      "province_id": 36,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "149",
+    "fields": {
+      "name": "San Pedro de la Paz",
+      "province_id": 36,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "150",
+    "fields": {
+      "name": "Santa Juana",
+      "province_id": 36,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "151",
+    "fields": {
+      "name": "Talcahuano",
+      "province_id": 36,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "152",
+    "fields": {
+      "name": "Tomé",
+      "province_id": 36,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "153",
+    "fields": {
+      "name": "Hualpén",
+      "province_id": 36,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "154",
+    "fields": {
+      "name": "Lebu",
+      "province_id": 34,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "155",
+    "fields": {
+      "name": "Arauco",
+      "province_id": 34,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "156",
+    "fields": {
+      "name": "Cañete",
+      "province_id": 34,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "157",
+    "fields": {
+      "name": "Contulmo",
+      "province_id": 34,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "158",
+    "fields": {
+      "name": "Curanilahue",
+      "province_id": 34,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "159",
+    "fields": {
+      "name": "Los Álamos",
+      "province_id": 34,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "160",
+    "fields": {
+      "name": "Tirúa",
+      "province_id": 34,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "161",
+    "fields": {
+      "name": "Los Ángeles",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "162",
+    "fields": {
+      "name": "Antuco",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "163",
+    "fields": {
+      "name": "Cabrero",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "164",
+    "fields": {
+      "name": "Laja",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "165",
+    "fields": {
+      "name": "Mulchén",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "166",
+    "fields": {
+      "name": "Nacimiento",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "167",
+    "fields": {
+      "name": "Negrete",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "168",
+    "fields": {
+      "name": "Quilaco",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "169",
+    "fields": {
+      "name": "Quilleco",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "170",
+    "fields": {
+      "name": "San Rosendo",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "171",
+    "fields": {
+      "name": "Santa Bárbara",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "172",
+    "fields": {
+      "name": "Tucapel",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "173",
+    "fields": {
+      "name": "Yumbel",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "174",
+    "fields": {
+      "name": "Alto Bío-Bío",
+      "province_id": 35,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "175",
+    "fields": {
+      "name": "Chillán",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "176",
+    "fields": {
+      "name": "Bulnes",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "177",
+    "fields": {
+      "name": "Cobquecura",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "178",
+    "fields": {
+      "name": "Coelemu",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "179",
+    "fields": {
+      "name": "Coihueco",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "180",
+    "fields": {
+      "name": "Chillán Viejo",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "181",
+    "fields": {
+      "name": "El Carmen",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "182",
+    "fields": {
+      "name": "Ninhue",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "183",
+    "fields": {
+      "name": "Ñiquén",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "184",
+    "fields": {
+      "name": "Pemuco",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "185",
+    "fields": {
+      "name": "Pinto",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "186",
+    "fields": {
+      "name": "Portezuelo",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "187",
+    "fields": {
+      "name": "Quillón",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "188",
+    "fields": {
+      "name": "Quirihue",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "189",
+    "fields": {
+      "name": "Ránquil",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "190",
+    "fields": {
+      "name": "San Carlos",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "191",
+    "fields": {
+      "name": "San Fabián",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "192",
+    "fields": {
+      "name": "San Ignacio",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "193",
+    "fields": {
+      "name": "San Nicolás",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "194",
+    "fields": {
+      "name": "Treguaco",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "195",
+    "fields": {
+      "name": "Yungay",
+      "province_id": 37,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "196",
+    "fields": {
+      "name": "Temuco",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "197",
+    "fields": {
+      "name": "Carahue",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "198",
+    "fields": {
+      "name": "Cunco",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "199",
+    "fields": {
+      "name": "Curarrehue",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "200",
+    "fields": {
+      "name": "Freire",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "201",
+    "fields": {
+      "name": "Galvarino",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "202",
+    "fields": {
+      "name": "Gorbea",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "203",
+    "fields": {
+      "name": "Lautaro",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "204",
+    "fields": {
+      "name": "Loncoche",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "205",
+    "fields": {
+      "name": "Melipeuco",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "206",
+    "fields": {
+      "name": "Nueva Imperial",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "207",
+    "fields": {
+      "name": "Padre las Casas",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "208",
+    "fields": {
+      "name": "Perquenco",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "209",
+    "fields": {
+      "name": "Pitrufquén",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "210",
+    "fields": {
+      "name": "Pucón",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "211",
+    "fields": {
+      "name": "Saavedra",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "212",
+    "fields": {
+      "name": "Teodoro Schmidt",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "213",
+    "fields": {
+      "name": "Toltén",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "214",
+    "fields": {
+      "name": "Vilcún",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "215",
+    "fields": {
+      "name": "Villarrica",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "216",
+    "fields": {
+      "name": "Cholchol",
+      "province_id": 38,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "217",
+    "fields": {
+      "name": "Angol",
+      "province_id": 39,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "218",
+    "fields": {
+      "name": "Collipulli",
+      "province_id": 39,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "219",
+    "fields": {
+      "name": "Curacautín",
+      "province_id": 39,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "220",
+    "fields": {
+      "name": "Ercilla",
+      "province_id": 39,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "221",
+    "fields": {
+      "name": "Lonquimay",
+      "province_id": 39,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "222",
+    "fields": {
+      "name": "Los Sauces",
+      "province_id": 39,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "223",
+    "fields": {
+      "name": "Lumaco",
+      "province_id": 39,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "224",
+    "fields": {
+      "name": "Purén",
+      "province_id": 39,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "225",
+    "fields": {
+      "name": "Renaico",
+      "province_id": 39,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "226",
+    "fields": {
+      "name": "Traiguén",
+      "province_id": 39,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "227",
+    "fields": {
+      "name": "Victoria",
+      "province_id": 39,
+      "region_zona_att": 2,
+      "region_crm": 3
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "228",
+    "fields": {
+      "name": "Puerto Montt",
+      "province_id": 43,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "229",
+    "fields": {
+      "name": "Calbuco",
+      "province_id": 43,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "230",
+    "fields": {
+      "name": "Cochamó",
+      "province_id": 43,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "231",
+    "fields": {
+      "name": "Fresia",
+      "province_id": 43,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "232",
+    "fields": {
+      "name": "Frutillar",
+      "province_id": 43,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "233",
+    "fields": {
+      "name": "Los Muermos",
+      "province_id": 43,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "234",
+    "fields": {
+      "name": "Llanquihue",
+      "province_id": 43,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "235",
+    "fields": {
+      "name": "Maullín",
+      "province_id": 43,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "236",
+    "fields": {
+      "name": "Puerto Varas",
+      "province_id": 43,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "237",
+    "fields": {
+      "name": "Castro",
+      "province_id": 42,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "238",
+    "fields": {
+      "name": "Ancud",
+      "province_id": 42,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "239",
+    "fields": {
+      "name": "Chonchi",
+      "province_id": 42,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "240",
+    "fields": {
+      "name": "Curaco de Vélez",
+      "province_id": 42,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "241",
+    "fields": {
+      "name": "Dalcahue",
+      "province_id": 42,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "242",
+    "fields": {
+      "name": "Puqueldón",
+      "province_id": 42,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "243",
+    "fields": {
+      "name": "Queilén",
+      "province_id": 42,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "244",
+    "fields": {
+      "name": "Quellón",
+      "province_id": 42,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "245",
+    "fields": {
+      "name": "Quemchi",
+      "province_id": 42,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "246",
+    "fields": {
+      "name": "Quinchao",
+      "province_id": 42,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "247",
+    "fields": {
+      "name": "Osorno",
+      "province_id": 44,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "248",
+    "fields": {
+      "name": "Puerto Octay",
+      "province_id": 44,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "249",
+    "fields": {
+      "name": "Purranque",
+      "province_id": 44,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "250",
+    "fields": {
+      "name": "Puyehue",
+      "province_id": 44,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "251",
+    "fields": {
+      "name": "Río Negro",
+      "province_id": 44,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "252",
+    "fields": {
+      "name": "San Juan de La Costa",
+      "province_id": 44,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "253",
+    "fields": {
+      "name": "San Pablo",
+      "province_id": 44,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "254",
+    "fields": {
+      "name": "Chaitén",
+      "province_id": 45,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "255",
+    "fields": {
+      "name": "Futaleufú",
+      "province_id": 45,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "256",
+    "fields": {
+      "name": "Hualaihué",
+      "province_id": 45,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "257",
+    "fields": {
+      "name": "Palena",
+      "province_id": 45,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "258",
+    "fields": {
+      "name": "Coihaique",
+      "province_id": 48,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "259",
+    "fields": {
+      "name": "Lago Verde",
+      "province_id": 48,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "260",
+    "fields": {
+      "name": "Aisén",
+      "province_id": 46,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "261",
+    "fields": {
+      "name": "Cisnes",
+      "province_id": 46,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "262",
+    "fields": {
+      "name": "Guaitecas",
+      "province_id": 46,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "263",
+    "fields": {
+      "name": "Cochrane",
+      "province_id": 47,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "264",
+    "fields": {
+      "name": "O'Higgins",
+      "province_id": 47,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "265",
+    "fields": {
+      "name": "Tortel",
+      "province_id": 47,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "266",
+    "fields": {
+      "name": "Chile Chico",
+      "province_id": 49,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "267",
+    "fields": {
+      "name": "Río Ibáñez",
+      "province_id": 49,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "268",
+    "fields": {
+      "name": "Punta Arenas",
+      "province_id": 51,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "269",
+    "fields": {
+      "name": "Laguna Blanca",
+      "province_id": 51,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "270",
+    "fields": {
+      "name": "Río Verde",
+      "province_id": 51,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "271",
+    "fields": {
+      "name": "San Gregorio",
+      "province_id": 51,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "272",
+    "fields": {
+      "name": "Cabo de Hornos",
+      "province_id": 50,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "273",
+    "fields": {
+      "name": "Antártica",
+      "province_id": 50,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "274",
+    "fields": {
+      "name": "Porvenir",
+      "province_id": 52,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "275",
+    "fields": {
+      "name": "Primavera",
+      "province_id": 52,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "276",
+    "fields": {
+      "name": "Timaukel",
+      "province_id": 52,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "277",
+    "fields": {
+      "name": "Natales",
+      "province_id": 53,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "278",
+    "fields": {
+      "name": "Torres del Paine",
+      "province_id": 53,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "279",
+    "fields": {
+      "name": "Santiago",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "280",
+    "fields": {
+      "name": "Cerrillos",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "281",
+    "fields": {
+      "name": "Cerro Navia",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "282",
+    "fields": {
+      "name": "Conchalí",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "283",
+    "fields": {
+      "name": "El Bosque",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "284",
+    "fields": {
+      "name": "Estación Central",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "285",
+    "fields": {
+      "name": "Huechuraba",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "286",
+    "fields": {
+      "name": "Independencia",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "287",
+    "fields": {
+      "name": "La Cisterna",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "288",
+    "fields": {
+      "name": "La Florida",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "289",
+    "fields": {
+      "name": "La Pintana",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "290",
+    "fields": {
+      "name": "La Granja",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "291",
+    "fields": {
+      "name": "La Reina",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "292",
+    "fields": {
+      "name": "Las Condes",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "293",
+    "fields": {
+      "name": "Lo Barnechea",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "294",
+    "fields": {
+      "name": "Lo Espejo",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "295",
+    "fields": {
+      "name": "Lo Prado",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "296",
+    "fields": {
+      "name": "Macul",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "297",
+    "fields": {
+      "name": "Maipú",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "298",
+    "fields": {
+      "name": "Ñuñoa",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "299",
+    "fields": {
+      "name": "Pedro Aguirre Cerda",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "300",
+    "fields": {
+      "name": "Peñalolén",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "301",
+    "fields": {
+      "name": "Providencia",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "302",
+    "fields": {
+      "name": "Pudahuel",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "303",
+    "fields": {
+      "name": "Quilicura",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "304",
+    "fields": {
+      "name": "Quinta Normal",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "305",
+    "fields": {
+      "name": "Recoleta",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "306",
+    "fields": {
+      "name": "Renca",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "307",
+    "fields": {
+      "name": "San Joaquín",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "308",
+    "fields": {
+      "name": "San Miguel",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "309",
+    "fields": {
+      "name": "San Ramón",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "310",
+    "fields": {
+      "name": "Vitacura",
+      "province_id": 25,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "311",
+    "fields": {
+      "name": "Puente Alto",
+      "province_id": 22,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "312",
+    "fields": {
+      "name": "Pirque",
+      "province_id": 22,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "313",
+    "fields": {
+      "name": "San José de Maipo",
+      "province_id": 22,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "314",
+    "fields": {
+      "name": "Colina",
+      "province_id": 21,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "315",
+    "fields": {
+      "name": "Lampa",
+      "province_id": 21,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "316",
+    "fields": {
+      "name": "Tiltil",
+      "province_id": 21,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "317",
+    "fields": {
+      "name": "San Bernardo",
+      "province_id": 23,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "318",
+    "fields": {
+      "name": "Buin",
+      "province_id": 23,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "319",
+    "fields": {
+      "name": "Calera de Tango",
+      "province_id": 23,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "320",
+    "fields": {
+      "name": "Paine",
+      "province_id": 23,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "321",
+    "fields": {
+      "name": "Melipilla",
+      "province_id": 24,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "322",
+    "fields": {
+      "name": "Alhué",
+      "province_id": 24,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "323",
+    "fields": {
+      "name": "Curacaví",
+      "province_id": 24,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "324",
+    "fields": {
+      "name": "María Pinto",
+      "province_id": 24,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "325",
+    "fields": {
+      "name": "San Pedro",
+      "province_id": 24,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "326",
+    "fields": {
+      "name": "Talagante",
+      "province_id": 26,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "327",
+    "fields": {
+      "name": "El Monte",
+      "province_id": 26,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "328",
+    "fields": {
+      "name": "Isla de Maipo",
+      "province_id": 26,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "329",
+    "fields": {
+      "name": "Padre Hurtado",
+      "province_id": 26,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "330",
+    "fields": {
+      "name": "Peñaflor",
+      "province_id": 26,
+      "region_zona_att": 4,
+      "region_crm": 1
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "331",
+    "fields": {
+      "name": "Valdivia",
+      "province_id": 40,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "332",
+    "fields": {
+      "name": "Corral",
+      "province_id": 40,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "333",
+    "fields": {
+      "name": "Lanco",
+      "province_id": 40,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "334",
+    "fields": {
+      "name": "Los Lagos",
+      "province_id": 40,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "335",
+    "fields": {
+      "name": "Máfil",
+      "province_id": 40,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "336",
+    "fields": {
+      "name": "Mariquina",
+      "province_id": 40,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "337",
+    "fields": {
+      "name": "Paillaco",
+      "province_id": 40,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "338",
+    "fields": {
+      "name": "Panguipulli",
+      "province_id": 40,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "339",
+    "fields": {
+      "name": "La Unión",
+      "province_id": 41,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "340",
+    "fields": {
+      "name": "Futrono",
+      "province_id": 41,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "341",
+    "fields": {
+      "name": "Lago Ranco",
+      "province_id": 41,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "342",
+    "fields": {
+      "name": "Río Bueno",
+      "province_id": 41,
+      "region_zona_att": 5,
+      "region_crm": 2
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "343",
+    "fields": {
+      "name": "Arica",
+      "province_id": 1,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "344",
+    "fields": {
+      "name": "Camarones",
+      "province_id": 1,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "345",
+    "fields": {
+      "name": "Putre",
+      "province_id": 2,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  },
+  {
+    "model": "backend_app.commune",
+    "pk": "346",
+    "fields": {
+      "name": "General Lagos",
+      "province_id": 2,
+      "region_zona_att": 3,
+      "region_crm": 4
+    }
+  }
+]

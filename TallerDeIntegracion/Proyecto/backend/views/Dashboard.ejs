@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <%- include('./partials/head') %>
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body class="container">
+
+<header>
+    <%- include('./partials/navbar') %>
+</header>
+
+<main>
+
+<br>
+<div class="jumbotron">
+    <h1>Ocupación de bodegas</h1>
+    <p>¡Ingredientes, platos y más!</p>
+</div>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item active">
+    <a class="nav-link text-info" id="storage-tab" data-toggle="tab" href="#storage">Bodegas</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-info" id="ingredient-tab" data-toggle="tab" href="#ingredient">Ingredientes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-info" id="drink-tab" data-toggle="tab" href="#drink">Bebestibles</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-info" id="dish-tab" data-toggle="tab" href="#dish">Platos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-info" id="tray-tab" data-toggle="tab" href="#tray">Bandejas</a>
+  </li>
+</ul>
+
+<div class="tab-content">
+  
+  <div class="tab-pane active" id="storage">
+    <br>
+    
+<div class="row">
+    <div class="col-sm-6">
+    <div class="card">
+        <h5 class="card-header">Recepción</h5>
+        <div class="card-body">
+            <% usage = usage_level['recepcion'] %>
+            <% if (usage > 100) { usage = 100 } %>
+            <% usage = usage.toFixed(2) %>
+            <strong>Ocupación </strong> <%= usage %> %
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width:<%= usage %>%;">
+                </div>
+            </div>
+
+            <br>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">SKU</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% var count = 1 %>
+                <% Object.keys(stock_recepcion).forEach(function(key) { %>
+                <tr>
+                  <th scope="row"><%= count %></th>
+                  <td><%= key %></td>
+                  <td><%= ingredients[key] %></td>
+                  <td><%= stock_recepcion[key] %></td>
+                  <% count += 1 %>
+                </tr>
+                <% }); %>
+              </tbody>
+            </table>
+
+        </div>
+    </div>    
+    </div>
+    
+    <div class="col-sm-6">
+    <div class="card">
+        <h5 class="card-header">Cocina</h5>
+        <div class="card-body">
+            <% usage = usage_level['cocina'] %>
+            <% if (usage > 100) { usage = 100 } %>
+            <% usage = usage.toFixed(2) %>
+            <strong>Ocupación </strong> <%= usage %> %
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width:<%= usage %>%;">
+                </div>
+            </div>
+
+            <br>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">SKU</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% count = 1 %>
+                <% Object.keys(stock_cocina).forEach(function(key) { %>
+                <tr>
+                  <th scope="row"><%= count %></th>
+                  <td><%= key %></td>
+                  <td><%= ingredients[key] %></td>
+                  <td><%= stock_cocina[key] %></td>
+                  <% count += 1 %>
+                </tr>
+                <% }); %>
+              </tbody>
+            </table>
+        </div>
+    </div>    
+    </div>
+</div>
+
+<br>
+
+<div class="row">
+    <div class="col-sm-6">
+    <div class="card">
+        <h5 class="card-header">Despacho</h5>
+        <div class="card-body">
+            <% usage = usage_level['despacho'] %>
+            <% if (usage > 100) { usage = 100 } %>
+            <% usage = usage.toFixed(2) %>
+            <strong>Ocupación </strong> <%= usage %> %
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width:<%= usage %>%;">
+                </div>
+            </div>
+
+            <br>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">SKU</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% count = 1 %>
+                <% Object.keys(stock_despacho).forEach(function(key) { %>
+                <tr>
+                  <th scope="row"><%= count %></th>
+                  <td><%= key %></td>
+                  <td><%= ingredients[key] %></td>
+                  <td><%= stock_despacho[key] %></td>
+                  <% count += 1 %>
+                </tr>
+                <% }); %>
+              </tbody>
+            </table>
+        </div>
+    </div>    
+    </div>
+    
+    <div class="col-sm-6">
+    <div class="card">
+        <h5 class="card-header">Pulmón</h5>
+        <div class="card-body">
+            <% usage = usage_level['pulmon'] %>
+            <% if (usage > 100) { usage = 100 } %>
+            <% usage = usage.toFixed(2) %>
+            <strong>Ocupación </strong> <%= usage %> %
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width:<%= usage %>%;">
+                </div>
+            </div>
+
+            <br>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">SKU</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% count = 1 %>
+                <% Object.keys(stock_pulmon).forEach(function(key) { %>
+                <tr>
+                  <th scope="row"><%= count %></th>
+                  <td><%= key %></td>
+                  <td><%= ingredients[key] %></td>
+                  <td><%= stock_pulmon[key] %></td>
+                  <% count += 1 %>
+                </tr>
+                <% }); %>
+              </tbody>
+            </table>
+        </div>
+    </div>    
+    </div>
+</div>
+
+<br>
+
+<div class="row">
+    <div class="col-sm-12">
+    <div class="card">
+        <h5 class="card-header">General</h5>
+        <div class="card-body">
+            <% usage = usage_level['general'] %>
+            <% if (usage > 100) { usage = 100 } %>
+            <% usage = usage.toFixed(2) %>
+            <strong>Ocupación </strong> <%= usage %> %
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width:<%= usage %>%;">
+                </div>
+            </div>
+
+            <br>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">SKU</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% count = 1 %>
+                <% Object.keys(stock_general).forEach(function(key) { %>
+                <tr>
+                  <th scope="row"><%= count %></th>
+                  <td><%= key %></td>
+                  <td><%= ingredients[key] %></td>
+                  <td><%= stock_general[key] %></td>
+                  <% count += 1 %>
+                </tr>
+                <% }); %>
+              </tbody>
+            </table>
+
+        </div>
+    </div>    
+    </div>
+    
+</div>
+
+  </div>
+
+  <div class="tab-pane" id="ingredient">
+    <br>
+    <h5 align="center">Ingredientes</h5>
+    <br>
+    <table class="table table-borderless">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">SKU</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% count = 1 %>
+        <% Object.keys(individual).map(function(key) { %>
+        <tr>
+          <th scope="row"><%= count %></th>
+          <td><%= key %></td>
+          <td><%= ingredients[key] %></td>
+          <td><%= individual[key] %></td>
+          <% count += 1 %>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tab-pane" id="drink">
+    <br>
+    <h5 align="center">Bebestibles</h5>
+    <br>
+    <table class="table table-borderless">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">SKU</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% count = 1 %>
+        <% Object.keys(drinks).forEach(function(key) { %>
+        <tr>
+          <th scope="row"><%= count %></th>
+          <td><%= key %></td>
+          <td><%= ingredients[key] %></td>
+          <td><%= drinks[key] %></td>
+          <% count += 1 %>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tab-pane" id="dish">
+    <br>
+    <h5 align="center">Platos</h5>
+    <br>
+    <table class="table table-borderless">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">SKU</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% count = 1 %>
+        <% Object.keys(dishes).forEach(function(key) { %>
+        <tr>
+          <th scope="row"><%= count %></th>
+          <td><%= key %></td>
+          <td><%= ingredients[key] %></td>
+          <td><%= dishes[key] %></td>
+          <% count += 1 %>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tab-pane" id="tray">
+    <br>
+    <h5 align="center">Bandejas</h5>
+    <br>
+    <table class="table table-borderless">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">SKU</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% count = 1 %>
+        <% Object.keys(trays).forEach(function(key) { %>
+        <tr>
+          <th scope="row"><%= count %></th>
+          <td><%= key %></td>
+          <td><%= ingredients[key] %></td>
+          <td><%= trays[key] %></td>
+          <% count += 1 %>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+</main>
+
+</body>
+
+</html>

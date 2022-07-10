@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  payment_date: 2022-05-24 18:13:27
+  coupon: one
+
+two:
+  user: two
+  payment_date: 2022-05-24 18:13:27
+  coupon: two

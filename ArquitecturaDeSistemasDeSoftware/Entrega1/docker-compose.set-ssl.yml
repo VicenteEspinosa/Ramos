@@ -1,0 +1,33 @@
+version: "3.9" # version de docker-compose
+services:
+  nginx:
+    platform: linux/x86_64
+    image: nginx:latest
+    volumes:
+      - ./nginx/nginx-set-ssl.conf:/etc/nginx/nginx.conf
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - app-network
+    command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
+  certbot:
+    image: certbot/certbot
+    platform: linux/x86_64
+    networks:
+      - app-network
+    volumes:
+        - ./certbot/conf:/etc/letsencrypt
+        - ./certbot/www:/var/www/certbot
+    depends_on:
+      - nginx
+    command: certonly --webroot -w /var/www/certbot --force-renewal --email vnespinosa@uc.cl -d www.grupo1.ml --agree-tos
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  dbdata:

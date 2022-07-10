@@ -1,0 +1,21 @@
+{
+  "name": "async-services",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "amqplib": "^0.9.1",
+    "celery-node": "^0.5.9",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^6.3.4",
+    "morgan": "~1.9.1",
+    "underscore": "^1.13.3"
+  }
+}

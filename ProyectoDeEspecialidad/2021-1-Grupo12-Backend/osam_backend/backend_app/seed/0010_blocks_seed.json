@@ -1,0 +1,71 @@
+[
+    {
+        "model": "backend_app.block",
+        "fields": {
+            "id": 1,
+            "name": "Camioneta",
+            "status": true,
+            "for_form" : true,
+            "category" : 0,
+            "questions": {
+                "question_ids": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            }
+        }
+    },
+    {
+        "model": "backend_app.block",
+        "fields": {
+            "id": 2,
+            "name": "Herramientas e Instrumentos",
+            "status": true,
+            "for_form": true,
+            "category": 0,
+            "questions": {
+                "question_ids": [
+                    6,
+                    7,
+                    8                ]
+            }
+        }
+    },
+    {
+        "model": "backend_app.block",
+        "fields": {
+            "id": 3,
+            "name": "Control de Herramientas",
+            "status": true,
+            "for_form": true,
+            "category": 1,
+            "questions": {
+                "question_ids": [
+                    31,
+                    32,
+                    33
+                ]
+            }
+        }
+    },
+    {
+        "model": "backend_app.block",
+        "fields": {
+            "id": 4,
+            "name": "Control de Herramientas",
+            "status": true,
+            "for_form": false,
+            "category": 0,
+            "questions": {
+                "question_ids": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        }
+    }
+]

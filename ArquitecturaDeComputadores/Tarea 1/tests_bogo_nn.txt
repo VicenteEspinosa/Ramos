@@ -1,0 +1,23 @@
+a)
+I: .word 60, 32, 8 
+Bueno
+
+b)
+I: .word 97, 3, 0
+Malo
+
+c)
+I: .word 22, 10, 68
+Malo
+
+d)
+I: .word 40, 40, 20
+Bueno
+
+e)
+I: .word 39, 35, 26
+Bueno
+
+f)
+I: .word 82, 17, 1
+Malo

@@ -1,0 +1,48 @@
+<div class="card" style="width: 50%; text-align: center; margin: 2rem auto auto auto">
+  <p id="notice"><%= notice %></p>
+  <header class="card-header">
+    <p class="card-header-title">
+      Detalles del gusto
+    </p>
+  </header>
+  <div class="card-content">
+    <div class="content">
+      <p><strong>Nombre: </strong><%= @gusto.nombre %></p>
+      <p>
+        <strong>Descripcion:</strong>
+        <%= @gusto.descripcion %>
+      </p>
+    </div>
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <%if current_user.gustos.include?(@gusto)%>
+          <div class="control">
+            <%= link_to "Quitar gusto", delete_user_gusto_path(current_user.id, @gusto.id), class: "button is-primary is-light" %>
+          </div>
+        <%else%>
+          <div class="control">
+            <%= link_to "Agregar gusto", add_user_gusto_path(current_user.id, @gusto.id), class: "button is-primary is-light" %>
+          </div>
+        <%end%>
+        <%if current_user.admin == true%>
+          <div class="control">
+            <%= link_to "Editar", edit_gusto_path(@gusto), class: "button is-warning is-light" %>
+          </div>
+          <div class="control">
+            <%= link_to 'Eliminar', @gusto, method: :delete, data: { confirm: '¿Estás seguro?' }, class: "button is-danger is-light" %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+          <%= link_to 'Lista de gustos', gustos_path, class: "tag is-link is-light" %>
+        </div>
+        <div class="control">
+          <%= link_to 'Mis gustos', show_user_gustos_path, class: "tag is-link is-light" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

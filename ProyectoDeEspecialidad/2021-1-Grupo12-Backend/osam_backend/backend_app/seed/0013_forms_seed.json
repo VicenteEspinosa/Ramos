@@ -1,0 +1,134 @@
+[
+    {
+        "model": "backend_app.formtree",
+        "fields": {
+            "id": 1,
+            "tree": {
+                "0": {
+                    "name": "Operaciones",
+                    "technicians": 1,
+                    "filter_names": [
+                        "Tipo de Auditoría",
+                        "Tipo de Servicio"
+                    ],
+                    "goal_rm": 50,
+                    "goal_other": 50,
+                    "levels": 2,
+                    "audit_types": {
+                        "0": {
+                            "name": "Fuera de cliente",
+                            "service_types": {
+                                "0": {
+                                    "name": "Bafi",
+                                    "form_id": 1
+                                },
+                                "1": {
+                                    "name": "Telco Cu",
+                                    "form_id": 2
+                                },
+                                "2": {
+                                    "name": "Telco Fo",
+                                    "form_id": 3
+                                },
+                                "3": {
+                                    "name": "Home",
+                                    "form_id": 4
+                                },
+                                "4": {
+                                    "name": "3Play",
+                                    "form_id": 5
+                                }
+                            }
+                        },
+                        "1": {
+                            "name": "Durante el Trabajo (completa)",
+                            "service_types": {
+                                "0": {
+                                    "name": "Bafi",
+                                    "form_id": 6
+                                },
+                                "1": {
+                                    "name": "Telco Cu",
+                                    "form_id": 7
+                                },
+                                "2": {
+                                    "name": "Telco Fo",
+                                    "form_id": 8
+                                },
+                                "3": {
+                                    "name": "Home",
+                                    "form_id": 9
+                                },
+                                "4": {
+                                    "name": "3Play",
+                                    "form_id": 10
+                                },
+                                "5": {
+                                    "name": "3Play 2.0",
+                                    "form_id": 11
+                                }
+                            }
+                        },
+                        "2": {
+                            "name": "Finalizando el trabajo (resumida)",
+                            "service_types": {
+                                "0": {
+                                    "name": "Bafi",
+                                    "form_id": 12
+                                },
+                                "1": {
+                                    "name": "Telco Cu",
+                                    "form_id": 13
+                                },
+                                "2": {
+                                    "name": "Telco Fo",
+                                    "form_id": 14
+                                },
+                                "3": {
+                                    "name": "Home",
+                                    "form_id": 15
+                                },
+                                "4": {
+                                    "name": "3Play",
+                                    "form_id": 16
+                                },
+                                "5": {
+                                    "name": "3Play 2.0",
+                                    "form_id": 17
+                                }
+                            }
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Redes",
+                    "technicians": 2,
+                    "filter_names": [
+                        "Tipo de Auditoría"
+                    ],
+                    "levels": 1,
+                    "goal_rm": 50,
+                    "goal_other": 50,
+                    "audit_types": {
+                        "0": {
+                            "name": "Auditoría Team Normal",
+                            "form_id": 18
+                        },
+                        "1": {
+                            "name": "Auditoría Team Baja altura",
+                            "form_id": 19
+                        },
+                        "2": {
+                            "name": "Auditoría Recarga de combustible (Bencinera)",
+                            "form_id": 20
+                        },
+                        "3": {
+                            "name": "Auditoría Recarga de combustible (En Sitio)",
+                            "form_id": 21
+                        }
+                    }
+                }
+            }
+        }
+    }
+]

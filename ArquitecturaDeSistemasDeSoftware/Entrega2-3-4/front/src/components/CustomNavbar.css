@@ -1,0 +1,8 @@
+.navbar {
+  border: solid rgba(112, 112, 112, .1);
+  border-width: 4px;
+}
+
+.align-right {
+  margin-right: 0 !important;
+}

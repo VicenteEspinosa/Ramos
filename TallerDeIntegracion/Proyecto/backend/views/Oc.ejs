@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <%- include('./partials/head') %>
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body class="container">
+
+<header>
+    <%- include('./partials/navbar') %>
+</header>
+
+<main>
+
+<br>
+<div class="jumbotron">
+    <h1>Órdenes de Compra</h1>
+    <p>Pendientes, aceptadas y finalizadas</p>
+</div>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item active">
+    <a class="nav-link text-info" id="ftp-tab" data-toggle="tab" href="#ftp">FTP</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-info" id="group-tab" data-toggle="tab" href="#group">Entre grupos</a>
+  </li>
+</ul>
+
+<div class="tab-content">
+
+<div class="tab-pane active" id="ftp">
+<br>
+
+<div class="col-sm-6" style="margin-left:auto;margin-right:auto;">
+    <table class="table table-borderless">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Pendientes</th>
+                <th scope="col">Aceptadas</th>
+                <th scope="col">Finalizadas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><%= count_pending_ftp %></td>
+                <td><%= count_accepted_ftp %></td>
+                <td><%= count_completed_ftp %></td>
+            </tr>
+        </tbody>
+    </table>    
+</div>
+
+<br>
+
+<div class="bg-light text-dark" style="margin-left:auto;margin-right:auto;">
+<div class="col-sm-10 p-3 mb-2 bg-light text-dark" style="margin-left:auto;margin-right:auto;">
+    <br>
+    <h5 align="center">Órdenes pendientes</h5>
+    <br>
+    <table class="table table-borderless bg-white">
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">SKU</th>
+                <th scope="col">Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%if (typeof pending_ftp != 'undefined'){ %>
+                <% pending_ftp.forEach(function(row){ %>
+            <tr>
+                <th scope="row"><%= row.internalid %></th>
+                <td><%= row.cliente %></td>
+                <td><%= row.sku %></td>
+                <td><%= row.cantidad %></td>
+            </tr>
+            <% })} %>
+        </tbody>
+    </table>
+</div>
+</div>
+
+<br>
+
+<div class="bg-light text-dark" style="margin-left:auto;margin-right:auto;">
+<div class="col-sm-10 p-3 mb-2 bg-light text-dark" style="margin-left:auto;margin-right:auto;">
+    <br>
+    <h5 align="center">Órdenes aceptadas</h5>
+    <br>
+    <table class="table table-borderless bg-white">
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">SKU</th>
+                <th scope="col">Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%if (typeof accepted_ftp != 'undefined'){ %>
+                <% accepted_ftp.forEach(function(row){ %>
+            <tr>
+                <th scope="row"><%= row.internalid %></th>
+                <td><%= row.cliente %></td>
+                <td><%= row.sku %></td>
+                <td><%= row.cantidad %></td>
+            </tr>
+            <% })} %>
+        </tbody>
+    </table>
+</div>
+</div>
+
+<br>
+
+<div class="bg-light text-dark" style="margin-left:auto;margin-right:auto;">
+<div class="col-sm-10 p-3 mb-2 bg-light text-dark" style="margin-left:auto;margin-right:auto;">
+    <br>
+    <h5 align="center">Órdenes finalizadas</h5>
+    <br>
+    <table class="table table-borderless bg-white">
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">SKU</th>
+                <th scope="col">Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%if (typeof completed_ftp != 'undefined'){ %>
+                <% completed_ftp.forEach(function(row){ %>
+            <tr>
+                <th scope="row"><%= row.internalid %></th>
+                <td><%= row.cliente %></td>
+                <td><%= row.sku %></td>
+                <td><%= row.cantidad %></td>
+            </tr>
+            <% })} %>
+        </tbody>
+    </table>
+</div>
+</div>
+
+</div>
+
+<div class="tab-pane" id="group">
+<br>
+
+<div class="col-sm-6" style="margin-left:auto;margin-right:auto;">
+    <table class="table table-borderless">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Pendientes</th>
+                <th scope="col">Aceptadas</th>
+                <th scope="col">Finalizadas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><%= count_pending_group %></td>
+                <td><%= count_accepted_group %></td>
+                <td><%= count_completed_group %></td>
+            </tr>
+        </tbody>
+    </table>    
+</div>
+
+<br>
+
+<div class="bg-light text-dark" style="margin-left:auto;margin-right:auto;">
+<div class="col-sm-10 p-3 mb-2 bg-light text-dark" style="margin-left:auto;margin-right:auto;">
+    <br>
+    <h5 align="center">Órdenes pendientes</h5>
+    <br>
+    <table class="table table-borderless bg-white">
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">SKU</th>
+                <th scope="col">Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%if (typeof pending_group != 'undefined'){ %>
+                <% pending_group.forEach(function(row){ %>
+            <tr>
+                <th scope="row"><%= row.internalid %></th>
+                <td><%= row.cliente %></td>
+                <td><%= row.sku %></td>
+                <td><%= row.cantidad %></td>
+            </tr>
+            <% })} %>
+        </tbody>
+    </table>
+</div>
+</div>
+
+<br>
+
+<div class="bg-light text-dark" style="margin-left:auto;margin-right:auto;">
+<div class="col-sm-10 p-3 mb-2 bg-light text-dark" style="margin-left:auto;margin-right:auto;">
+    <br>
+    <h5 align="center">Órdenes aceptadas</h5>
+    <br>
+    <table class="table table-borderless bg-white">
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">SKU</th>
+                <th scope="col">Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%if (typeof accepted_group != 'undefined'){ %>
+                <% accepted_group.forEach(function(row){ %>
+            <tr>
+                <th scope="row"><%= row.internalid %></th>
+                <td><%= row.cliente %></td>
+                <td><%= row.sku %></td>
+                <td><%= row.cantidad %></td>
+            </tr>
+            <% })} %>
+        </tbody>
+    </table>
+</div>
+</div>
+
+<br>
+
+<div class="bg-light text-dark" style="margin-left:auto;margin-right:auto;">
+<div class="col-sm-10 p-3 mb-2 bg-light text-dark" style="margin-left:auto;margin-right:auto;">
+    <br>
+    <h5 align="center">Órdenes finalizadas</h5>
+    <br>
+    <table class="table table-borderless bg-white">
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">SKU</th>
+                <th scope="col">Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%if (typeof completed_group != 'undefined'){ %>
+                <% completed_group.forEach(function(row){ %>
+            <tr>
+                <th scope="row"><%= row.internalid %></th>
+                <td><%= row.cliente %></td>
+                <td><%= row.sku %></td>
+                <td><%= row.cantidad %></td>
+            </tr>
+            <% })} %>
+        </tbody>
+    </table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</main>
+
+</body>
+</html>

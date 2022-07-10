@@ -1,0 +1,44 @@
+.general {
+  box-shadow: black;
+  margin: 30px;
+  table {
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: auto;
+  }
+  
+  th, td {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+  }
+  img {
+    width: 80%;
+    height: 90%;
+    border-radius: 10px;
+  }
+  input {
+    width: 50%;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px;
+  }
+  input:hover{
+    background-color: red;
+  }
+  .columnInput {
+    display: flex;
+    align-items: center;
+    .botonesCantidad {
+      flex: 2;
+    }
+    .cantidad {
+      flex: 1;
+    }
+  }
+
+
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <%- include('./partials/head'); %>
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body class="container">
+
+<header>
+    <%- include('./partials/navbar'); %>
+</header>
+
+<main>
+
+<br>
+<div class="jumbotron">
+    <h1>Stock por categorías</h1>
+    <p>¡Ingredientes, platos y más!</p>
+</div>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item active">
+    <a class="nav-link text-info" id="nav-ingredients-tab" data-toggle="tab" href="#nav-ingredients">Ingredientes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-info" id="nav-drinks-tab" data-toggle="tab" href="#nav-drinks">Bebestibles</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-info" id="nav-dishes-tab" data-toggle="tab" href="#nav-dishes">Platos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-info" id="nav-trays-tab" data-toggle="tab" href="#nav-trays">Bandejas</a>
+  </li>
+</ul>
+
+<div class="tab-content">
+  
+  <div class="tab-pane active" id="nav-ingredients">
+    <br>
+    <table class="table table-borderless">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">SKU</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% count = 1 %>
+        <% Object.keys(stock_ingredients).forEach(function(key) { %>
+        <tr>
+          <th scope="row"><%= count %></th>
+          <td><%= key %></td>
+          <td><%= ingredients[key] %></td>
+          <td><%= stock_ingredients[key] %></td>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tab-pane" id="nav-drinks">
+    <br>
+    <table class="table table-borderless">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">SKU</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% count = 1 %>
+        <% Object.keys(stock_drinks).forEach(function(key) { %>
+        <tr>
+          <th scope="row"><%= count %></th>
+          <td><%= key %></td>
+          <td><%= ingredients[key] %></td>
+          <td><%= stock_drinks[key] %></td>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tab-pane" id="nav-dishes">
+    <br>
+    <table class="table table-borderless">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">SKU</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% count = 1 %>
+        <% Object.keys(stock_dishes).forEach(function(key) { %>
+        <tr>
+          <th scope="row"><%= count %></th>
+          <td><%= key %></td>
+          <td><%= ingredients[key] %></td>
+          <td><%= stock_dishes[key] %></td>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tab-pane" id="nav-trays">
+    <br>
+    <table class="table table-borderless">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">SKU</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% count = 1 %>
+        <% Object.keys(stock_trays).forEach(function(key) { %>
+        <tr>
+          <th scope="row"><%= count %></th>
+          <td><%= key %></td>
+          <td><%= ingredients[key] %></td>
+          <td><%= stock_trays[key] %></td>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+</main>
+
+</body>
+
+</html>

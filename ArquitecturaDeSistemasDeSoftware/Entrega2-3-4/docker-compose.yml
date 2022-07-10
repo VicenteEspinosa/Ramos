@@ -1,0 +1,107 @@
+version: "3.3"
+services:
+  rabbitmq:
+    image: rabbitmq:3.8-management-alpine
+    container_name: 'rabbitmq'
+    ports:
+      - 5672:5672
+      - 15672:15672
+    networks:
+      - mern-app
+  react-app:
+    build:
+      context: front
+      dockerfile: Dockerfile
+    stdin_open: true
+    ports: 
+      - "80:80"
+    networks:
+      - mern-app
+    environment:
+      PORT: 80
+      REACT_APP_URL_BACK: https://u4ntb3g7p5.execute-api.us-east-1.amazonaws.com
+
+      REACT_APP_GOOGLE_CLIENT_ID: 897440327102-8691bhruu2jhf36jf7srrnilgu1344g2.apps.googleusercontent.com
+      REACT_APP_MESSAGING_WS: 52.45.87.220:7777
+  api-server:
+    environment:
+        PORT: 9000
+        MONGO_URI: mongodb+srv://pacristi:oieoU9xOv9mC1nPL@arquiproduction.kb0dy.mongodb.net/?retryWrites=true&w=majority
+        JWT_SECRET: f8e4511f6eb18ac1ec49e082f2f135c6c42739a808cf7dba00811a00f79a1316
+        AMQP_URL: amqp://guest:guest@rabbitmq:5672
+        CLIENT_ID: 897440327102-8691bhruu2jhf36jf7srrnilgu1344g2.apps.googleusercontent.com
+        GLOBAL_ENTITYUUID: 76581629-f36f-4666-aec4-8b2d912daba0
+    build:
+      context: Back
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
+    networks:
+      - mern-app
+    depends_on:
+      - rabbitmq
+  async-services:
+    environment:
+        PORT: 9001
+        MONGO_URI: mongodb+srv://pacristi:oieoU9xOv9mC1nPL@arquiproduction.kb0dy.mongodb.net/?retryWrites=true&w=majority
+        AMQP_URL: amqp://guest:guest@rabbitmq:5672
+    build:
+      context: async-services
+      dockerfile: Dockerfile
+    ports:
+      - "9001:9001"
+    networks:
+      - mern-app
+    depends_on:
+      - rabbitmq
+    command: sh -c '/bin/wait-for-it.sh rabbitmq:5672 --timeout=100 -- npm run start'
+  db:
+    image: postgres:13
+    volumes:
+      - messagingDB:/var/lib/postgresql/data
+    environment:
+      PORT: 5432
+      POSTGRES_PASSWORD: nano-messaging
+      POSTGRES_USER: nano-messaging
+      POSTGRES_DB: nano-messaging
+    ports:
+      - "5432:5432"
+  messaging-services:
+    build:
+      context: messaging-services
+      dockerfile: Dockerfile.dev
+    container_name: messaging-services
+    restart: always
+    volumes:
+      - /usr/src/messaging-services/node_modules
+      - ./messaging-services/:/usr/src/messaging-services
+    ports:
+      - "7777:7777"
+      - "9229:9229"
+    command:
+      "npm run debug"
+    environment:
+      PORT: 7777
+      DB_NAME: nano-messaging
+      DB_HOST: db
+      DB_PASSWORD: nano-messaging
+      DB_DIALECT: postgres
+      DB_USERNAME: nano-messaging
+      NODE_ENV: development
+      JWT_MASTER_SECRET: f8e4511f6eb18ac1ec49e082f2f135c6c42739a808cf7dba00811a00f79a1316
+    depends_on:
+      - db
+      - pubsub
+  pubsub:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+
+networks:
+  mern-app:
+    driver: bridge
+volumes:
+  mongo-data:
+    driver: local
+  messagingDB:
+

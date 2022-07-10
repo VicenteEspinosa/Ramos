@@ -1,0 +1,105 @@
+<div class="section">
+  <h3 class="title is-3" style="text-align:center">Escoge un loca y una fecha</h3>
+</div>
+<% if !@approved_restaurants.empty? %>
+  <% @approved_restaurants.each do |restaurant| %>
+    <div class="profile-box">
+      <div class="columns">
+        <div class="column is-one-third">
+        <div class="image">
+          <%if restaurant.avatar? %>
+            <%= image_tag restaurant.avatar.url %>
+          <% else %>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4dUUvP1soMBHowgDGGnqjGZs3-wat0jvfwzM0e-XOMvs8Jy54&usqp=CAU">
+          <% end %>
+        </div>
+        </div>
+        <div class="column">
+        <h4 class="title is-4"> <%= restaurant.name %></h4>
+        <p>
+          <%= restaurant.description %>
+        </p>
+        </div>
+        <div class="column">
+          <h4 class="title is-4">Información del local</h4>
+          <% if not  @restaurant_comments[restaurant.id].empty?%>
+            <div class="field">
+              <% @restaurant_ratings[restaurant.id].times do%>
+                <span><i class='fas fa-heart'></i></span>
+              <% end %>
+              <% (5 - @restaurant_ratings[restaurant.id]).times do %>
+                <span><i class="far fa-heart"></i></span>
+              <% end %>
+            </div>
+            <div class="field">
+              <span class="icon is-small is-left">
+                <i class="fas fa-comments"></i>
+              </span>
+              <%= @restaurant_comments[restaurant.id].size %> comentarios
+            </div>
+          <% else %>
+            <div class="field">
+              <span class="icon is-small is-left">
+                <i class="fas fa-heart"></i>
+              </span>
+              Sin valoraciones
+            </div>
+            <div class="field">
+              <span class="icon is-small is-left">
+                <i class="fas fa-comments"></i>
+              </span>
+              Sin comentarios
+            </div>
+          <% end %>
+          <% unless restaurant.city_id.nil?%>
+            <div class="field">
+              <span class="icon is-small is-left">
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              <%= restaurant.location %>, <%= City.find_by(id: restaurant.city_id).name %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-one-fifth"></div>
+        <div class="column">
+        <%= form_with(model: citum, local: true) do |form| %>
+          <%= form.hidden_field :user_id, :value => current_user.id %>
+          <%= form.hidden_field :user_2_id, :value => @user_2_id %>
+          <%= form.hidden_field :restaurant_id, :value => restaurant.id %>
+          <%= form.hidden_field :is_checked, :value => false %>
+          <%= form.hidden_field :is_finished, :value => false %>
+          <%= form.hidden_field :match_id, :value => 0%>
+          <div class="field">
+            <%= form.label :date, 'Escoge una fecha', class: "label" %>
+            <div class="control">
+              <%= form.date_field :date, class: "input", min: Date.today, :required => true%>
+            </div>
+          </div>
+          <div class="field">
+            <div class="field is-grouped is-grouped-centered">
+              <div class="control">
+                <%= form.submit 'Programar cita en este local', class: "button is-success" %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+        </div>
+        <div class="column is-one-fifth"></div>
+      </div> 
+    <div>
+  </div>
+</div>
+<% end %>
+<% else %>
+    <section class="hero is-primary" style="margin-top: 2rem; text-align: center">
+    <div class="hero-body">
+        <div class="container">
+        <h1 class="title">
+            No hay locales para programar citas :(
+        </h1>
+        </div>
+    </div>
+    </section>
+<% end %>

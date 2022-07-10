@@ -1,0 +1,44 @@
+[
+  {
+    "model": "backend_app.attzone",
+    "pk": 1,
+    "fields": {
+      "name": "Centro"
+    }
+  },
+  {
+    "model": "backend_app.attzone",
+    "pk": 2,
+    "fields": {
+      "name": "Concepción/Temuco"
+    }
+  },
+  {
+    "model": "backend_app.attzone",
+    "pk": 3,
+    "fields": {
+      "name": "Norte"
+    }
+  },
+  {
+    "model": "backend_app.attzone",
+    "pk": 4,
+    "fields": {
+      "name": "STGO"
+    }
+  },
+  {
+    "model": "backend_app.attzone",
+    "pk": 5,
+    "fields": {
+      "name": "Sur"
+    }
+  },
+  {
+    "model": "backend_app.attzone",
+    "pk": 6,
+    "fields": {
+      "name": "V Región"
+    }
+  }
+]

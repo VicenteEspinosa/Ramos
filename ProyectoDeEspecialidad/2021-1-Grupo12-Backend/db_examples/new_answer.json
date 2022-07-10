@@ -1,0 +1,104 @@
+{
+  "category_id": "0",
+  "audit_type_id": "0",
+  "service_type_id": "0",
+  "auditor_id": 1,
+  "commune_id": 1,
+  "exit_timestamp": "backend",
+  "values": {
+    "question_id": "answer value"
+  },
+  "blocks": [
+    { "block_name": "block_one", "questions": [0, 2, 1] },
+    { "block_name": "block_two", "questions": [0, 2, 1] }
+  ],
+  "metadata": {
+    "timestamp_data": {
+      "final_timestamp": "2021-05-25T22:31:51.895",
+      "initial_timestamp": "2021-05-25T22:31:51.895",
+      "initial_time": "backend",
+      "initial_date": "backend"
+    },
+    "auditor_data": {
+      "auditor_name": "backend",
+      "auditor_rut": "backend",
+      "auditor_email": "backend",
+      "auditor_phone": "backend"
+    },
+    "technician_data": {
+      "number_of_technicians": "mobile",
+      "enterprise": "mobile",
+      "team_id": "mobile",
+      "id_group_team": "mobile",
+      "technicians": {
+        "technician_1": {
+          "technician_id": 1,
+          "status": 1,
+          "technician_name": "mobile",
+          "technician_rut": "mobile",
+          "technician_phone": "mobile",
+          "technician_external_id": "mobile",
+          "technician_category_id": "mobile",
+          "technician_enterprise_id": "mobile",
+          "technician_email": "mobile",
+          "technician_team_id": "mobile",
+          "technician_id_group_team": "mobile",
+          "technician_first_name": "mobile",
+          "technician_last_name": "mobile",
+          "technician_photo": "mobile",
+          "technician_name_redes": "backend"
+        },
+        "technician_2": {
+          "technician_id": 0,
+          "status": 0,
+          "technician_name": "mobile",
+          "technician_rut": "mobile",
+          "technician_phone": "mobile",
+          "technician_external_id": "mobile",
+          "technician_category_id": "mobile",
+          "technician_enterprise_id": "mobile",
+          "technician_email": "mobile",
+          "technician_team_id": "mobile",
+          "technician_id_group_team": "mobile",
+          "technician_first_name": "mobile",
+          "technician_last_name": "mobile",
+          "technician_photo": "mobile",
+          "technician_name_redes": "backend"
+        }
+      }
+    },
+    "location_data": {
+      "initial_latitude": "54",
+      "initial_longitude": "45",
+      "final_latitude": "54",
+      "final_longitude": "45",
+      "dpt_or_office": "405",
+      "street_number": "543534",
+      "street_name": "Av. Kennedy",
+      "zone_att": "backend",
+      "zone_crm": "backend",
+      "commune": "backend",
+      "province": "backend",
+      "region": "backend"
+    },
+    "category_data": {
+      "task_type": "task type ? ",
+      "category_name": "backend",
+      "audit_type": "backend",
+      "service_type": "backend",
+      "task_number": "mobile"
+    },
+    "truck_data": {
+      "truck_type": "Mazda 570 ",
+      "truck_license": "DFGB67",
+      "truck_photo": "mobile"
+    },
+    "extras": {
+      "audit_done": "OK",
+      "comments_nok": "NO APLICA"
+    },
+    "additional_photos": {
+      "photos": ["link_1", "link_2", "link_3"]
+    }
+  }
+}

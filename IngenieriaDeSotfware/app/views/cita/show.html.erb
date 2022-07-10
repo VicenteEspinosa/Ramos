@@ -1,0 +1,71 @@
+
+<div class="section">
+  <h3 class="title is-3" style="text-align:center">Cita con <%= @dated_user.name %></h3>
+  <div class="card" style="margin: 2rem auto 2rem auto; width: 35%; heigth: 35%">
+    <div class="card-image">
+        <figure class="image is-4by3">
+          <%if @dated_user.avatar? %>
+            <%= image_tag @dated_user.avatar.url %>
+          <% else %>
+            <img src="https://lh3.googleusercontent.com/proxy/g_mVKg7gBK3u0M-PY25EDbsTxUDwa9LbGTaJ4jceNjUAE2IbfREQ2aesw4jjLDu9VlpMF2cyspTQZv3CK-qbWtWx8au6Xj6SfssgZrgZ8xLw6SG5MKEvmx-JxM5wPe8o">
+          <% end %>
+        </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-content">
+          <p class="title is-5"><%= @dated_user.name%></p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="field">
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <%= @dated_user.email %>
+        </div>
+        <div class="field">
+          <span class="icon is-small is-left">
+            <i class="fas fa-phone"></i>
+          </span>
+          <%= @dated_user.phone_number %>
+        </div>
+        <div class="field">
+          <span class="icon is-small is-left">
+            <i class="fas fa-utensils"></i>
+          </span>
+          <%= @restaurant.name %>
+        </div>
+        <div class="field">
+          <span class="icon is-small is-left">
+            <i class="fas fa-calendar-alt"></i>
+          </span>
+          <%= @date.date %>
+        </div>
+        <div class="field" style="text-align: center">
+          <% if @date.is_checked == false && @date.is_finished == false %>
+            <span class="tag is-primary">Cita pendiente</span>
+          <% elsif @date.is_checked == true && @date.is_finished == true%>
+            <span class="tag is-success">Cita concretada</span>
+          <% elsif @date.is_checked == true && @date.is_finished == false%>
+            <span class="tag is-danger">Cita no concretada</span>
+          <% end %>
+        </div>
+      </div>
+      <div class="field is-grouped is-grouped-centered">
+        <% if @date.date <= Date.today && @date.is_checked == false%>
+          <div class="control">
+            <%= link_to "¡Concretada!", check_citum_path(is_checked: true, is_finished: true, citum_id: date.id), class: "button is-success", method: :patch %>
+          </div>
+          <div class="control">
+            <%= link_to "No concretada", check_citum_path(is_checked: true, is_finished: false, citum_id: date.id), class: "button is-danger", method: :patch %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="field" style="text-align:center">
+  <%= link_to "Ver mis citas", show_user_dates_path, class: "button is-success" %>
+</div>

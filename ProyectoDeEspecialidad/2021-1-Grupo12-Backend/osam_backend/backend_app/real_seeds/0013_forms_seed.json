@@ -1,0 +1,254 @@
+[
+  {
+    "model": "backend_app.form",
+    "pk": 1,
+    "fields": {
+      "name": "Fuera de cliente - Bafi",
+      "blocks": {"block_ids": [33, 40, 42, 44, 45]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "0",
+      "service_type": "0"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 2,
+    "fields": {
+      "name": "Fuera de cliente - Telco Cu",
+      "blocks": {"block_ids": [33, 35, 42, 43, 45]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "0",
+      "service_type": "1"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 3,
+    "fields": {
+      "name": "Fuera de cliente - Telco FO",
+      "blocks": {"block_ids": [33, 35, 42, 43, 45]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "0",
+      "service_type": "2"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 4,
+    "fields": {
+      "name": "Fuera de cliente - Home",
+      "blocks": {"block_ids": [33, 40, 42, 44, 45]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "0",
+      "service_type": "3"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 5,
+    "fields": {
+      "name": "Fuera de cliente - 3play",
+      "blocks": {"block_ids": [33, 37, 42, 43, 45]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "0",
+      "service_type": "4"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 6,
+    "fields": {
+      "name": "Durante el Trabajo - Bafi",
+      "blocks": {"block_ids": [33, 40, 42, 44, 45, 48, 51]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "1",
+      "service_type": "0"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 7,
+    "fields": {
+      "name": "Durante el Trabajo - Telco Cu",
+      "blocks": {"block_ids": [33, 35, 42, 43, 45, 49, 51]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "1",
+      "service_type": "1"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 8,
+    "fields": {
+      "name": "Durante el Trabajo - Telco F.O.",
+      "blocks": {"block_ids": [33, 35, 42, 43, 45, 49, 51]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "1",
+      "service_type": "2"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 9,
+    "fields": {
+      "name": "Durante el Trabajo - Home",
+      "blocks": {"block_ids": [33, 40, 42, 44, 45, 48, 51]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "1",
+      "service_type": "3"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 10,
+    "fields": {
+      "name": "Durante el Trabajo - 3play",
+      "blocks": {"block_ids": [33, 37, 42, 43, 45, 49, 51]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "1",
+      "service_type": "4"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 11,
+    "fields": {
+      "name": "Durante el Trabajo - 3play 2.0",
+      "blocks": {"block_ids": [33, 37, 42, 43, 45, 49, 51]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "1",
+      "service_type": "5"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 12,
+    "fields": {
+      "name": "Finalizando el trabajo - Bafi",
+      "blocks": {"block_ids": [33, 40, 42, 44, 45, 48, 51]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "2",
+      "service_type": "0"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 13,
+    "fields": {
+      "name": "Finalizando el trabajo - Telco Cu",
+      "blocks": {"block_ids": [33, 35, 42, 43, 45, 49, 51]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "2",
+      "service_type": "1"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 14,
+    "fields": {
+      "name": "Finalizando el trabajo - Telco F.O.",
+      "blocks": {"block_ids": [33, 35, 42, 43, 45, 49, 51]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "2",
+      "service_type": "2"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 15,
+    "fields": {
+      "name": "Finalizando el trabajo - Home",
+      "blocks": {"block_ids": [33, 40, 42, 44, 48, 45, 51]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "2",
+      "service_type": "3"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 16,
+    "fields": {
+      "name": "Finalizando el trabajo - 3play",
+      "blocks": {"block_ids": [33, 37, 42, 43, 45, 49, 51]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "2",
+      "service_type": "4"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 17,
+    "fields": {
+      "name": "Finalizando el trabajo - 3play 2.0",
+      "blocks": {"block_ids": [33, 37, 42, 43, 45, 49, 51]},
+      "for_mobile": true,
+      "category": "0",
+      "audit_type": "2",
+      "service_type": "5"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 18,
+    "fields": {
+      "name": "Auditoría Team Normal",
+      "blocks": {"block_ids": [34, 36, 38, 39, 41]},
+      "for_mobile": true,
+      "category": "1",
+      "audit_type": "0",
+      "service_type": "0"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 19,
+    "fields": {
+      "name": "Auditoría Team Baja Altura",
+      "blocks": {"block_ids": [34, 36, 38, 46, 39, 47, 41]},
+      "for_mobile": true,
+      "category": "1",
+      "audit_type": "1",
+      "service_type": "0"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 20,
+    "fields": {
+      "name": "Auditoría Recarga de combustible (Bencinera)",
+      "blocks": {"block_ids": [39, 41, 50]},
+      "for_mobile": true,
+      "category": "1",
+      "audit_type": "2",
+      "service_type": "0"
+    }
+  },
+  {
+    "model": "backend_app.form",
+    "pk": 21,
+    "fields": {
+      "name": "Auditoría Recarga de combustible (En Sitio)",
+      "blocks": {"block_ids": [39, 41, 50]},
+      "for_mobile": true,
+      "category": "1",
+      "audit_type": "3",
+      "service_type": "0"
+    }
+  }
+]

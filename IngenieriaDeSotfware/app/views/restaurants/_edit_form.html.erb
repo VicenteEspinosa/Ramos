@@ -1,0 +1,67 @@
+<div class='form-box'>
+  <h3 class="title is-3" style="text-align:center">Editar local</h3>
+  <%= form_with(model: restaurant, local: true) do |form| %>
+    <% if restaurant.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h2>
+        <ul>
+        <% restaurant.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+    <div class="field">
+      <%= form.label :name, 'Nombre', class: 'label' %>
+      <div class="control">
+        <%= form.text_field :name, :required => true, class: 'input' %>
+      </div>
+    </div>
+
+    <div class="field">
+      <%= form.label :description, 'Descripción', class: 'label' %>
+      <div class="control">
+        <%= form.text_area :description, :required => true, class: 'input' %>
+      </div>
+    </div>
+
+    <div class="field">
+      <%= form.label :location, 'Dirección', class: 'label' %>
+      <div class="control">
+        <%= form.text_field :location, :required => true, class: 'input' %>
+      </div>
+    </div>
+
+    <div class="field">
+      <%= form.label :city_id, 'Comuna', class: 'label'%>
+      <div class="control">
+        <div class="select">
+          <%= form.collection_select(:city_id, City.all, :id, :name, {:prompt=>"Selecciona una comuna"}, {:required => true})%>
+        </div>
+      </div>
+    </div>
+
+    <div class="field">
+      <% if form.object.avatar? %>
+        <%= form.label :avatar, 'Cambiar foto de local', class: "label"%>
+      <% else %>
+        <%= form.label :avatar, 'Foto de local', class: "label"%>
+      <% end %>
+      <div class="control">
+        <%= form.file_field :avatar, class: "label" %>
+        <% if form.object.avatar? %>
+          <%= image_tag form.object.avatar.url %>
+        <% end %>
+      </div>  
+    </div>
+
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+          <%= form.submit 'Editar local', class: "button is-success" %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
+

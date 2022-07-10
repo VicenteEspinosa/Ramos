@@ -1,0 +1,91 @@
+[
+  {
+    "model": "backend_app.region",
+    "pk": "1",
+    "fields": { "name": "Arica y Parinacota", "region_ordinal": "XV" }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "2",
+    "fields": { "name": "Tarapacá", "region_ordinal": "I" }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "3",
+    "fields": { "name": "Antofagasta", "region_ordinal": "II" }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "4",
+    "fields": { "name": "Atacama", "region_ordinal": "III" }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "5",
+    "fields": { "name": "Coquimbo", "region_ordinal": "IV" }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "6",
+    "fields": { "name": "Valparaíso", "region_ordinal": "V" }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "7",
+    "fields": { "name": "Metropolitana de Santiago", "region_ordinal": "RM" }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "8",
+    "fields": {
+      "name": "Libertador General Bernardo OHiggins",
+      "region_ordinal": "VI"
+    }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "9",
+    "fields": { "name": "Del Maule", "region_ordinal": "VII" }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "10",
+    "fields": { "name": "Del Bío Bío", "region_ordinal": "VIII" }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "11",
+    "fields": { "name": "Araucanía", "region_ordinal": "IX" }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "12",
+    "fields": { "name": "Los Ríos", "region_ordinal": "XIV" }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "13",
+    "fields": { "name": "De Los Lagos", "region_ordinal": "X" }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "14",
+    "fields": {
+      "name": "Aisén Del Gral. Carlos Ibañez Del Campo",
+      "region_ordinal": "XI"
+    }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "15",
+    "fields": {
+      "name": "Magallanes y de La Antártica Chilena",
+      "region_ordinal": "XII"
+    }
+  },
+  {
+    "model": "backend_app.region",
+    "pk": "16",
+    "fields": { "name": "Sin Región", "region_ordinal": "0" }
+  }
+]

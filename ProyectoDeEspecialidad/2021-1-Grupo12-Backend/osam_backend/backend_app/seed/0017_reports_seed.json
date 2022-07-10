@@ -1,0 +1,19 @@
+[
+  {
+    "model": "backend_app.report",
+    "fields": {
+        "id": 1,
+        "name": "Reporte 1",
+        "blocks": {
+            "block_ids": [
+              4
+            ]
+        },
+        "only_admin": false,
+        "category": "0",
+        "is_enumerated": true,
+        "question_based": false,
+        "for_api": false
+    }
+  }
+]

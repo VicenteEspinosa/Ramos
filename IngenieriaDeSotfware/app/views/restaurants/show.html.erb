@@ -1,0 +1,177 @@
+<div class="profile-box" style="text-align: center">
+  <div class="columns">
+    <div class="column is-two-fifths">
+      <div class="image">
+        <%if @restaurant.avatar? %>
+            <%= image_tag @restaurant.avatar.url %>
+          <% else %>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4dUUvP1soMBHowgDGGnqjGZs3-wat0jvfwzM0e-XOMvs8Jy54&usqp=CAU">
+        <% end %>
+      </div>
+    </div>
+    <div class="column">
+      <h4 class="title is-4"> <%= @restaurant.name %></h4>
+      <% if not @comments.empty?%>
+        <div class="field">
+          <% @rating.times do%>
+            <span><i class='fas fa-heart'></i></span>
+          <% end %>
+          <% (5 - @rating).times do %>
+            <span><i class="far fa-heart"></i></span>
+          <% end %>
+        </div>
+        <div class="field">
+          <span class="icon is-small is-left">
+            <i class="fas fa-comments"></i>
+          </span>
+          <%= @comments.size %> comentarios
+        </div>
+      <% else %>
+        <div class="field">
+          <span class="icon is-small is-left">
+            <i class="fas fa-heart"></i>
+          </span>
+          Sin valoraciones
+        </div>
+        <div class="field">
+          <span class="icon is-small is-left">
+            <i class="fas fa-comments"></i>
+          </span>
+          Sin comentarios
+        </div>
+      <% end %>
+      <% unless @restaurant.city_id.nil?%>
+        <div class="field">
+          <span class="icon is-small is-left">
+            <i class="fas fa-map-marker-alt"></i>
+          </span>
+          <%= @restaurant.location %>, <%= City.find_by(id: @restaurant.city_id).name %>
+        </div>
+      <% end %>
+      <% if user_signed_in? && current_user.admin%>
+        <div class="field is-grouped is-grouped-centered">
+          <div class="control">
+            <%= link_to "Editar local", edit_restaurant_path(id: @restaurant.id), class: "button is-warning"%>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+<div class="profile-box">
+  <h4 class="title is-4"> Ubicación </h4>
+  <div class="columns">
+    <div class="column"></div>
+    <div class="column">
+      <div id="map" style='width: 600px; height: 300px;'></div> 
+    </div>
+    <div class="column"></div>
+  </div>   
+</div>  
+<% if user_signed_in? %>
+  <div class="comments-box">
+    <%= form_with(model: @comment, method: :post ) do |form| %>
+    <h4 class="title is-4"> Cuentanos tu experiencia</h4>
+    <article class="media">
+      <figure class="media-left">
+        <p class="image is-64x64">
+          <%if current_user.avatar? %>
+            <%= image_tag current_user.avatar.url %>
+          <% else %>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png">
+          <% end %>
+        </p>
+      </figure>
+      <div class="media-content">
+        <div class="field">
+          <p class="control">
+            <%= form.text_area :content, :required => true, class: "textarea"%>
+          </p>
+        </div>
+        <%= form.hidden_field :user_id, :value => current_user.id %>
+        <%= form.hidden_field :restaurant_id, :value => @restaurant.id %>
+        <div class="field">
+          <section id="like" class="rating" style="text-align: center">
+            <%= form.radio_button :rating, 5, :required => true%>
+            <%= form.label :rating, "<span><i class='fas fa-heart'></i></span>".html_safe, value: "5" %>
+            <%= form.radio_button :rating, 4%>
+            <%= form.label :rating, "<span><i class='fas fa-heart'></i></span>".html_safe, value: "4" %>
+            <%= form.radio_button :rating, 3%>
+            <%= form.label :rating, "<span><i class='fas fa-heart'></i></span>".html_safe, value: "3" %>
+            <%= form.radio_button :rating, 2%>
+            <%= form.label :rating, "<span><i class='fas fa-heart'></i></span>".html_safe, value: "2" %>
+            <%= form.radio_button :rating, 1 %>
+            <%= form.label :rating, "<span><i class='fas fa-heart'></i></span>".html_safe, value: "1" %>
+          </section>
+        </div>
+        <nav class="level">
+          <div class="level-left">
+            <div class="level-item">
+              <%= form.submit "Comentar", class: "button is-info", position: "absolute"%>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </article>
+    <% end%>
+  </div>
+<% end %>
+<div class="comments-box">
+  <h4 class="title is-4"> Reseñas (<%= @comments.size %>)</h4>
+  <% if not @comments.empty? %>
+    <%@comments.each do |comment|%>
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <%if User.find(comment.user_id).avatar? %>
+              <%= image_tag User.find(comment.user_id).avatar.url %>
+            <% else %>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png">
+            <% end %>
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong><%= User.find(comment.user_id).name%></strong>
+                <% comment.rating.times do %>
+                  <span><i class='fas fa-heart'></i></span>
+                <% end %>
+                <% (5 - comment.rating).times do %>
+                  <span><i class="far fa-heart"></i></span>
+                <% end %>
+              <br>
+              <%= comment.content %>
+            </p>
+          </div>
+        </div>
+        <% if user_signed_in? && current_user.admin%>
+          <div class="media-right">
+            <%= link_to "", comment_path(id: comment.id, restaurant_id: @restaurant.id), class: "delete", method: :delete, :data => {:confirm => '¿Estás seguro?'}%>
+          </div>
+        <% end %>
+      </article>
+    <% end %>
+  <% end %>
+</div>
+
+
+<script type="text/javascript">  
+  handler = Gmaps.build('Google');  
+  handler.buildMap({ provider: {}, internal: {id: 'map'}}, function(){  
+    markers = handler.addMarkers([  
+      {  
+        "lat": '<%= @restaurant.latitude %>',  
+        "lng": '<%= @restaurant.longitude %>',  
+        "picture": {  
+          "width":  32,  
+          "height": 32  
+        },  
+        "infowindow": '<%= @restaurant.name%>'  
+      }  
+    ]);  
+    handler.bounds.extendWith(markers);  
+    handler.fitMapToBounds();
+    handler.getMap().setZoom(16);
+  });  
+</script>

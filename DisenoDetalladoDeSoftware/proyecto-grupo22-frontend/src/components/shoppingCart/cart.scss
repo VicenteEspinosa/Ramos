@@ -1,0 +1,32 @@
+.columns {
+  display: flex;
+}
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 1;
+  background-color: rgb(252, 210, 158);
+  box-shadow: 10px 5px 5px gray;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  .image {
+    margin: 30px;
+    text-align: center;
+  }
+  img {
+    width: 80%;
+    
+    align-items: center;
+  } 
+  .dolar {
+    font-size: 1em;
+    color: #000;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgb(15, 198, 15);
+    color: white;
+  }
+}

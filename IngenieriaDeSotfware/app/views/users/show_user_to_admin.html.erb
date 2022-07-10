@@ -1,0 +1,51 @@
+<div class="profile-box">
+  <div class="columns">
+    <div class="column is-one-quarter">
+      <div class="image">
+        <%if @user.avatar? %>
+          <%= image_tag @user.avatar.url %>
+        <% else %>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png">
+        <% end %>
+      </div>
+    </div>
+    <div class="column">
+      <h4 class="title is-4">Perfil de <%= @user.name %></h4>
+      <p>
+        <%= @user.description %>
+      </p>
+    </div>
+    <div class="column">
+      <h4 class="title is-4">Información personal</h4>
+        <div class="field">
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <%= @user.email %>
+        </div>
+        <div class="field">
+          <span class="icon is-small is-left">
+            <i class="fas fa-phone"></i>
+          </span>
+          <%= @user.phone_number %>
+        </div>
+        <div class="field">
+          <span class="icon is-small is-left">
+            <i class="fas fa-birthday-cake"></i>
+          </span>
+          <%= @user.birthdate %>
+        </div>
+        <% unless @user.city_id.nil?%>
+          <div class="field">
+            <span class="icon is-small is-left">
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <%= City.find_by(id: @user.city_id).name %>
+          </div>
+        <% end %>
+        <div class="field is-grouped is-grouped-centered">
+          <%= link_to "Editar perfil",  edit_user_by_admin_path(@user.id), class: "button is-warning is-light"%>
+        </div>
+    </div>
+  </div>
+</div>

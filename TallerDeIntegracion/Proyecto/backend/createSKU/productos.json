@@ -1,0 +1,149 @@
+{
+    "10000": {
+        "name": "Bandeja Cielo Azul",
+        "waiting_time": 10,
+        "batch_size": 1,
+        "requires": [
+            5000,
+            4000,
+            3000,
+            2000,
+            1000
+        ]
+    },
+    "5000": {
+        "name": "Risotto de Mote con Espárragos y Habas",
+        "waiting_time": 30,
+        "batch_size": 1,
+        "requires": [
+            90,
+            80,
+            70,
+            60,
+            50
+        ]
+    },
+    "4000": {
+        "name": "Sopa de cebolla",
+        "waiting_time": 10,
+        "batch_size": 1,
+        "requires": [
+            10,
+            70,
+            90,
+            100
+        ]
+    },
+    "3000": {
+        "name": "Helado de nuez",
+        "waiting_time": 20,
+        "batch_size": 1,
+        "requires": [
+            101,
+            105
+        ]
+    },
+    "2000": {
+        "name": "Canapé de salmón ahumado y Habas",
+        "waiting_time": 30,
+        "batch_size": 1,
+        "requires": [
+            20,
+            40,
+            60
+        ]
+    },
+    "1000": {
+        "name": "Jugo de Naranja",
+        "waiting_time": 20,
+        "batch_size": 1,
+        "requires": [
+            1,
+            15
+        ]
+    },
+    "105": {
+        "name": "Leche condensada",
+        "waiting_time": 120,
+        "batch_size": 4,
+        "requires": []
+    },
+    "101": {
+        "name": "Nuez",
+        "waiting_time": 120,
+        "batch_size": 3,
+        "requires": []
+    },
+    "100": {
+        "name": "Mantequilla",
+        "waiting_time": 10,
+        "batch_size": 5,
+        "requires": []
+    },
+    "90": {
+        "name": "Queso",
+        "waiting_time": 15,
+        "batch_size": 8,
+        "requires": []
+    },
+    "80": {
+        "name": "Mote",
+        "waiting_time": 100,
+        "batch_size": 6,
+        "requires": []
+    },
+    "70": {
+        "name": "Cebolla",
+        "waiting_time": 60,
+        "batch_size": 5,
+        "requires": []
+    },
+    "60": {
+        "name": "Habas",
+        "waiting_time": 50,
+        "batch_size": 2,
+        "requires": []
+    },
+    "50": {
+        "name": "Espárragos",
+        "waiting_time": 40,
+        "batch_size": 2,
+        "requires": []
+    },
+    "40": {
+        "name": "Tostadas",
+        "waiting_time": 30,
+        "batch_size": 5,
+        "requires": []
+    },
+    "20": {
+        "name": "Salmón",
+        "waiting_time": 60,
+        "batch_size": 10,
+        "requires": []
+    },
+    "15": {
+        "name": "Naranja",
+        "waiting_time": 10,
+        "batch_size": 15,
+        "requires": []
+    },
+    "10": {
+        "name": "Aceite de oliva",
+        "waiting_time": 10,
+        "batch_size": 15,
+        "requires": []
+    },
+    "5": {
+        "name": "Sal",
+        "waiting_time": 10,
+        "batch_size": 15,
+        "requires": []
+    },
+    "1": {
+        "name": "Hielo",
+        "waiting_time": 10,
+        "batch_size": 20,
+        "requires": []
+    }
+}

@@ -1,0 +1,26 @@
+<div class="form-box">
+
+  <h3 class="title is-3" style="text-align:center">Nueva comuna</h3>
+  <%= form_with(model: @city, method: :post) do |form| %>
+
+    <div class= 'field'>
+      <%= form.label :name, 'Nombre', class: "label" %>
+      <div class="control">
+        <%= form.text_field :name, :required => true, class: "input" %>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <%= form.submit "Agregar comuna", class: "button is-success is-light" %>
+      </div>
+    </div>
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+          <%= link_to 'Lista de comunas', cities_path, class: "tag is-link is-light" %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,26 @@
+<div align=center>
+
+
+  <h1>Nuevo comentario</h1>
+
+  <% form_with(model: @comment, method: :post ) do |form| %>
+  
+    <div class='field'>
+      <%= form.label :content, 'Contenido'%>
+      <%= form.text_area :content, size: "30x5", :required => true%>
+    </div>
+
+    <div class='field'>
+      <%= form.label :rating, 'Rating'%>
+      <%= form.number_field :rating, min: 0, max: 5, :required => true %>
+    </div>
+
+    <div class='action'> 
+      <%= form.submit 'Crear comentario'%>
+    </div>
+
+  <%end%>
+  
+  <%= link_to 'Lista de comentarios', index_comments_path %>
+
+</div>

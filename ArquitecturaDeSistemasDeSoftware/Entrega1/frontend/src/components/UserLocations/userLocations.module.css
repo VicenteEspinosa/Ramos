@@ -1,0 +1,24 @@
+.general {
+  position: absolute;
+  top: 70vh;
+  left: 80vw;
+  width: 20vw;
+  height: 30vh;
+  background-color: #c2c824;
+}
+
+.title {
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.ping {
+  color: black;
+  font-size: large;
+}
+
+.noLocation {
+  color: red;
+  font-size: 2vh;
+}

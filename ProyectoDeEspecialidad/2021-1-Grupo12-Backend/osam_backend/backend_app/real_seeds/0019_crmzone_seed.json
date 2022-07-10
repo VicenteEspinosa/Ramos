@@ -1,0 +1,44 @@
+[
+  {
+    "model": "backend_app.crmzone",
+    "pk": 1,
+    "fields": {
+      "name": "Metropolitano"
+    }
+  },
+  {
+    "model": "backend_app.crmzone",
+    "pk": 2,
+    "fields": {
+      "name": "Austral"
+    }
+  },
+  {
+    "model": "backend_app.crmzone",
+    "pk": 3,
+    "fields": {
+      "name": "Sur"
+    }
+  },
+  {
+    "model": "backend_app.crmzone",
+    "pk": 4,
+    "fields": {
+      "name": "Norte"
+    }
+  },
+  {
+    "model": "backend_app.crmzone",
+    "pk": 5,
+    "fields": {
+      "name": "Centro Sur"
+    }
+  },
+  {
+    "model": "backend_app.crmzone",
+    "pk": 6,
+    "fields": {
+      "name": "Centro Norte"
+    }
+  }
+]

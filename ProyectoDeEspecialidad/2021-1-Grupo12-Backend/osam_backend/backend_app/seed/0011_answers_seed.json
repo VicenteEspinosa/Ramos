@@ -1,0 +1,314 @@
+[
+  {
+    "model": "backend_app.answers",
+    "pk": "1",
+    "fields": {
+      "auditor_id": 8,
+      "commune_id": 305,
+      "category_id": "0",
+      "audit_type_id": "0",
+      "service_type_id": "0",
+      "exit_timestamp": "2021-06-11T05:32:14-04:00",
+      "values": {
+        "1": {
+          "question": "¿La camioneta solo tiene elementos necesarios en su interior?",
+          "answer": "SI"
+        },
+        "2": {
+          "question": "¿La camioneta se observa limpia? (por dentro y fuera)",
+          "answer": "NO"
+        },
+        "3": {
+          "question": "¿Están los elementos de la camioneta 5S en buen estado y según el criterio de orden y prioridad definido?",
+          "answer": "SI"
+        },
+        "4": {
+          "question": "¿La camioneta se observa en buen estado? (neumáticos, carrocería, pintura, etc.)",
+          "answer": "N/A"
+        },
+        "5": {
+          "question": "¿Vehículo tiene toda la documentación al día? (Permiseo de circulación, Revisión Técnica, Padrón.)",
+          "answer": "SI"
+        },
+        "53": {
+          "question": "OBSERVACIONES CAMIONETA OPERACIONES",
+          "answer": "Todo bien la camioneta"
+        },
+        "54": {
+          "question": "¿Modelo de la camioneta?",
+          "answer": "Fiat Fiorino City"
+        },
+        "55": {
+          "question": "Foto camioneta",
+          "answer": "https://ei.marketwatch.com/Multimedia/2020/08/12/Photos/ZQ/MW-IM345_at_sil_20200812150210_ZQ.jpg?uuid=53012486-dcce-11ea-a718-9c8e992d421e"
+        },
+        "348": {
+          "question": "Ponchadora krone",
+          "answer": "SI"
+        },
+        "349": {
+          "question": "Llaves punta corona 8 a 22 (+32) pulgadas",
+          "answer": "N/A"
+        },
+        "350": {
+          "question": "Tijeras",
+          "answer": "NO"
+        }
+      },
+      "metadata": {
+        "timestamp_data": {
+          "final_timestamp": "6/10/21 21:32",
+          "initial_timestamp": "2021-06-10T21:30:56.112",
+          "initial_time": "21:30:56",
+          "initial_date": "10/6/2021"
+        },
+        "auditor_data": {
+          "auditor_name": "Felipe Juan Suarez Ortega",
+          "auditor_rut": "18.743.258-0",
+          "auditor_email": "fsuarez@osam.cl",
+          "auditor_phone": "56900000000"
+        },
+        "technician_data": {
+          "number_of_technicians": "1",
+          "enterprise": "Entel",
+          "team_id": "",
+          "id_group_team": "",
+          "technicians": {
+            "technician_1": {
+              "technician_id": 1,
+              "status": 1,
+              "technician_name": "Jose Adilio Chavez Alnornoz",
+              "technician_rut": "8.331.862-7",
+              "technician_phone": "56994995538",
+              "technician_external_id": "1",
+              "technician_category_id": "0",
+              "technician_enterprise_id": "1",
+              "technician_email": "name@mail.com",
+              "technician_team_id": "1",
+              "technician_id_group_team": "5",
+              "technician_first_name": "Jose Adilio",
+              "technician_last_name": "Chavez Alnornoz",
+              "technician_photo": "https://ei.marketwatch.com/Multimedia/2020/08/12/Photos/ZQ/MW-IM345_at_sil_20200812150210_ZQ.jpg?uuid=53012486-dcce-11ea-a718-9c8e992d421e",
+              "technician_name_redes": "Chavez Alnornoz, Jose Adilio"
+            },
+            "technician_2": {
+              "technician_id": 2,
+              "status": 1,
+              "technician_name": "Roberto Donoso Ruiz",
+              "technician_rut": "6.493.319-1",
+              "technician_phone": "56942886617",
+              "technician_external_id": "1",
+              "technician_category_id": "0",
+              "technician_enterprise_id": "2",
+              "technician_email": "name@mail.com",
+              "technician_team_id": "1",
+              "technician_id_group_team": "5",
+              "technician_first_name": "Roberto",
+              "technician_last_name": "Donoso Ruiz",
+              "technician_photo": "https://ei.marketwatch.com/Multimedia/2020/08/12/Photos/ZQ/MW-IM345_at_sil_20200812150210_ZQ.jpg?uuid=53012486-dcce-11ea-a718-9c8e992d421e",
+              "technician_name_redes": "Donoso Ruiz, Roberto"
+            }
+          }
+        },
+        "location_data": {
+          "initial_latitude": "-33.4072366",
+          "initial_longitude": "-70.5648239",
+          "final_latitude": "-33.4072366",
+          "final_longitude": "-70.5648239",
+          "dpt_or_office": "1123",
+          "street_number": "1234",
+          "street_name": "fake street",
+          "zone_att": 4,
+          "zone_crm": 1,
+          "commune": "Recoleta",
+          "province": "Santiago",
+          "region": "Metropolitana de Santiago"
+        },
+        "category_data": {
+          "task_type": "No Aplica",
+          "category_name": "operaciones",
+          "audit_type": "Fuera de cliente",
+          "service_type": "Bafi",
+          "task_number": ""
+        },
+        "truck_data": {
+          "truck_type": "Peugeot Partner",
+          "truck_license": "XY2342",
+          "truck_photo": "https://ei.marketwatch.com/Multimedia/2020/08/12/Photos/ZQ/MW-IM345_at_sil_20200812150210_ZQ.jpg?uuid=53012486-dcce-11ea-a718-9c8e992d421e"
+        },
+        "extras": {
+          "audit_done": "OK",
+          "comments_nok": ""
+        },
+        "additional_photos": {
+          "photos": [
+            "https://ei.marketwatch.com/Multimedia/2020/08/12/Photos/ZQ/MW-IM345_at_sil_20200812150210_ZQ.jpg?uuid=53012486-dcce-11ea-a718-9c8e992d421e",
+            "https://ei.marketwatch.com/Multimedia/2020/08/12/Photos/ZQ/MW-IM345_at_sil_20200812150210_ZQ.jpg?uuid=53012486-dcce-11ea-a718-9c8e992d421e"
+          ]
+        }
+      },
+      "blocks": [
+        { "block_name": "block_one", "questions": [0, 2, 1] },
+        { "block_name": "block_two", "questions": [0, 2, 1] }
+      ]
+    }
+  },
+  {
+    "model": "backend_app.answers",
+    "pk": "2",
+    "fields": {
+      "auditor_id": 4,
+      "commune_id": 305,
+      "category_id": "1",
+      "audit_type_id": "3",
+      "service_type_id": "0",
+      "exit_timestamp": "2021-06-11T20:27:37.166000-04:00",
+      "values": {
+        "1": {
+          "question": "¿La camioneta solo tiene elementos necesarios en su interior?",
+          "answer": "SI"
+        },
+        "2": {
+          "question": "¿La camioneta se observa limpia? (por dentro y fuera)",
+          "answer": "NO"
+        },
+        "3": {
+          "question": "¿Están los elementos de la camioneta 5S en buen estado y según el criterio de orden y prioridad definido?",
+          "answer": "SI"
+        },
+        "4": {
+          "question": "¿La camioneta se observa en buen estado? (neumáticos, carrocería, pintura, etc.)",
+          "answer": "N/A"
+        },
+        "5": {
+          "question": "¿Vehículo tiene toda la documentación al día? (Permiseo de circulación, Revisión Técnica, Padrón.)",
+          "answer": "SI"
+        },
+        "53": {
+          "question": "OBSERVACIONES CAMIONETA OPERACIONES",
+          "answer": "Todo bien la camioneta"
+        },
+        "54": {
+          "question": "¿Modelo de la camioneta?",
+          "answer": "Fiat Fiorino City"
+        },
+        "55": {
+          "question": "Foto camioneta",
+          "answer": "https://www.thestreet.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY3NTM5MzU5NjIyMDQ3MTEx/which-full-size-pickup-truck-should-you-buy.jpg"
+        },
+        "6": {
+          "question": "Alicate de Fuerza, Cortante y de Punta  (mínimo 1 unidad de cada tipo)",
+          "answer": "N/A"
+        },
+        "7": {
+          "question": "Roseta Fibra Optica",
+          "answer": "N/A"
+        },
+        "8": {
+          "question": "Jumper FO SC/APC",
+          "answer": "N/OBS"
+        },
+        "56": {
+          "question": "OBSERVACIONES HERRAMIENTAS E INSTRUMENTOS",
+          "answer": ""
+        }
+      },
+      "metadata": {
+        "timestamp_data": {
+          "final_timestamp": "6/11/21 12:27",
+          "initial_timestamp": "2021-06-11T12:15:20.547",
+          "initial_time": "12:15:20",
+          "initial_date": "11/6/2021"
+        },
+        "auditor_data": {
+          "auditor_name": "Francisco j Zepeda",
+          "auditor_rut": "13.278.429-0",
+          "auditor_email": "fzepedas@gmail.com",
+          "auditor_phone": "56900000000"
+        },
+        "technician_data": {
+          "number_of_technicians": "2",
+          "enterprise": "Empresa J",
+          "team_id": "1",
+          "id_group_team": "5",
+          "technicians": {
+            "technician_1": {
+              "technician_id": 1,
+              "status": 1,
+              "technician_name": "Jose Adilio Chavez Alnornoz",
+              "technician_rut": "8.331.862-7",
+              "technician_phone": "56994995538",
+              "technician_external_id": "1",
+              "technician_category_id": "0",
+              "technician_enterprise_id": "1",
+              "technician_email": "name@mail.com",
+              "technician_team_id": "1",
+              "technician_id_group_team": "5",
+              "technician_first_name": "Jose Adilio",
+              "technician_last_name": "Chavez Alnornoz",
+              "technician_photo": "https://ei.marketwatch.com/Multimedia/2020/08/12/Photos/ZQ/MW-IM345_at_sil_20200812150210_ZQ.jpg?uuid=53012486-dcce-11ea-a718-9c8e992d421e",
+              "technician_name_redes": "Chavez Alnornoz, Jose Adilio"
+            },
+            "technician_2": {
+              "technician_id": 2,
+              "status": 1,
+              "technician_name": "Roberto Donoso Ruiz",
+              "technician_rut": "6.493.319-1",
+              "technician_phone": "56942886617",
+              "technician_external_id": "1",
+              "technician_category_id": "0",
+              "technician_enterprise_id": "2",
+              "technician_email": "name@mail.com",
+              "technician_team_id": "1",
+              "technician_id_group_team": "5",
+              "technician_first_name": "Roberto",
+              "technician_last_name": "Donoso Ruiz",
+              "technician_photo": "https://ei.marketwatch.com/Multimedia/2020/08/12/Photos/ZQ/MW-IM345_at_sil_20200812150210_ZQ.jpg?uuid=53012486-dcce-11ea-a718-9c8e992d421e",
+              "technician_name_redes": "Donoso Ruiz, Roberto"
+            }
+          }
+        },
+        "location_data": {
+          "initial_latitude": "-33.4072366",
+          "initial_longitude": "-70.5648239",
+          "final_latitude": "-33.4072366",
+          "final_longitude": "-70.5648239",
+          "dpt_or_office": "123",
+          "street_number": "123",
+          "street_name": "Calle",
+          "zone_att": 4,
+          "zone_crm": 1,
+          "commune": "Recoleta",
+          "province": "Santiago",
+          "region": "Metropolitana de Santiago"
+        },
+        "category_data": {
+          "task_type": "No Aplica",
+          "category_name": "redes",
+          "audit_type": "Auditoría Recarga de combustible (En Sitio)",
+          "service_type": "",
+          "task_number": ""
+        },
+        "truck_data": {
+          "truck_type": "Peugeot Partner",
+          "truck_license": "XY2342",
+          "truck_photo": "https://ei.marketwatch.com/Multimedia/2020/08/12/Photos/ZQ/MW-IM345_at_sil_20200812150210_ZQ.jpg?uuid=53012486-dcce-11ea-a718-9c8e992d421e"
+        },
+        "extras": {
+          "audit_done": "NOK",
+          "comments_nok": ""
+        },
+        "additional_photos": {
+          "photos": [
+            "https://ei.marketwatch.com/Multimedia/2020/08/12/Photos/ZQ/MW-IM345_at_sil_20200812150210_ZQ.jpg?uuid=53012486-dcce-11ea-a718-9c8e992d421e",
+            "https://ei.marketwatch.com/Multimedia/2020/08/12/Photos/ZQ/MW-IM345_at_sil_20200812150210_ZQ.jpg?uuid=53012486-dcce-11ea-a718-9c8e992d421e"
+          ]
+        }
+      },
+      "blocks": [
+        { "block_name": "block_one", "questions": [0, 2, 1] },
+        { "block_name": "block_two", "questions": [0, 2, 1] }
+      ]
+    }
+  }
+]

@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <p>Hola <%= @user.username %>!</p>
+    <p>
+    Para confirmar tu correo clickea el siguiente link:<br>
+    </p>
+    <p>
+      <a href="http://localhost:3000/api/v1/user/confirm_email/@token">Confirmar correo</a>
+    <p>
+  </body>
+</html>

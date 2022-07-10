@@ -1,0 +1,64 @@
+<div class="section">
+  <h3 class="title is-3" style="text-align:center">Mis postulaciones</h3>
+</div>
+<% if !@user_postulations.empty? %>
+  <% @user_postulations.each do |restaurant| %>
+    <div class="profile-box">
+      <div class="columns">
+        <div class="column is-one-third">
+        <div class="image">
+        <%if restaurant.avatar? %>
+            <%= image_tag Restaurant.find_by(id: restaurant.id).avatar.url %>
+          <% else %>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4dUUvP1soMBHowgDGGnqjGZs3-wat0jvfwzM0e-XOMvs8Jy54&usqp=CAU">
+          <% end %>
+        </div>
+        </div>
+        <div class="column">
+        <h4 class="title is-4"> <%= restaurant.name %></h4>
+        <p>
+            <%= restaurant.description %>
+        </p>
+        </div>
+        <div class="column">
+        <h4 class="title is-4">Información del local</h4>
+          <div class="field">
+          <span class="icon is-small is-left">
+              <i class="fas fa-user"></i>
+          </span>
+          <%= User.find_by(id: restaurant.user_id).name %>
+          </div>
+          <% unless restaurant.city_id.nil?%>
+            <div class="field">
+            <span class="icon is-small is-left">
+                <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <%= restaurant.location %>, <%= City.find_by(id: restaurant.city_id).name %>
+            </div>
+          <% end %>
+          <div class="field">
+            <% if @postulation_status[restaurant.id] == 'pendiente' %>
+              <span class="tag is-warning is-medium", style="width: 100%">Postulación pendiente</span>
+            <% elsif @postulation_status[restaurant.id] == 'aprobada' %>
+              <span class="tag is-success is-medium", style="width: 100%">Postulación aceptada</span>
+            <% elsif @postulation_status[restaurant.id] == 'rechazada' %>
+              <span class="tag is-danger is-medium", style="width: 100%">Postulación rechazada</span>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    <div>
+  </div>
+</div>
+<% end %>
+<% else %>
+    <section class="hero is-primary" style="margin-top: 2rem; text-align: center">
+    <div class="hero-body">
+        <div class="container">
+        <h1 class="title">
+            No has realizado ninguna postulación
+        </h1>
+        </div>
+    </div>
+    </section>
+<% end %>

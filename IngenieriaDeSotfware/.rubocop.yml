@@ -1,0 +1,62 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'test/**/*'
+    - 'bin/{rails,rake}'
+    - 'app/uploaders/*'
+    - !ruby/regexp /old_and_unused\.rb$/
+
+Metrics/AbcSize:
+  Max: 35
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/ClassLength:
+  Max: 150
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
+Metrics/BlockNesting:
+  Enabled: false
+
+Style/IfInsideElse:
+  Enabled: false
+
+Style/ConditionalAssignment:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/Encoding:
+  Enabled: false
+
+Style/HashSyntax:
+  Enabled: false
+
+Style/NegatedIf:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 150
+
+Lint/RaiseException:
+  Enabled: true

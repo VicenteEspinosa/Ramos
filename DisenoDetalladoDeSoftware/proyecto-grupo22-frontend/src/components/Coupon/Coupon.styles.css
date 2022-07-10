@@ -1,0 +1,37 @@
+.Coupon {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  border-radius: 20px;
+}
+
+.Coupon-name {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-bottom: 0.5em;
+}
+
+.Coupon-saved {
+  font-size: 1em;
+  color: #000;
+  margin-top: 1em;
+}
+
+.couponCategories {
+  margin-bottom: 5px;
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Coupon-category {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  width: 130px;
+  height: 22px;
+}

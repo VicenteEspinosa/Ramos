@@ -1,0 +1,69 @@
+<nav class="navbar is-danger" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href='<%= home_path%>'>
+      <img src="https://cdn3.iconfinder.com/data/icons/security-double-color-blue-black-vol-2/52/flame__extinguisher__fire__burning__hot__heat__fireplace-512.png" width="auto" height="auto">
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <%= link_to "Ver locales", restaurants_path, class: "navbar-item"%>
+      <% if user_signed_in?%>
+        <%= link_to "Buscar gente", show_user_recommendations_path, class: "navbar-item"%>
+      <%end%>
+      <% if user_signed_in? and current_user.admin == true%>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Administración
+          </a>
+          <div class="navbar-dropdown">
+            <%= link_to 'Comunas', cities_path, class: "navbar-item"%>
+            <%= link_to 'Gustos', gustos_path, class: "navbar-item"%>
+            <%= link_to 'Usuarios', index_users_path, class: "navbar-item"%>
+            <%= link_to 'Locales', restaurants_path, class: "navbar-item"%>
+            <%= link_to 'Postulaciones', restaurants_postulations_path, class: "navbar-item"%>
+            <hr class="navbar-divider">
+            <%= link_to 'Panel de Admin', rails_admin_path, class: "navbar-item"%>
+          </div>
+        </div>
+      <%end%>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <% if user_signed_in? %>
+          <div class="buttons">
+            <a class="button is-link is-light" href= <%=show_user_path%>>
+              <span class="icon">
+                <i class="fas fa-user-circle"></i>
+              </span>
+              <span>Mi perfil</span>
+            </a>
+            <%=link_to "Cerrar sesión", destroy_user_session_path, class: "icon fas fa-sign-out-alt", class: "button is-danger is-light", method: :delete%>
+          </div>
+        <%else %>
+          <div class="buttons">
+              <a class="button is-link is-light" href= <%=new_user_registration_path%>>
+                <span class="icon">
+                  <i class="fas fa-plus"></i>
+                </span>
+                <span>Registrarse</span>
+              </a>
+              <a class="button is-danger is-light", href= <%=new_user_session_path%>>
+                <span class="icon">
+                  <i class="fas fa-sign-in-alt"></i>
+                </span>
+                <span>Iniciar sesión</span>
+              </a>
+          </div>
+        <%end%>
+      </div>
+    </div>
+  </div>
+</nav>

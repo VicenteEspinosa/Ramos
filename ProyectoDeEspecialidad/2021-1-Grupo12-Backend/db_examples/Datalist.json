@@ -1,0 +1,44 @@
+ 
+{
+    "object": {
+        "lists" : {
+            "vehicles": [
+                "Citroen Berlingo",
+                "Citroen Nemo",
+                "Fiat Fiorino City",
+                "Chevrolet DMAX",
+                "Mazda BT-50",
+                "Peugeot Partner",
+                "Mitsubishi L200",
+                "Nissan Navara",
+                "Toyota Hilux",
+                "Otros"
+            ],
+            "task_types": [
+                [
+                    "Mantenimiento Preventivo",
+                    "Mantenimiento Correctivo",
+                    "Instalación",
+                    "Recarga de Combustible",
+                    "No aplica"
+                ],
+                [
+                    "Instalación",
+                    "Mantención",
+                    "Post Venta",
+                    "No aplica"
+                ]
+            ],
+            "non_ok_options": [
+                "Auditor sin permiso pa ingresar",
+                "Cliente cancela trabajo",
+                "Cliente no autoriza trabajo",
+                "Dirección incorrecta",
+                "Técnico modifica horario de visitra",
+                "Técnico no se encuentra en la dirección",
+                "Técnico se niega a ser auditado",
+                "Otro"
+            ]
+        }
+    }
+}

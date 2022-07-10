@@ -1,0 +1,26 @@
+
+# Env files 
+.env
+*env.py
+*/env.py
+
+# Caches
+*/__pycache__/
+__pycache__/
+.mypy_cache/
+
+
+# DS_Store
+.DS_Store
+
+#static
+osam_backend/static/*
+osam_backend/static/
+
+#Vscode
+.vscode
+
+#DataFiles
+data_files
+data_files/*
+data_files/

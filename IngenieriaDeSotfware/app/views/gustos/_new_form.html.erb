@@ -1,0 +1,44 @@
+<div class="form-box">
+  <h3 class="title is-3" style="text-align:center">Agregar gusto</h3>
+  <%= form_with(model: gusto, local: true) do |form| %>
+    <% if gusto.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(gusto.errors.count, "error") %> prohibited this gusto from being saved:</h2>
+
+        <ul>
+        <% gusto.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="field">
+      <%= form.label :nombre, class: 'label' %>
+      <div class="control">
+        <%= form.text_field :nombre, :required => true, class: 'input' %>
+      </div>
+    </div>
+
+    <div class="field">
+      <%= form.label :descripcion, class: 'label'%>
+        <div class="control">
+          <%= form.text_area :descripcion, :required => true, class: 'textarea', maxlength: "255" %>
+        </div>
+    </div>
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+          <%= form.submit "Agregar gusto", class: "button is-success is-light" %>
+        </div>
+      </div>
+    </div>
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+          <%= link_to 'Lista de gustos', gustos_path, class: "tag is-link is-light" %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

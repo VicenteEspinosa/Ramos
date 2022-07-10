@@ -1,0 +1,386 @@
+[
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "saflores",
+            "user_id": 1,
+            "email": "sflores@osam.cl",
+            "first_name": "Simón Andrés",
+            "last_name": "Flores Espinoza",
+            "password": "pbkdf2_sha256$180000$c1Bj4JYaupP5$18U1mZV+LF/DDDsg4IHgyFg49Vz1IHw+q0NrgAEKAnA=",
+            "rut": "18054787-8",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "fjsuarez",
+            "user_id": 2,
+            "email": "fsuarez@osam.cl",
+            "first_name": "Felipe Juan",
+            "last_name": "Suarez Ortega",
+            "password": "pbkdf2_sha256$180000$MSVJwuNSvddC$7oXiGCZbzsQQDnXzpQ9dRLV5em3ILu0Xw5kD1t01B5o=",
+            "rut": "18743258-8",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "cagonzalez",
+            "user_id": 3,
+            "email": "cristian.gonzalez.carter@gmail.com",
+            "first_name": "Cristian Andres",
+            "last_name": "Gonzalez Carter",
+            "password": "pbkdf2_sha256$180000$SYk3GruATAeI$WH64BBd4Z+/c7kWgZs53HR8fMB1n+x1WUTHYPqpi1i8=",
+            "rut": "13463707-2",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "fjzepeda",
+            "user_id": 4,
+            "email": "fzepedas@gmail.com",
+            "first_name": "Francisco J",
+            "last_name": "Zepeda",
+            "password": "pbkdf2_sha256$180000$E19B03dKotld$q/KVoIKAyRlZR56pwyaJVIZUGo7jhODI/n2OjqIF6O4=",
+            "rut": "13278429-9",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "jrvalenzuela",
+            "user_id": 5,
+            "email": "jvalenzuela@osam.cl",
+            "first_name": "Juan Rodrigo",
+            "last_name": "Valenzuela Cortés",
+            "password": "pbkdf2_sha256$180000$MQA6lnJ7ZdtE$VSzgFjvuwyd08kJnAt84rtiPJS5dcz7o6EGTbDVIzSw=",
+            "rut": "12467233-3",
+            "_type": 1,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "esacuña",
+            "user_id": 6,
+            "email": "eacuna@osam.cl",
+            "first_name": "Erick Sebastian",
+            "last_name": "Acuña Becerra",
+            "password": "pbkdf2_sha256$180000$AoSH3Vs6Dl1z$8LezN4NbU2aqhDV7idnjKtZJ52xZGVoYdaQwHNaGnqE=",
+            "rut": "18814634-1",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "ajgajardo",
+            "user_id": 7,
+            "email": "agajardo@osam.cl",
+            "first_name": "Ariel Jorge",
+            "last_name": "Gajardo Cortés",
+            "password": "pbkdf2_sha256$180000$thQHys9qJ3cf$y2OqM+3WOZUTz3XqTbNkqeBuwuypZ1ekjBHqAFB/fTU=",
+            "rut": "18739428-7",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "jifrías",
+            "user_id": 8,
+            "email": "jfrias@osam.cl",
+            "first_name": "Juan Isaías",
+            "last_name": "Frías Soto",
+            "password": "pbkdf2_sha256$180000$by0tnuhVbOnY$+Lj9E/cfrvbJTmkjU9Q7BHpX85M2l2qgSFMro8g6xw8=",
+            "rut": "18327523-2",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "daparra",
+            "user_id": 9,
+            "email": "dparra@osam.cl",
+            "first_name": "Daniel Alejandro",
+            "last_name": "Parra Bustamante",
+            "password": "pbkdf2_sha256$180000$oi8vSJYNpdCn$7cL+IATpJuGrt7+ZyaIniFPfgW5NwrCxkp0oG2WvB5k=",
+            "rut": "13967366-2",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "jjsalmeron",
+            "user_id": 10,
+            "email": "jsalmeron@osam.cl",
+            "first_name": "Javier Jose",
+            "last_name": "Salmeron Chacon",
+            "password": "pbkdf2_sha256$180000$SMagdWsNHPwB$9QBV0m0BOG9PrCFJG8RN7fV1QCDC9yGOqCPzU3ISImI=",
+            "rut": "25932990-6",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "jesalazar",
+            "user_id": 11,
+            "email": "jsalazar@osam.cl",
+            "first_name": "Julio Enrique",
+            "last_name": "Salazar Rojas",
+            "password": "pbkdf2_sha256$180000$pStdEYFKhc5K$DeWHb/pomtznxAvecmGTU/o9lOGjvCyaXs9lnJ3Slag=",
+            "rut": "18863549-0",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "nialvarez",
+            "user_id": 12,
+            "email": "nalvarez@osam.cl",
+            "first_name": "Nicolás Ignacio",
+            "last_name": "Alvarez Barrientos",
+            "password": "pbkdf2_sha256$180000$TIa2LoW3P7Xf$ZZEyl3rJ/OTZ45DehhGJMSP0YW6IBJSDT/ZSy8C2Egk=",
+            "rut": "19230595-0",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "eddiaz",
+            "user_id": 13,
+            "email": "ediaz@osam.cl",
+            "first_name": "Esteban David",
+            "last_name": "Diaz Villaman",
+            "password": "pbkdf2_sha256$180000$cYQsb2GDBqE9$o66R8Ws4KkXVHq2PgwfLsL2dX3m9Ls+y1v+ylw4Y68A=",
+            "rut": "19003687-1",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "anmontecinos",
+            "user_id": 14,
+            "email": "amontecinos@osam.cl",
+            "first_name": "Andres Natanael",
+            "last_name": "Montecinos Hernandez",
+            "password": "pbkdf2_sha256$180000$239Hrr4RA6fs$TYLNrv3lqT0RO6pbHK27VfG9c2zoGjtnvMXM0bF1dxw=",
+            "rut": "19649411-1",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "cesoriano",
+            "user_id": 15,
+            "email": "csoriano@osam.cl",
+            "first_name": "Cristian Emerson",
+            "last_name": "Soriano Villagra",
+            "password": "pbkdf2_sha256$180000$eG6sHDPPZvdo$pbb+tZ3ialQ84BU7KB+dEXPT8oVxuhVRv3yYcp1fYNI=",
+            "rut": "19383215-6",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "grrozas",
+            "user_id": 16,
+            "email": "rrozas@osam.cl",
+            "first_name": "Gonzalo Rodrigo",
+            "last_name": "Rozas Savaria",
+            "password": "pbkdf2_sha256$180000$3DVdbSlCxveG$CdevVGxuufotlvcJrivWk8XZLl7XCN7SznyIaRt9Dg0=",
+            "rut": "19484298-8",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "mfangulo",
+            "user_id": 17,
+            "email": "mangulo@osam.cl",
+            "first_name": "Marcelo Felipe",
+            "last_name": "Angulo Guerrero",
+            "password": "pbkdf2_sha256$180000$TWp7rodnPyWq$Ka9+wVZtwC2arC7uR4SqImZ4NXIiWGt9U9Y8sKgnFB4=",
+            "rut": "19183078-4",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "afalzola",
+            "user_id": 18,
+            "email": "aalzola@osam.cl",
+            "first_name": "Alvaro Felipe",
+            "last_name": "Alzola Gonzalez",
+            "password": "pbkdf2_sha256$180000$iVJW3LcSJzDD$rdGXMTsL4pSEOjG6ufaFNzENXqxJwvIPQQdEw+NCE6Y=",
+            "rut": "19422975-5",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "dagarcia",
+            "user_id": 19,
+            "email": "dgarcia@osam.cl",
+            "first_name": "Diego Andres",
+            "last_name": "Garcia Mendez",
+            "password": "pbkdf2_sha256$180000$8XBZGCQV9Ef4$L8pyMRVz4Rdc/oF4Cbhig9PLV3bO2D621NAvuPT1MRU=",
+            "rut": "19517002-9",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "agmuñoz",
+            "user_id": 20,
+            "email": "amunoz@osam.cl",
+            "first_name": "Alvaro Gonzalo",
+            "last_name": "Muñoz Paredes",
+            "password": "pbkdf2_sha256$180000$F2eWltLJbpNe$jbHmTeZyWJwhUkiJ7HS0ZcC1Uzs/YmI4b5Q9UDnCEJk=",
+            "rut": "19431928-2",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "devadmin",
+            "user_id": 21,
+            "email": "devadmin@osam.cl",
+            "first_name": "Admin",
+            "last_name": "Development",
+            "password": "pbkdf2_sha256$180000$DbpHkrPbpqac$7LzrSRQNss9C6hUx1kLwR2yNCq0IDBSMl9zxJuldDqE=",
+            "rut": "1111111-4",
+            "_type": 1,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "devadmin2",
+            "user_id": 22,
+            "email": "devadmin2@osam.cl",
+            "first_name": "Admin2",
+            "last_name": "Development",
+            "password": "pbkdf2_sha256$180000$DbpHkrPbpqac$7LzrSRQNss9C6hUx1kLwR2yNCq0IDBSMl9zxJuldDqE=",
+            "rut": "1111112-2",
+            "_type": 1,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "devauditor",
+            "user_id": 23,
+            "email": "devauditor@osam.cl",
+            "first_name": "Auditor",
+            "last_name": "Development",
+            "password": "pbkdf2_sha256$180000$DbpHkrPbpqac$7LzrSRQNss9C6hUx1kLwR2yNCq0IDBSMl9zxJuldDqE=",
+            "rut": "1111113-0",
+            "_type": 2,
+            "category_id": -1,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    },
+    {
+        "model": "backend_app.user",
+        "fields": {
+            "username": "devclient",
+            "user_id": 24,
+            "email": "devclient@osam.cl",
+            "first_name": "Client",
+            "last_name": "Development",
+            "password": "pbkdf2_sha256$180000$DbpHkrPbpqac$7LzrSRQNss9C6hUx1kLwR2yNCq0IDBSMl9zxJuldDqE=",
+            "rut": "1111114-9",
+            "_type": 3,
+            "category_id": 0,
+            "access_token": "Null",
+            "access_token_mobile": "Null"
+        }
+    }
+]

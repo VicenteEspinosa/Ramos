@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.app-items-container {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "model": "backend_app.team",
+    "pk": "0",
+    "fields": {
+        "name": "O00 No Aplica",
+        "code": "O00"
+    }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "1",
+    "fields": { "name": "Z01 Región XV ELECTROTEL", "code": "Z01" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "2",
+    "fields": { "name": "Z02 Región I ELECTROTEL", "code": "Z02" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "3",
+    "fields": { "name": "Z03 Región II Calama ELECTROTEL", "code": "Z03" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "4",
+    "fields": { "name": "Z04 Región II Antofagasta ELECTROTEL", "code": "Z04" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "5",
+    "fields": { "name": "Z05 Región III ICETEL", "code": "Z05" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "6",
+    "fields": { "name": "Z06 Región IV ICETEL", "code": "Z06" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "7",
+    "fields": { "name": "Z07 Región V ICETEL", "code": "Z07" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "8",
+    "fields": { "name": "Z08 Región RM Poniente ICETEL", "code": "Z08P" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "9",
+    "fields": { "name": "Z08 Región RM Oriente TELRAD", "code": "Z08O" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "10",
+    "fields": { "name": "Z09 Región VI TELRAD", "code": "Z09" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "11",
+    "fields": { "name": "Z10 Región VII TELRAD", "code": "Z10" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "12",
+    "fields": { "name": "Z11 Región XVI Chillán ELECTROTEL", "code": "Z11" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "13",
+    "fields": { "name": "Z12 Región VIII Concepción ELECTROTEL", "code": "Z12" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "14",
+    "fields": {
+      "name": "Z13 Región VIII Los Ángeles ELECTROTEL",
+      "code": "Z13"
+    }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "15",
+    "fields": { "name": "Z14 Región IX ELECTROTEL", "code": "Z14" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "16",
+    "fields": { "name": "Z15 Región XIV ICETEL", "code": "Z15" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "17",
+    "fields": { "name": "Z16 Región X Osorno ICETEL", "code": "Z16" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "18",
+    "fields": { "name": "Z17 Región X Puerto Montt ICETEL", "code": "Z17" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "19",
+    "fields": { "name": "Z18 Región X Chiloé ICETEL", "code": "Z18" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "20",
+    "fields": { "name": "Z19 Región XI ICETEL", "code": "Z19" }
+  },
+  {
+    "model": "backend_app.team",
+    "pk": "21",
+    "fields": { "name": "Z20 Región XII ICETEL", "code": "Z20" }
+  }
+]

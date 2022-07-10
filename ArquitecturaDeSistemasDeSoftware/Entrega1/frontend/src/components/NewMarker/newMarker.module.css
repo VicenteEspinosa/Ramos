@@ -1,0 +1,22 @@
+.general {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  text-align: center;
+  flex: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.createButton {
+    background-color: #28ca2d;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 0px;
+
+}

@@ -1,0 +1,99 @@
+.Admin {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.Login {
+    width: 100%;
+    background-color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.items-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.save-btn {
+    background: #A3E199;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 0.5rem 3rem;
+}
+
+.save-btn:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    background: #79b171;
+}
+
+.reset-btn {
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 0.5rem 3rem;
+}
+
+.reset-btn:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    background: #9d9d9d;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

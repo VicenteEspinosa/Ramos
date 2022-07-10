@@ -1,0 +1,19 @@
+# --------------------------------------------
+# Python
+# --------------------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+Enunciado.pdf
+sprites
+bonus
+usuarios.json
+amistades.json
+amigos.json
+prueba.py
+parametros_prueba.json
+
+*.idea
+*.DS_STORE

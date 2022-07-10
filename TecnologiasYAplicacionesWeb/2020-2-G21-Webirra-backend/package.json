@@ -1,0 +1,36 @@
+{
+  "name": "2020-2-G21-Webirra-backend",
+  "version": "1.0.0",
+  "description": "nuestra app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PUCIIC2513/2020-2-G21-Webirra-backend.git"
+  },
+  "keywords": [],
+  "author": "Gonzalo Jose Vicente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PUCIIC2513/2020-2-G21-Webirra-backend/issues"
+  },
+  "homepage": "https://github.com/PUCIIC2513/2020-2-G21-Webirra-backend#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^9.4.0",
+    "koa-session": "^6.1.0",
+    "npx": "^10.2.2",
+    "pg": "^8.4.2",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "yarn": "^1.22.10"
+  }
+}

@@ -1,0 +1,19 @@
+version: 0.0
+os: linux
+files:
+ - source: .
+   destination: /home/ec2-user/e1-2022-1-grupo_18
+hooks:
+  ApplicationStop:
+    - location: deployment-scripts/stop_containers.sh
+      timeout: 20
+      runas: root
+  AfterInstall:
+    - location: deployment-scripts/build_images.sh
+      timeout: 10
+      runas: root
+  ApplicationStart:
+    - location: deployment-scripts/start_containers.sh
+      timeout: 10
+      runas: root
+file_exists_behavior: OVERWRITE

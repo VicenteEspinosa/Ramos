@@ -1,0 +1,27 @@
+.BoughtItem {
+    display: grid;
+    grid-template-columns: 10% 15% 65%;
+    grid-gap: 10px;
+}
+
+.BoughtItem-icon {
+    height: 10vh;
+    width: 10vh;
+    border: 1px solid rgb(2, 2, 2, 0.5);
+    border-radius: 5px;
+}
+
+.BoughtItem-name {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.BoughtItem-units {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.BoughtItem-price {
+    margin-top: 15px;
+}

@@ -1,0 +1,17 @@
+
+<div align=center>
+  <h1>Detalles comentario</h1>
+
+  <h2> Contenido </h2>
+      <div> <%= @comment.content %> </div><br>
+  <h2> Valoracion</h2>
+      <div> <%= @comment.rating %> </div><br>
+  <h2> Fecha de creación</h2>
+      <div> <%= @comment.created_at.to_date %> </div><br>
+
+  <%= link_to 'Lista de comentarios', index_comments_path %>
+  <%= link_to 'Editar comentario', comment_edit_path(@comment.id) %>
+  <%= link_to 'Eliminar comentario', comment_path(@comment.id), method: :delete, data: { confirm: '¿Estás seguro?' } %>
+
+</div>
+

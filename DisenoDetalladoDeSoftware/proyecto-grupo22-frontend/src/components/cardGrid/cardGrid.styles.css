@@ -1,0 +1,10 @@
+.card-grid {
+    display: grid;
+    width: 100%;
+    margin: 20px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 65vh;
+  }

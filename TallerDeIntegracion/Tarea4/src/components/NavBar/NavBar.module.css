@@ -1,0 +1,14 @@
+.links {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.searchBar {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

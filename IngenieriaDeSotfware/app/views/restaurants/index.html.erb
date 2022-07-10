@@ -1,0 +1,68 @@
+<p id="notice"><%= notice %></p>
+<div class="section">
+  <h3 class="title is-3" style="text-align:center">Locales</h3>
+</div>
+<% if not @approved_restaurants.empty?%>
+  <% @approved_restaurants.each do |restaurant| %>
+    <div class="profile-box" style="text-align: center">
+      <div class="columns">
+        <div class="column is-two-fifths">
+          <div class="image">
+            <%if restaurant.avatar? %>
+              <%= image_tag restaurant.avatar.url %>
+            <% else %>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4dUUvP1soMBHowgDGGnqjGZs3-wat0jvfwzM0e-XOMvs8Jy54&usqp=CAU">
+            <% end %>
+          </div>
+        </div>
+        <div class="column">
+          <h4 class="title is-4"> <%= restaurant.name %></h4>
+              <% if not @restaurant_comments[restaurant.id].empty?%>
+                <div class="field">
+                  <% @restaurant_ratings[restaurant.id].times do%>
+                    <span><i class='fas fa-heart'></i></span>
+                  <% end %>
+                  <% (5 - @restaurant_ratings[restaurant.id]).times do %>
+                    <span><i class="far fa-heart"></i></span>
+                  <% end %>
+                </div>
+                <div class="field">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-comments"></i>
+                  </span>
+                  <%= @restaurant_comments[restaurant.id].size %> comentarios
+                </div>
+              <% else %>
+                <div class="field">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-heart"></i>
+                  </span>
+                  Sin valoraciones
+                </div>
+                <div class="field">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-comments"></i>
+                  </span>
+                  Sin comentarios
+                </div>
+              <% end %>
+          <% unless restaurant.city_id.nil?%>
+            <div class="field">
+              <span class="icon is-small is-left">
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              <%= restaurant.location %>, <%= City.find_by(id: restaurant.city_id).name %>
+            </div>
+          <% end %>
+            <div class="field is-grouped is-grouped-centered">
+              <div class="control">
+                <%= link_to "Ver local", restaurant_path(id: restaurant.id), class: "button is-primary"%>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+<% else %>
+  <h5 class="title is-5" style="text-align:center">Aún no hay locales disponibles :(</h3>
+<% end %>

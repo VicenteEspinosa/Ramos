@@ -1,0 +1,752 @@
+[
+  {
+    "model": "backend_app.technician",
+    "pk": 1,
+    "fields": {
+      "email": "",
+      "first_name": "Jose Adilio",
+      "last_name": "Chavez Alnornoz",
+      "rut": "5982619-0",
+      "phone": "56966493766",
+      "category_id": 1,
+      "enterprise_id": 1,
+      "team_group_id": 4,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 2,
+    "fields": {
+      "email": "",
+      "first_name": "Roberto",
+      "last_name": "Donoso Ruiz",
+      "rut": "6493319-1",
+      "phone": "56979675542",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 5,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 3,
+    "fields": {
+      "email": "",
+      "first_name": "Luis Romilio",
+      "last_name": "Rumeau Castillo",
+      "rut": "6643051-0",
+      "phone": "56999319486",
+      "category_id": 0,
+      "enterprise_id": 5,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 4,
+    "fields": {
+      "email": "",
+      "first_name": "Jorge Manuel",
+      "last_name": "Ramirez Descovic",
+      "rut": "6671271-0",
+      "phone": "56994837992",
+      "category_id": 0,
+      "enterprise_id": 5,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 5,
+    "fields": {
+      "email": "",
+      "first_name": "Luis Gerardo",
+      "last_name": "Lagos Munoz",
+      "rut": "7105039-4",
+      "phone": "56994205157",
+      "category_id": 0,
+      "enterprise_id": 7,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 6,
+    "fields": {
+      "email": "",
+      "first_name": "Guillermo Enrique",
+      "last_name": "Palomino Canales",
+      "rut": "7106549-9",
+      "phone": "56996193778",
+      "category_id": 0,
+      "enterprise_id": 5,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 7,
+    "fields": {
+      "email": "",
+      "first_name": "Ricardo Antonio",
+      "last_name": "Villanueva Gonzalez",
+      "rut": "7413167-0",
+      "phone": "56995711096",
+      "category_id": 0,
+      "enterprise_id": 6,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 8,
+    "fields": {
+      "email": "",
+      "first_name": "Samuel Antonio",
+      "last_name": "Muñoz Parra",
+      "rut": "7812516-0",
+      "phone": "56932007803",
+      "category_id": 1,
+      "enterprise_id": 3,
+      "team_group_id": 9,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 9,
+    "fields": {
+      "email": "",
+      "first_name": "Manuel Francisco",
+      "last_name": "Escobedo Medina",
+      "rut": "8074335-1",
+      "phone": "56942111389",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 7,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 10,
+    "fields": {
+      "email": "",
+      "first_name": "Jose Vladimir",
+      "last_name": "Alvarado Espinosa",
+      "rut": "8113512-6",
+      "phone": "",
+      "category_id": 0,
+      "enterprise_id": 8,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 11,
+    "fields": {
+      "email": "",
+      "first_name": "Hugo Enrique",
+      "last_name": "Oliva Neira",
+      "rut": "8243144-6",
+      "phone": "56942886629",
+      "category_id": 1,
+      "enterprise_id": 3,
+      "team_group_id": 11,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 12,
+    "fields": {
+      "email": "",
+      "first_name": "Igor Angel",
+      "last_name": "Hernandez Chavez",
+      "rut": "8331862-7",
+      "phone": "56994995538",
+      "category_id": 0,
+      "enterprise_id": 8,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 13,
+    "fields": {
+      "email": "",
+      "first_name": "Ivan Marcelo",
+      "last_name": "Gonzalez Saavedra",
+      "rut": "8336589-7",
+      "phone": "56942886617",
+      "category_id": 1,
+      "enterprise_id": 3,
+      "team_group_id": 9,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 14,
+    "fields": {
+      "email": "",
+      "first_name": "Jorge Antonio",
+      "last_name": "Guzman Calderon",
+      "rut": "8456556-3",
+      "phone": "56938622331",
+      "category_id": 0,
+      "enterprise_id": 7,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 15,
+    "fields": {
+      "email": "",
+      "first_name": "Santiago Del carmen",
+      "last_name": "Rivera Sandoval",
+      "rut": "8500705-k",
+      "phone": "56999733724",
+      "category_id": 0,
+      "enterprise_id": 5,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 16,
+    "fields": {
+      "email": "",
+      "first_name": "Juan Carlos",
+      "last_name": "Manríquez Barrueto",
+      "rut": "8534607-5",
+      "phone": "56942111393",
+      "category_id": 1,
+      "enterprise_id": 1,
+      "team_group_id": 2,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 17,
+    "fields": {
+      "email": "",
+      "first_name": "Israel Enrique",
+      "last_name": "Nova Avello",
+      "rut": "8750889-7",
+      "phone": "",
+      "category_id": 0,
+      "enterprise_id": 6,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 18,
+    "fields": {
+      "email": "",
+      "first_name": "Luis Elias",
+      "last_name": "Gamboa Diaz",
+      "rut": "8842125-6",
+      "phone": "56999078434",
+      "category_id": 0,
+      "enterprise_id": 5,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 19,
+    "fields": {
+      "email": "",
+      "first_name": "Gabriel Hernando",
+      "last_name": "Flores Oyarzun",
+      "rut": "8928934-3",
+      "phone": "56942770391",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 21,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 20,
+    "fields": {
+      "email": "mmillar26@gmail.com",
+      "first_name": "Marcelo Andres",
+      "last_name": "Millar Sanhueza",
+      "rut": "8933176-5",
+      "phone": "56997966770",
+      "category_id": 0,
+      "enterprise_id": 5,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 21,
+    "fields": {
+      "email": "",
+      "first_name": "Danis Rodrigo",
+      "last_name": "Lagos Burgos",
+      "rut": "8969099-4",
+      "phone": "56942051680",
+      "category_id": 0,
+      "enterprise_id": 6,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 22,
+    "fields": {
+      "email": "",
+      "first_name": "Hector Ricardo",
+      "last_name": "Brito Salinas",
+      "rut": "8998216-2",
+      "phone": "56991954514",
+      "category_id": 0,
+      "enterprise_id": 5,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 23,
+    "fields": {
+      "email": "",
+      "first_name": "Eduardo Antonio ",
+      "last_name": "Castillo Ibañez",
+      "rut": "9101145-k",
+      "phone": "56938658958",
+      "category_id": 0,
+      "enterprise_id": 8,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 24,
+    "fields": {
+      "email": "angel.tabilo.villegas@tecnicos-ezentis.cl",
+      "first_name": "Angel Gabriel",
+      "last_name": "Tabilo Villegas",
+      "rut": "9262841-8",
+      "phone": "56995907631",
+      "category_id": 0,
+      "enterprise_id": 5,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 25,
+    "fields": {
+      "email": "provisionchillan@gmail.com",
+      "first_name": "Angel Custodio",
+      "last_name": "Mora Lagos",
+      "rut": "9328184-5",
+      "phone": "56997966772",
+      "category_id": 0,
+      "enterprise_id": 5,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 26,
+    "fields": {
+      "email": "hectorvergara66@gmail.com",
+      "first_name": "Hector Enrique",
+      "last_name": "Vergara Perez",
+      "rut": "9364486-7",
+      "phone": "56995188806",
+      "category_id": 0,
+      "enterprise_id": 6,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 27,
+    "fields": {
+      "email": "",
+      "first_name": "Damian Fernando",
+      "last_name": "Castillo Robles",
+      "rut": "9387168-5",
+      "phone": "56941057062",
+      "category_id": 0,
+      "enterprise_id": 9,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 28,
+    "fields": {
+      "email": "",
+      "first_name": "Juan Adrian",
+      "last_name": "Lizama Labbe",
+      "rut": "9388603-8",
+      "phone": "56939105049",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 8,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 29,
+    "fields": {
+      "email": "",
+      "first_name": "Juan Carlos",
+      "last_name": "Gaete Ojeda",
+      "rut": "9476230-8",
+      "phone": "56929378926",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 19,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 30,
+    "fields": {
+      "email": "",
+      "first_name": "Cristian Leonardo",
+      "last_name": "Fuentes Carvalho",
+      "rut": "9537689-4",
+      "phone": "56933967625",
+      "category_id": 1,
+      "enterprise_id": 1,
+      "team_group_id": 13,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 31,
+    "fields": {
+      "email": "francisco.endrussat@tecnicos-ezentis.cl",
+      "first_name": "Francisco Federico",
+      "last_name": "Endrussat Cuevas",
+      "rut": "9538199-5",
+      "phone": "56999234429",
+      "category_id": 0,
+      "enterprise_id": 5,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 32,
+    "fields": {
+      "email": "",
+      "first_name": "Alvaro Hernan",
+      "last_name": "Hernandez Nuñez",
+      "rut": "9561284-9",
+      "phone": "56977066476",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 7,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 33,
+    "fields": {
+      "email": "",
+      "first_name": "Germán Alejandro",
+      "last_name": "Contreras Tapia",
+      "rut": "9616234-0",
+      "phone": "56934130088",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 8,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 34,
+    "fields": {
+      "email": "",
+      "first_name": "Carlos Alberto",
+      "last_name": "Oyarzún Morales",
+      "rut": "9660704-0",
+      "phone": "56942122898",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 8,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 35,
+    "fields": {
+      "email": "",
+      "first_name": "Walter Edmundo",
+      "last_name": "Bugueno Ortiz",
+      "rut": "9687145-7",
+      "phone": "56992689864",
+      "category_id": 0,
+      "enterprise_id": 8,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 36,
+    "fields": {
+      "email": "",
+      "first_name": "Cristian Mario",
+      "last_name": "Borquez Sandoval",
+      "rut": "9697906-1",
+      "phone": "56979675057",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 20,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 37,
+    "fields": {
+      "email": "",
+      "first_name": "David Fabian",
+      "last_name": "Echeverria Garin",
+      "rut": "9805450-2",
+      "phone": "56968711015",
+      "category_id": 0,
+      "enterprise_id": 8,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 38,
+    "fields": {
+      "email": "",
+      "first_name": "Jaime Moises",
+      "last_name": "Espinoza Bustos",
+      "rut": "9902094-6",
+      "phone": "56972101021",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 5,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 39,
+    "fields": {
+      "email": "",
+      "first_name": "Fernando Jose",
+      "last_name": "Blanco Huenchunir",
+      "rut": "9929544-9",
+      "phone": "56934694279",
+      "category_id": 0,
+      "enterprise_id": 8,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 40,
+    "fields": {
+      "email": "",
+      "first_name": "Patricio Alejandro",
+      "last_name": "Martinez Palominos",
+      "rut": "9993051-9",
+      "phone": "56997447101",
+      "category_id": 0,
+      "enterprise_id": 5,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 41,
+    "fields": {
+      "email": "pablobeltranfuentes@hotmail.com",
+      "first_name": "Pablo Antonio",
+      "last_name": "Beltran Fuentes",
+      "rut": "10004805-1",
+      "phone": "56997529297",
+      "category_id": 0,
+      "enterprise_id": 6,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 42,
+    "fields": {
+      "email": "",
+      "first_name": "Julio",
+      "last_name": "Valenzuela Valenzuela",
+      "rut": "10014689-4",
+      "phone": "56933978791",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 5,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 43,
+    "fields": {
+      "email": "",
+      "first_name": "Miguel Patricio",
+      "last_name": "Guerrero Venegas",
+      "rut": "10081945-7",
+      "phone": "56934260488",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 8,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 44,
+    "fields": {
+      "email": "",
+      "first_name": "Juan Jose ",
+      "last_name": "Toro Lopez",
+      "rut": "10088687-1",
+      "phone": "56920044834",
+      "category_id": 0,
+      "enterprise_id": 7,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 45,
+    "fields": {
+      "email": "",
+      "first_name": "Jorge Mauricio",
+      "last_name": "Martínez López",
+      "rut": "10220927-3",
+      "phone": "56933982437",
+      "category_id": 1,
+      "enterprise_id": 1,
+      "team_group_id": 1,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 46,
+    "fields": {
+      "email": "aezm@cam-telecom.com",
+      "first_name": "Alex Emil",
+      "last_name": "Zalaquett Meza",
+      "rut": "10259744-3",
+      "phone": "",
+      "category_id": 0,
+      "enterprise_id": 4,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 47,
+    "fields": {
+      "email": "jose.ovalle@tecnicos-ezentis.cl",
+      "first_name": "Jose Luis",
+      "last_name": "Ovalle Lopez",
+      "rut": "10280914-9",
+      "phone": "",
+      "category_id": 0,
+      "enterprise_id": 5,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 48,
+    "fields": {
+      "email": "",
+      "first_name": "Manuel Washington",
+      "last_name": "Elgueta Vidal",
+      "rut": "10318021-k",
+      "phone": "56962373539",
+      "category_id": 0,
+      "enterprise_id": 6,
+      "team_group_id": 0,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 49,
+    "fields": {
+      "email": "",
+      "first_name": "Carlos",
+      "last_name": "Hidalgo Ormeño",
+      "rut": "10350478-3",
+      "phone": "56933840525",
+      "category_id": 1,
+      "enterprise_id": 1,
+      "team_group_id": 2,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "backend_app.technician",
+    "pk": 50,
+    "fields": {
+      "email": "",
+      "first_name": "Roberto Hilario",
+      "last_name": "Morales Ramos",
+      "rut": "10364889-0",
+      "phone": "",
+      "category_id": 1,
+      "enterprise_id": 2,
+      "team_group_id": 8,
+      "last_audit_date": "2020-01-01 00:00:00"
+    }
+  }
+]

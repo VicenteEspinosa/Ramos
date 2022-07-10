@@ -1,0 +1,47 @@
+<div class="form-box">
+
+  <h3 class="title is-3" style="text-align:center">Iniciar sesión</h3>
+
+  <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+    <div class="field">
+      <%= f.label :email, class: "label" %>
+      <div class="control">
+        <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "input" %>
+      </div>
+    </div>
+
+    <div class="field">
+      <%= f.label :password, 'Contraseña', class: "label" %>
+      <div class="control">
+        <%= f.password_field :password, autocomplete: "current-password", class: "input" %>
+      </div>
+    </div>
+
+    <% if devise_mapping.rememberable? %>
+      <div class="field" style="text-align:center">
+        <%= f.check_box :remember_me, type: "checkbox"%>
+        <%= f.label :remember_me, 'Recuérdame', class: "checkbox" %>
+      </div>
+    <% end %>
+
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <%= f.submit "Iniciar sesión", class: "button is-success" %>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+          <%= link_to '¿Olvidaste tu contraseña?', new_password_path(resource_name), class: "tag is-danger is-light" %>
+        </div>
+        <div class="control">
+          <%= link_to '¿No tienes una cuenta? ¡Registrate!', new_user_registration_path, class: "tag is-link is-light" %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+
+</div>
+
+

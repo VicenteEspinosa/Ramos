@@ -1,0 +1,32 @@
+{
+    "101": {
+        "name": "Nuez",
+        "waiting_time": 120,
+        "batch_size": 3,
+        "requires": []
+    },
+    "100": {
+        "name": "Mantequilla",
+        "waiting_time": 10,
+        "batch_size": 5,
+        "requires": []
+    },
+    "105": {
+        "name": "Leche condensada",
+        "waiting_time": 120,
+        "batch_size": 4,
+        "requires": []
+    },
+    "300": {
+        "name": "Coca Cola",
+        "waiting_time": 30,
+        "batch_size": 3,
+        "requires": []
+    },
+    "600": {
+        "name": "Pisco",
+        "waiting_time": 40,
+        "batch_size": 2,
+        "requires": []
+    }
+}

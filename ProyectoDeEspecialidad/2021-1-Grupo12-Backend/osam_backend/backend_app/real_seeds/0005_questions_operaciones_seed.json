@@ -1,0 +1,3764 @@
+[
+  {
+    "model": "backend_app.question",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿La camioneta solo tiene elementos necesarios en su interior?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿La camioneta se observa limpia? (por dentro y fuera)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Están los elementos de la camioneta 5S en buen estado y según el criterio de orden y prioridad definido?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿La camioneta se observa en buen estado? (neumáticos, carrocería, pintura, etc.)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Vehículo tiene toda la documentación al día? (Permiso de circulación, Revisión Técnica, Padrón.)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 6,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alicate de Fuerza, Cortante y de Punta  (mínimo 1 unidad de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 7,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Roseta Fibra Optica",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 8,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Jumper FO SC/APC",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 9,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Brocas Madera, Concreto, Metal y Pasa Muro Concreto (mínimo 2 unidades de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 10,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "FO Drop para FTTH Norma G 657",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 11,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conector de Campo para FO Roma",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 12,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cable UTP Categoria 5e",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 13,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cadena y Candado escaleras (Ambos)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 14,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alcohol isopropílico 99%",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 15,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cautín 25W (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 16,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Clavija krone lsa plus, Mondragon, Sistema 71 (mínimo 1 unidad de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 17,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cable Pin Telefónico",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 18,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Roseta Telefonica con gel",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 19,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conectora lsa 71 ",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 20,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Destornillador Cruz, Paleta y Torx (forma estrella)  (mínimo 1 unidad de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 21,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conectores RJ45 Categoria 5e",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 22,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Deschaquetador de primera cubierta para DROP de baja Fricción",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 23,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Escalera telescópica de 3 a 6 m y de Tijera interior de 1,5 m (Ambas)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 24,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tijera para Cortar Aramida",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 25,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Power meter GPON",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 26,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Gancho (de cámara)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 27,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Generador de tono",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 28,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Grimpiadora para conector rj-45, rj-11",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 29,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Herr. de limpieza (pala, escoba)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 30,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Huincha de medir y Nivel (Ambos)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 31,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Inductor",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 32,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Juego de llaves punta y corona",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 33,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Laucha Pasa Cable de Acero y Platico (Ambas)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 34,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Paños secos para FO",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 35,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Maleta porta herramientas con ruedas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 36,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Marco de sierra",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 37,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Deschaquetador de recubrimiento de FO 125micras Tipo Miller",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 38,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cortadora de precisión 3 pasos, con receptáculo para residuos",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 39,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Protector de cable para pasadas de muro",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 40,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Taladro tipo Hilti",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 41,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Teléfono de prueba",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 42,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tizador (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 43,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Brújula, GPS (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 44,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Multitester",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 45,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Notebook (mínimo core 5, 4 GB de RAM)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 46,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Odómetro (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 47,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "PinPass",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 48,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tester para cable de red (UTP) ",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 49,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alcohol isopropílico 99%",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 50,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Brocas Madera, Concreto, Metal y Pasa Muro Concreto (mínimo 2 unidades de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 51,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Camioneta Tiene Imagen Corporativa Entel",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 52,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Taladro eléctrico",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 53,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tijera para Cortar Aramida",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 54,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Porta Carrete",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 55,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Pala y Escoba portátil",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 56,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Escalera de Tijera y Telescópica 12 Peldaños (Ambas)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 57,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "FO Drop para FTTH Norma G 657",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 58,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Limpiador de conectores tipo One Click",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 59,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Deschaquetador para cables con cubierta redonda (UTP, RG6 )",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 60,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Dispensador de alcohol",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 61,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Deschaquetador de primera cubierta para DROP de baja Fricción",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 62,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Deschaquetador de recubrimiento de FO 125micras Tipo Miller",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 63,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Deschaquetador para cables con cubierta redonda (UTP. RG6) (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 64,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Linterna Para Cabeza (Tipo Minero)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 65,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llaves Armario (Abloy)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 66,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Multi tester eléctrico",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 67,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Notebook con puerta Giga",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 68,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Paño de cordura color negro, para recibir residuos de FO ( 0,5mts x 1mts )",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 69,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Paños secos para FO",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 70,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Laucha Pasa Cable de Acero y de Plastico (Ambas)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 71,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cable UTP Categoria 5e",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 72,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Pinpass",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 73,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Power meter GPON",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 74,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Recipiente estanco con tapa, para depositar residuos de FO",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 75,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tester para cable UTP",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 76,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "VFL Luz visible para localizar fallas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 77,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cortadora de precisión 3 pasos, con receptáculo para residuos",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 78,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Crimper para cable UTP",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 79,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alicate cortante, de punta y Universal (mínimo 1 unidad de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 80,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alicate de Punta (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 81,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alicate Universal (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 82,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Atornillador de Cruz",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 83,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Bandera Roja",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 84,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Brocas Madera, Concreto, Metal y Pasa Muro Concreto (mínimo 2 unidades de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 85,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Broca para Concreto 10 mm (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 86,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Broca para Concreto 6 mm (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 87,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Broca para Concreto 8 mm  (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 88,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Broca para Madera 10 mm (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 89,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Broca para Madera 6 mm (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 90,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Broca para Madera 8 mm (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 91,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Broca para Metal 10 mm largas (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 92,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Broca para Metal 6 mm (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 93,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Broca para Metal 8 mm (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 94,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cadena con candado",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 95,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Caja de herramientas transportable",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 96,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Caja metálica organizadora",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 97,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Destornillador Neón",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 98,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Escalera de Tijeras 1,2 mts",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 99,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Escalera Telescópica de dos secciones (2.4 mts. como mínimo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 100,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Extensión Eléctrica 30 mts",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 101,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Laucha de Acero",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 102,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Laucha Plástica (20mts)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 103,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llave dado 10 y 8 pulgadas (mínimo 1 unidad de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 104,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llave dado 8 pulgadas (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 105,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llave de Torque 7/16 pulgadas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 106,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llave Francesa",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 107,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llave Pta/Corona 7/16 pulgadas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 108,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llave Tubo Recta 7/16 pulgadas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 109,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llave Tubo Recta 8 mm 5/16 pulgadas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 110,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Martillo",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 111,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Perillero Cruz y Paleta (mínimo 1 unidad de cada tipo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 112,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Perillero Paleta (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 113,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Porta Carrete",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 114,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Sierra Metálica",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 115,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Sistema de Comunicación",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 116,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Taladro con percutor tipo Hilti",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 117,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Crimpiadora para conector RG 6",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 118,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cuchillo pela cable para RG-6",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 119,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Inclinómetro",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 120,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Linterna con pilas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 121,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Pelacables para RG 6 coaxial (homologado)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 122,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Pistola Calafateadora (de Silicona)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 123,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Medidor de señal (según normas técnicas)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 124,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Multi Metro Digital",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 125,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Máquina fotográfica (1 por team) (puede ser reemplazada por Smartphone adhoc)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 126,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES Herramientas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 127,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Casco de seguridad.",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 128,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Barbiquejo.",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 129,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Lentes de seguridad.",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 130,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Protectores auditivos (desechables o audífono) (Telco)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 131,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Calzado de seguridad (dieléctrico)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 132,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Chaleco reflectante (amarillo).",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 133,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Amortiguador de caída con doble cabo de vida.",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 134,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guantes de neopreno o similares (dieléctricos).",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 135,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guantes de cabritilla.",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 136,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Mascara respiratoria con filtro (Min 3) (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 137,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Estrobo de seguridad",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 138,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Antiparras y Protector facial.",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 139,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Baranda de cámaras (Telco/3Play), Cartuchera de Cuero porta Herramientas (Bafi/Home)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 140,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Botas de Goma (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 141,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Casco de seguridad (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 142,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Brújula (instrumento) (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 143,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cinturón arnés",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 144,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cinturón de seguridad tipo paracaídas 3 puntas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 145,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conos de señalización",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 146,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Mosquetón escala y línea de vida",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 147,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Protector solar personal",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 148,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Casco de seguridad",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 149,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Barbiquejo",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 150,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Lentes de seguridad",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 151,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Protector solar personal",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 152,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Calzado de seguridad",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 153,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Chaleco reflectante (amarillo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 154,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Amortiguador de caída con doble cabo de vida",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 155,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guantes de neopreno o similares (dieléctricos)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 156,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guantes de cabritilla",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 157,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Baranda de cámaras",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 158,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Botas de goma (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 159,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Antiparras y Protector facial",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 160,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Casco de seguridad (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 161,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cinturón arnes",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 162,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cinturón de seguridad tipo paracaídas 3 puntas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 163,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conos de señalización",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 164,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Estrobo de Seguridad",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 165,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Máscara respiratoria con filtros (min 3) (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 166,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Mosquetón escala y línea de vida",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 167,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cubre calzado",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 168,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Casco de seguridad",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 169,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Barbiquejo",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 170,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Lentes de seguridad",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 171,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Protector solar personal",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 172,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Calzado de seguridad",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 173,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Chaleco reflectante (amarillo)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 174,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Amortiguador de caída con doble cabo de vida",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 175,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guantes de neopreno o similares (dieléctricos)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 176,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guantes de cabritilla",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 177,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Antiparras y Protector facial",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 178,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Brújula (instrumento) (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 179,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cartuchera de Cuero porta Herramientas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 180,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cinturón arnés",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 181,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cinturón de seguridad tipo paracaídas 3 puntas",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 182,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conos de señalización",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 183,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Estrobo de Seguridad",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 184,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Máscara respiratoria con filtros (min 3) (No preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 185,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Mosquetón escala y línea de vida",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 186,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES EPP",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 187,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Parka hipora",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 188,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Chaleco geólogo (Pregunta Obligatoria)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 189,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Polar, Polera manga larga, Camisa, Overall (al menos una de las cuatro)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 190,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Polera manga larga",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 191,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Pantalón cargo, Pantalón gabardina, Overall (al menos uno de los tres)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 192,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Jardinera térmica (mineras)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 193,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Camisa",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 194,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Overrall",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 195,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cazadora",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 196,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Pantalón (Gabardina)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 197,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Parka hipora con polar",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 198,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Polar, Polera manga larga, Camisa (al menos una de las tres)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 199,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Pantalón cargo ristop",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 200,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Camisa",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 201,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cazadora ristop",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 202,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Pantalón (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 203,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES Vestimenta",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 204,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico verifica Factibilidad Técnica? (Revisión línea vista e instalación eléctrica)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 205,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Si falta equipamiento necesario para realizar Tarea/Falla, ¿Técnico escala al Despacho y/o Supervisor y/o Bodega?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 206,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico completa lista de chequeo de vehículos livianos y EPP?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 207,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico acuerda con el cliente el recorrido del cable (interior, exterior)?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 208,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico verifica la existencia de condiciones apropiadas para el anclaje de la base de la antena en el punto establecido para ello?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 209,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico realiza la instalación de la (las) antena(s) según los procedimientos establecidos en el manual de instalación?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 210,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico explica las funciones del Control Remoto?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 211,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico realiza la instalación de equipos en cliente, según los procedimientos establecidos en el manual de instalación?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 212,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico realiza armado de conector RJ45 Cat6 Blindado según procedimientos establecidos en el manual de instalación?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 213,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico aprieta los conectores únicamente con las manos?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 214,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico conecta todos los equipos a tomas de corriente en buen estado?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 215,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico se comunica con Despacho y/o Supervisor si ocurre algún inconveniente?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 216,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico utiliza para cableado del domicilio solo material proporcionado por Entel?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 217,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico realiza el cableado del domicilio según lo indica el manual de instalación?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 218,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico utiliza multiswitch en el caso que se requieran instalar mas de dos puntos en cliente?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 219,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico realiza validación de trabajo con Mesa de soporte?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 220,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico valida con cliente si estan los canales contratados?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 221,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Usa los EPP cuando corresponde?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 222,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico entrega las contraseñas de wifi?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 223,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico explica como cambiar la contraseña Wifi?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 224,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Acuerda con el cliente el recorrido del cable (interior, exterior)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 225,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Levantamiento del recorrido del acceso",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 226,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Informa a cliente que realizará trabajos en el exterior",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 227,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Explica servicios a instalar",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 228,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Utiliza herramienta One Click para limpiar conector SC lado Gabinete/URA",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 229,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Mide potencia en Filamento asignado",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 230,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "La potencia medida en el Gabinete/URA es la correcta",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 231,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Rotula Filamento",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 232,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Registra con fotografías",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 233,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Identifica filamento local asignado",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 234,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Utiliza herramienta One Click para limpiar conector SC lado CTO",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 235,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Validad dirección y cuenta de CTO",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 236,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Mide potencia en filamento asignado",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 237,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": " La potencia medida en el CTO es la correcta.",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 238,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Realiza tendido de Drop",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 239,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Deschaquetar Cable DROP",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 240,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Limpia FO con alcohol isopropílico y paños secos para FO",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 241,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Pudo conectar FO en posición asignada?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 242,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Retira recubrimiento de FO con deschaquetador tipo Miller",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 243,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Revisa integridad de FO después del deschaquetado",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 244,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Fijar Drop en CTO",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 245,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Rotula Drop con datos correspondientes",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 246,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "En caso de no utilizar posición asignada, se contacta con la Mesa de Soporte",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 247,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Conectar FO en Fibra asignada",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 248,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Preparar y revisar conector de campo SC-APC",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 249,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Corta FO con cortadora de precisión 3 paso",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 250,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Cerrar CTO",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 251,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Deschaqueta Drop con deschaquetador",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 252,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Fija roseta a muro con tornillos y tarugos",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 253,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Coloca guía en posición de roseta",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 254,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Limpia FO con alcohol isopropílico y paños secos",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 255,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Rotula Roseta",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 256,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Realiza fijaciones de drop ",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 257,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Prepara y revisa conector de campo SC-APC para colocar en roseta",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 258,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Fija conector a roseta",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 259,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Retira recubrimiento con deschaquetador tipo Miller",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 260,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Corta FO con cortadora de precisión 3 pasos",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 261,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "El corte realizado a la fibra cumple con los estándares definidos por Entel?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 262,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Mide potencia en conector de Roseta",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 263,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "La potencia medida en la Roseta Cliente es la correcta.",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 264,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Realiza tendido de cable Pin telefónico, UTP, jumper (según corresponda) con las fijaciones correspondientes. ",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 265,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Realiza conector RJ45, UTP, Pin (según corresponda) con las herramientas correspondientes",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 266,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Utiliza conector UTP Homologado ",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 267,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Instala teléfonos, STB, ONT, Transceiver, Router, SW (según corresponda) de acuerdo a procedimiento",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 268,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Mide potencia en Jumper",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 269,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "La potencia medida en Jumper es la correcta.",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 270,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico explica como ver la TV en la APP entel TV en su dispositivo movil?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 271,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico explica que el test de Velocidad se realiza conectado directamente a la ONT a traves de una cable de red (UTP)?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 272,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Configura Wifi en ambas bandas 2,4Ghz y 5Ghz",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 273,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico explica como operar el STB Android?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 274,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico explica las funciones del Control Remoto?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 275,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Mide cobertura wifi y velocidad en al menos 3 puntos de interés para cliente",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 276,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Valida canales de TV según pack contratado",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 277,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Realiza pruebas de voz y servicios suplementarios",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 278,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Mide ancho de banda a través de cable ethernet",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 279,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Usa los EPP cuando corresponde?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 280,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico explica como cambiar la contraseña Wifi?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 281,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Registra todos los pasos con fotografías y las envía al repositorio",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 282,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Utiliza paño negro para residuos de FO",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 283,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Utiliza Cubre zapatos en las dependencias de Cliente",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 284,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "Utiliza recipiente para llevar residuos de FO",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 285,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Configura la cuenta Google de cliente en el deco Android?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 286,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Capacita al cliente en la correcta operación del servicio?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 287,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES Tareas en Terreno",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 288,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico saluda al cliente por su nombre, tratándolo de usted?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 289,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico se presenta e identifica con su nombre?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 290,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico lleva su credencial a la vista?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 291,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico solicita permiso para ingresar al hogar?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 292,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico explica al cliente los productos contratados?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 293,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico solicita al cliente que le indique donde quiere que se realice la instalación? ",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 294,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico comunica los pasos a seguir para la resolución del requerimiento y los tiempos estimados?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 295,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿ Técnico solicita al cliente permiso para revisar el servicio y luego le da un diagnóstico de lo que ocurre? (Solo Mantención)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 296,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico informa a cliente que ingresara en varias oportunidades al domicilio?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 297,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico solicita permiso para mover muebles u objetos para no causar destrozos?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 298,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico deja todo limpio y ordenado al finalizar la instalación? (con los elementos de limpieza corporativos)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 299,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico comprueba el funcionamiento de los servicios con el cliente? ",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 300,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico realiza breve capacitación de los servicios que posea el cliente y contesta todas sus consultas?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 301,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico consulta al cliente si desea personalizar el nombre de su red WIFI?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 302,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico realiza un resumen de la atención?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 303,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico entrega copia del “Formulario de Trabajos realizados”?, anotando su nombre completo, Rut y firma",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 304,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico menciona el número 103 para dudas y/o consultas? (3 Play y Home/Bafi)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 305,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES Relacionamiento Cliente",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 306,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Crimper para cable UTP (Solo BAFI)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 307,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tester para cable de red (UTP) (Solo BAFI)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 308,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Deschaquetador para cables con cubierta redonda (UTP, RG6 ) (Solo BAFI)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 309,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tijera de electricista con muesca para pelar (Solo BAFI)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 310,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Bolso de herramientas (Solo BAFI)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 311,
+    "fields": {
+      "category": 0,
+      "options": { "possible_values": ["SI", "NO", "N/A", "N/O"] },
+      "value": "¿Técnico tiene un trato cordial con el cliente en todo momento?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 312,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alcohol Gel o Agua y Jabon",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 313,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guantes",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 314,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Antiparras transparente que cubran ambos ojos",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 315,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Mascarilla",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 316,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Agua (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 317,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Jabón (No Preguntar)",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 318,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Técnico se lava las manos durante el trabajo?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 319,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Técnico recuerda mantener distancia exigida por el ministerio de Salud (1 metro)?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 320,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Técnico asiste a reuniones que incluyan más de 5 personas?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 321,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Técnico evita las aglomeraciones de gente (durante descansos u hora de almuerzo)?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 322,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Sanitiza diariamente vehículo y deja registro de ello (o la empresa)?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 323,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Sanitiza diariamente herramientas y equipos a utilizar y deja registro de ello (o la empresa)?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 324,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Sanitiza diariamente Ropa de trabajo y deja registro de ello (o la empresa)?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 325,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Tiene respaldo escrito y firmado de haber recibido los Protocolos Covid-19?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 326,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES Covid",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 327,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Router Inalambrico Extensor Wifi",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 328,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Router Inalambrico Extensor Wifi",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 329,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Existe buena cobertura WIFI en los 3 puntos de interes?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 330,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "En caso de haber problema de cobertura wifi. ¿Técnico ofrece extensor WIFI a Cliente?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 331,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "En caso de haber problema de cobertura wifi. ¿Cliente acepta instalación de Extensor Wifi?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 332,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "En caso de haber problema de cobertura wifi. ¿Técnico Instala Extersor WIFI?",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 333,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "FO Drop para FTTH Norma G 657",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 334,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conector de Campo para FO Roma",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 335,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conecctores RJ45 Categoria 5e",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 336,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cable Pin Telefonico",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 337,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Roseta Telefonica con gel",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 338,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Roseta Fibra Optica",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 339,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Jumper FO SC-APC",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 340,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Maleta de herramientas con ruedas tipo 5S",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 341,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Protector de cable para pasadas de muro",
+      "status": true,
+      "category_id": 0
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 342,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES CAMIONETA OPERACIONES",
+      "status": true,
+      "category_id": 0
+    }
+  }
+]

@@ -1,0 +1,16 @@
+.Title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 0.5em;
+}
+
+.Cupon {
+  margin: 10px;
+  border: 1px solid rgb(2, 2, 2, 0.5);
+}
+
+.Cupons-list {
+  padding: 0.5%;
+  background-color: #c4c4c4;
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "model": "backend_app.enterprise",
+        "pk": "1",
+        "fields": {
+            "name": "ELECTROTEL"
+        }
+    },
+    {
+        "model": "backend_app.enterprise",
+        "pk": "2",
+        "fields": {
+            "name": "Icetel"
+        }
+    },
+    {
+        "model": "backend_app.enterprise",
+        "pk": "3",
+        "fields": {
+            "name": "Telrad Chile S.A."
+        }
+    },
+    {
+        "model": "backend_app.enterprise",
+        "pk": "4",
+        "fields": {
+            "name": "CAM"
+        }
+    },
+    {
+        "model": "backend_app.enterprise",
+        "pk": "5",
+        "fields": {
+            "name": "EZENTIS"
+        }
+    },
+    {
+        "model": "backend_app.enterprise",
+        "pk": "6",
+        "fields": {
+            "name": "SICE"
+        }
+    },
+    {
+        "model": "backend_app.enterprise",
+        "pk": "7",
+        "fields": {
+            "name": "ZENER"
+        }
+    },
+    {
+        "model": "backend_app.enterprise",
+        "pk": "8",
+        "fields": {
+            "name": "ECC"
+        }
+    },
+    {
+        "model": "backend_app.enterprise",
+        "pk": "9",
+        "fields": {
+            "name": "TRAZA"
+        }
+    },
+    {
+        "model": "backend_app.enterprise",
+        "pk": "10",
+        "fields": {
+            "name": "DOMINION"
+        }
+    }
+]

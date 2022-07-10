@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Coupons</h1>
+
+<div id="coupons">
+  <% @coupons.each do |coupon| %>
+    <%= render coupon %>
+    <p>
+      <%= link_to "Show this coupon", coupon %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New coupon", new_coupon_path %>

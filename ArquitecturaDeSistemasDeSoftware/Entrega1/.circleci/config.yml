@@ -1,0 +1,71 @@
+
+version: 2.1
+
+orbs:
+  ruby: circleci/ruby@1.4.0
+
+
+jobs:
+  deploy:
+    docker:
+      - image: circleci/openjdk:8-jdk
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "97:3a:18:0f:2d:80:7b:6d:74:c3:64:ed:be:fa:fc:2c"
+      - checkout
+      - run:
+          name: Deploy
+          command: |
+            echo "\nPulling\n"
+            ssh -o StrictHostKeyChecking=no ubuntu@www.grupo1.ml sudo "ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts && git -C e1-2022-1-grupo_01 pull https://github.com/iic2173/e1-2022-1-grupo_01.git master"
+            echo "\nBuilding\n"
+            ssh -o StrictHostKeyChecking=no ubuntu@www.grupo1.ml docker compose -f e1-2022-1-grupo_01/docker-compose.production.yml build
+            echo "\nTaking Down Docker Image\n"
+            ssh -o StrictHostKeyChecking=no ubuntu@www.grupo1.ml docker compose -f e1-2022-1-grupo_01/docker-compose.production.yml down
+            echo "\nStarting Deploy ...\n"
+            ssh -o StrictHostKeyChecking=no ubuntu@www.grupo1.ml docker compose -f e1-2022-1-grupo_01/docker-compose.production.yml up -d
+
+  build_and_test:
+    working_directory: ~/e1-2022-1-grupo_01/backend
+    docker:
+      - image: cimg/ruby:2.7.2
+        environment:
+          PGHOST: localhost
+          PGUSER: backend
+          RAILS_ENV: test
+          POSTGRES_PASSWORD: postgres
+      - image: postgres:latest
+        environment:
+          POSTGRES_USER: backend
+          POSTGRES_DB: backend_test
+          POSTGRES_PASSWORD: postgres
+    executor: ruby/default
+    steps:
+      - checkout:
+          path: ~/e1-2022-1-grupo_01/
+      - run:
+          name: Install gems
+          command: bundle install --verbose
+      - run:
+          name: Wait for DB
+          command: dockerize -wait tcp://localhost:5432 -timeout 1m
+      - run:
+          name: Create DB
+          command: |
+            bundle exec rails db:setup
+      - run:
+          name: Run tests
+          command: bundle exec rails test
+
+workflows:
+  Backend:
+    jobs:
+      - build_and_test
+      - deploy:
+          filters:
+              branches:
+                only:
+                  - master
+          requires:
+                    - build_and_test

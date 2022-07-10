@@ -1,0 +1,33 @@
+<div align=center>
+
+  <h1>Comentarios</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Contenido</th>
+        <th>Valoracion</th>
+        <th>Fecha</th>
+        <th colspan='3'>Información</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @comments.each do |comment| %>
+        <tr>
+          <td><%= comment.id %></td>
+          <td><%= comment.content %></td>
+          <td><%= comment.rating%></td>
+          <td><%= comment.created_at.to_date %></td>
+          <td><%= link_to 'Ver información', comment_path(comment.id) %><td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <br>
+  <%= link_to 'Crear comentario', comments_new_path %>
+  <%= link_to 'Home', home_path %>
+
+</div>

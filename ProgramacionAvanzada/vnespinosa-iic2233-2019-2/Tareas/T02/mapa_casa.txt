@@ -1,0 +1,9 @@
+P P P P P P P P P P P P P P
+P S S S S S S S S S S S S P
+P S S S S S S S S S S S S P
+P C S S S S S S S S S S S P
+P S S S S S S S S S S S S P
+P S S S S S S S S S S S S P
+P S S S S S S S S S S S S P
+P S S S S S S S S S S S S P
+P P P P P P D P P P P P P P

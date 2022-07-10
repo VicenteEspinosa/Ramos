@@ -1,0 +1,20 @@
+[
+  {
+    "model": "backend_app.client",
+    "fields": {
+        "id": 0,
+        "name": "Operaciones",
+        "category": "0",
+        "token": "OHbBOolIB1"
+    }
+  },
+  {
+    "model": "backend_app.client",
+    "fields": {
+        "id": 1,
+        "name": "Redes",
+        "category": "1",
+        "token": "GFNcuAKnRl"
+    }
+  }
+]

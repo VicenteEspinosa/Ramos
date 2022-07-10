@@ -1,0 +1,32 @@
+.general {
+  position: absolute;
+  top: 60vh;
+  left: 80vw;
+  width: 20vw;
+  height: 10vh;
+  background-color: #3c578d;
+}
+
+.button {
+  background-color: #83e329;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search {
+  margin-top: 10px;
+}
+
+.input {
+  width: 22vh;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+}
+
+.input::placeholder {
+  text-align: right;
+}

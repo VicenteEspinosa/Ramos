@@ -1,0 +1,84 @@
+<title>Tu perfil</title>
+
+<% if user_signed_in? %>
+  <div class="profile-box">
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <div class="image">
+          <%if @current_user.avatar? %>
+            <%= image_tag @current_user.avatar.url %>
+          <% else %>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png">
+          <% end %>
+        </div>
+      </div>
+      <div class="column">
+        <h4 class="title is-4"> <%= @current_user.name %></h4>
+        <p>
+          <%= @current_user.description %>
+        </p>
+      </div>
+      <div class="column">
+        <h4 class="title is-4">Información personal</h4>
+          <div class="field">
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <%= @current_user.email %>
+          </div>
+          <div class="field">
+            <span class="icon is-small is-left">
+              <i class="fas fa-phone"></i>
+            </span>
+            <%= @current_user.phone_number %>
+          </div>
+          <div class="field">
+            <span class="icon is-small is-left">
+              <i class="fas fa-birthday-cake"></i>
+            </span>
+            <%= @current_user.birthdate %>
+          </div>
+          <% unless @current_user.city_id.nil?%>
+            <div class="field">
+              <span class="icon is-small is-left">
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              <%= City.find_by(id: @current_user.city_id).name %>
+            </div>
+          <% end %>
+            <div class="field is-grouped is-grouped-center">
+              <%= link_to "Editar perfil",  edit_user_registration_path, class: "button is-warning is-light"%>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="columns">
+    <div class="column" style="text-align: center">
+      <%= link_to 'Mis matches', show_user_matches_path, class: "button is-danger is-large is-fullwidth" %>
+    </div>
+    <div class="column" style="text-align: center">
+      <%= link_to 'Mis citas', show_user_dates_path, class: "button is-danger is-large is-fullwidth" %>
+    </div>
+  </div>
+  <div class="columns">
+    <div class="column" style="text-align: center">
+      <%= link_to 'Mis locales', show_user_restaurants_path, class: "button is-success is-large is-fullwidth" %>
+    </div>
+    <div class="column" style="text-align: center">
+      <%= link_to 'Mis postulaciones', show_user_postulations_path, class: "button is-success is-large is-fullwidth" %>
+    </div>
+  </div>
+  <div class="columns">
+    <div class="column" style="text-align: center">
+    </div>
+    <div class="column" style="text-align: center">
+      <%= link_to 'Mis gustos', show_user_gustos_path, class: "button is-info is-large is-fullwidth" %>
+    </div>
+    <div class="column" style="text-align: center">
+    </div>
+  </div>
+<% else %>
+  <div align=center>
+    <h1> Error </h1>
+  </div>
+<%end%>

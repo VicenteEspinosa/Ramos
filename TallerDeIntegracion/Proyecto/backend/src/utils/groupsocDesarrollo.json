@@ -1,0 +1,92 @@
+{
+    "1": {
+        "url": "http://brocoli1.ing.puc.cl",
+        "id_oc": "627ed2d422ec6057a70459a2",
+        "id_reception": "627ed48d22ec60fc2c0459d8"
+    },
+    "2": {
+        "url": "http://brocoli2.ing.puc.cl",
+        "id_oc": "627ed2d422ec603bbe0459a3",
+        "id_reception": "627ed48d22ec606ec20459dd"
+    },
+    "3": {
+        "url": "http://brocoli3.ing.puc.cl",
+        "id_oc": "627ed2d422ec6097af0459a4",
+        "id_reception": "627ed48d22ec6079f80459e2"
+    },
+    "4": {
+        "url": "http://brocoli4.ing.puc.cl",
+        "id_oc": "627ed2d422ec606d950459a5",
+        "id_reception": "627ed48d22ec6009570459e7"
+    },
+    "5": {
+        "url": "",
+        "id_oc": "627ed2d422ec60b9c10459a6",
+        "id_reception": "627ed48d22ec60554d0459ec"
+    },
+    "6": {
+        "url": "http://brocoli6.ing.puc.cl",
+        "id_oc": "627ed2d422ec60ecd50459a7",
+        "id_reception": "627ed48d22ec60d09c0459f1"
+    },
+    "7": {
+        "url": "https://brocoli7.ing.puc.cl",
+        "id_oc": "627ed2d422ec6078860459a8",
+        "id_reception": "627ed48d22ec60721a0459f6"
+    },
+    "8": {
+        "url": "http://brocoli8.ing.puc.cl",
+        "id_oc": "627ed2d422ec60f0f80459a9",
+        "id_reception": "627ed48d22ec60184c0459fb"
+    },
+    "9": {
+        "url": "http://brocoli9.ing.puc.cl",
+        "id_oc": "627ed2d422ec6004730459aa",
+        "id_reception": "627ed48d22ec6028b8045a00"
+    },
+    "10": {
+        "url": "http://brocoli10.ing.puc.cl",
+        "id_oc": "627ed2d422ec60262c0459ab",
+        "id_reception": "627ed48d22ec60ec41045a05"
+    },
+    "11": {
+        "url": "http://brocoli11.ing.puc.cl",
+        "id_oc": "627ed2d422ec6048aa0459ac",
+        "id_reception": "627ed48d22ec603dd7045a0a"
+    },
+    "12": {
+        "url": "http://brocoli12.ing.puc.cl",
+        "id_oc": "627ed2d422ec60b6ec0459ad",
+        "id_reception": "627ed48d22ec6032f0045a0f"
+    },
+    "13": {
+        "url": "http://brocoli13.ing.puc.cl",
+        "id_oc": "627ed2d422ec603db30459ae",
+        "id_reception": "627ed48d22ec601d74045a14"
+    },
+    "14": {
+        "url": "http://brocoli14.ing.puc.cl",
+        "id_oc": "627ed2d422ec6040e30459af",
+        "id_reception": "627ed48d22ec604c6e045a19"
+    },
+    "15": {
+        "url": "http://brocoli15.ing.puc.cl",
+        "id_oc": "627ed2d422ec6003d20459b0",
+        "id_reception": "627ed48d22ec602d2e045a1e"
+    },
+    "16": {
+        "url": "http://brocoli16.ing.puc.cl",
+        "id_oc": "627ed2d422ec60681d0459b1",
+        "id_reception": "627ed48d22ec60907c045a23"
+    },
+    "17": {
+        "url": "http://brocoli17.ing.puc.cl",
+        "id_oc": "627ed2d422ec60cdf00459b2",
+        "id_reception": "627ed48d22ec607f13045a28"
+    },
+    "18": {
+        "url": "",
+        "id_oc": "627ed2d422ec60d0330459b3",
+        "id_reception": "627ed48d22ec606647045a2d"
+    }
+}

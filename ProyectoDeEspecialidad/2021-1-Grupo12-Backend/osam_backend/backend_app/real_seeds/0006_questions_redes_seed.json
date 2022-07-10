@@ -1,0 +1,1740 @@
+[
+  {
+    "model": "backend_app.question",
+    "pk": 343,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿En la camioneta se transportan sólo elementos asociados al trabajo diario?",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 344,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Están categorizadas las herramientas según prioridad?",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 345,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿La camioneta se observa limpia al interior? (sin basura, podrá existir polvo y barro)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 346,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Están los elementos de trabajo en buen estado?",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 347,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Los elementos de la camioneta 5S se observan en buen estado? (cajas, slingas, malla, morral, etc.)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 348,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Ponchadora krone",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 349,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llaves punta corona 8 a 22 (+32) pulgadas",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 350,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tijeras",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 351,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Atornilladores de precisión cruz, paleta, estrella",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 352,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Rotuladora",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 353,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Corta cartón",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 354,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Pela-cables",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 355,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Tester para medición de tensión (Dc-Ac) de tenaza",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 356,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alicates punta, cortante, fuerza",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 357,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Linterna",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 358,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Test para RJ-45",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 359,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Hidrolavadora",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 360,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Power meter",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 361,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Grupo Generador Portátil (No aplica si se transporta combustible en estanque de 600 lt.)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 362,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llave para retiro de filtros de GG (Aceite)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 363,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llave francesa",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 364,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Termómetro para medición de inyección A/A",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 365,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Soplador para limpieza de equipos",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 366,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Atornilladores normal aislados (paleta, cruz)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 367,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Llaves allen",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 368,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Caimán",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 369,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Apreta terminales",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 370,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cables de prueba",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 371,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Picoloro",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 372,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Crimpeadora RJ45",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 373,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Crimpeadora BNC",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 374,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Bolso de seguridad (Morral con elementos de trabajo en altura)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 375,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Foco Faenero",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 376,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Inclinómetro",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 377,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Brújula",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 378,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conectores bnc para coaxial 3002",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 379,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conectores macho volante para coaxial 3002",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 380,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Coaxial 3002 para cruzadas",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 381,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cable utp y conectoras RJ-45",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 382,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Aire comprimido",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 383,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Amarras plásticas",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 384,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conectores N para coaxial de enlaces Ericsson",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 385,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alcohol isopropilico",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 386,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Mangueras para calefacción de GG",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 387,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guaipe y paños para limpieza",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 388,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Mangueras para inyectores de GG",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 389,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Detergente para lavado de A/A (condensador evaporador) (Obligatoria a partir de Octubre 2017)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 390,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Bidón de transporte de combustible (tiene que ser plástico) (Obligatoria a partir de Octubre 2017)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 391,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Bidón de agua para mantención A/A",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 392,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cable para respaldo de sitios con GG portátil",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 393,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cinta aisladora y vulco",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 394,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Protecciones 10,16,25,40",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 395,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Brocha (Limpieza)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 396,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Lubricante w-40",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 397,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Limpia contacto",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 398,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES Herramientas",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 399,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Casco de seguridad",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 400,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Barbiquejo",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 401,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Lentes de seguridad",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 402,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Protectores auditivos (desechables o audífono)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 403,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Calzado de seguridad (dieléctrico)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 404,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Chaleco reflectante (amarillo)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 405,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cabos de vida (amortiguador de caída)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 406,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guantes dieléctricos",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 407,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guantes de cabritilla",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 408,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Respirador doble vía",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 409,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Arnés de seguridad (tipo cobra 3000)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 410,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Estrobo regulable (riel SÖLL)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 411,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES EPP",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 412,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Parka hipora",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 413,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Chaleco geólogo",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 414,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Polar",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 415,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Polera manga larga",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 416,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Pantalón Operaciones",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 417,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Overrall",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 418,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES Vestimenta",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 419,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Copia plastificada del documento de autorización para transporte de combustible líquido entregada por SEC (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 420,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Copia plastificada del documento HDS (Hoja de datos de seguridad) (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 421,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Copia plastificada del documento HDST (Hoja de seguridad para el transporte) (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 422,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Certificado de capacitaciones del decreto supremo 160 y manejo de sustancias peligrosas (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 423,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "HDS (Hoja de seguridad). Conforme a la Norma Chilena 2245/2003 (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 424,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "HDST (Hoja de Seguridad para el trasporte). Conforme a la Norma Chilena 2245/2003. (Anexo N°3). (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 425,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Documentos que lo acreditan como conductor (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 426,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Registros de capacitaciones (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 427,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Charla SAI (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 428,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Contrato de trabajo (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 429,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "A lo menos 2 extintores certificados de polvo químico seco (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 430,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Material de amarre o sujeción del estanque móvil (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 431,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Mínimo 2 cuñas para asegurar el vehículo (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 432,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Kit de respuesta para derrame de Hidrocarburos (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 433,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "3 mini-cordones (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 434,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "5 paños de alta absorción (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 435,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Bolsa para desechar (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 436,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Caja contenedora que funciona como señal de peligro (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 437,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "El estanque debe contar con una tapa adecuada ysu diseño permitir verter el líquido sin salpicaduras, Art 275, D.S 160/2009. (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 438,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Deben estar certificados bajo la norma chilena y debidamente autorizados por la SEC, con su resolución exenta N°178. (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 439,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "El estanque deberá estar debidamente rotulado según Norma Chilena 2190. (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 440,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "El estanque deberá estar afianzado al pick up de la camioneta, con eslingas con trinquete. (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 441,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES (Bencinera)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 442,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Copia plastificada del documento de autorización para transporte de combustible líquido entregada por SEC (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 443,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Copia plastificada del documento HDS (Hoja de datos de seguridad) (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 444,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Copia plastificada del documento HDST (Hoja de seguridad para el transporte) (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 445,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Certificado de capacitaciones del decreto supremo 160 y manejo de sustancias peligrosas (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 446,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "HDS (Hoja de seguridad). Conforme a la Norma Chilena 2245/2003 (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 447,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "HDST (Hoja de Seguridad para el trasporte). Conforme a la Norma Chilena 2245/2003. (Anexo N°3). (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 448,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Documentos que lo acreditan como conductor (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 449,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Registros de capacitaciones (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 450,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Charla SAI (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 451,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Contrato de trabajo (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 452,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "A lo menos 2 extintores certificados de polvo químico seco (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 453,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Material de amarre o sujeción del estanque móvil (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 454,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Mínimo 2 cuñas para asegurar el vehículo (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 455,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Kit de respuesta para derrame de Hidrocarburos (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 456,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "3 mini-cordones (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 457,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "5 paños de alta absorción (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 458,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "3. Bolsa para desechar (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 459,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Caja contenedora que funciona como señal de peligro (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 460,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "El estanque debe contar con una tapa adecuada y su diseño permitir verter el líquido sin salpicaduras, Art 275, D.S 160/2009. (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 461,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Deben estar certificados bajo la norma chilena y debidamente autorizados por la SEC, con su resolución exenta N°178. (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 462,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "El estanque deberá estar debidamente rotulado según Norma Chilena 2190. (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 463,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "El estanque deberá estar afianzado al pick up de la camioneta, con eslingas con trinquete. (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 464,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES (En el Sitio)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 465,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿Los neumáticos de la camioneta se encuentran en buen estado?",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 466,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "¿El kilometraje de la camioneta está bajo los 120.000 Kms.?  (Indicar kilometraje en Observaciones)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 467,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Anemómetro",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 468,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cable Serial a USB RS232 de conexión a equipos",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 469,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Notebook por técnico ( Windows 7 o superior, 4GB en RAM, 500 GB en disco duro, con lector de disco (puede ser portátil)).",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 470,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Smartphone por técnico (J7 o superior, Android, cámara 13MP, Memoria 16GB, RAN 2GB, Octacore 1.6 GHz)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 471,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Softwares cargados en Notebook (U2000, T2000, MiniLinkCraft, Aviat, Knopix, FileZilla, RBSElementManager, OMT, REBEX, Moshell, Putty)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 472,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Candado con Clave",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 473,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "¿El vehículo contiene kit básico (Llave cruz, gata, rueda repuesto, botiquín, extintor, etc.)?",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 474,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Carro SÖLL (carro de ascenso)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 475,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guantes (Covid-19)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 476,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Mascarillas (Covid-19)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 477,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Escudo Facial (Covid-19)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 478,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Alcohol Gel (Covid-19)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 479,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Agua (Covid-19)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 480,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Jabón (Covid-19)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 481,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Buzo térmico ",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 482,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Trajes de agua",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 483,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Arnés de cuerpo completo (ACC) clase P, dieléctrico",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 484,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Estrobo de seguridad dieléctrico",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 485,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Guante montajista",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 486,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Línea de vida doble dieléctrico",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 487,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Bota de agua dieléctrica (trabajos en suelos húmedos)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 488,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Kit postación escalera (incluye carro y línea de vida)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 489,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Baliza amarilla (magnética)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 490,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Barreras reflectantes",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 491,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Conos (60 cm)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 492,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Escala portátil Telescópica (certificada dieléctrica) (fibra de vidrio, 20 peldaños)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 493,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Porta escala para camioneta 4x4 (sobre pickup, capacidad para 2 escalas, sin obstruir GE y VIN)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 494,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Cinta demarcadora (de señalización)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 495,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Gancho de escalera y cintas",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 496,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Detector de voltaje personal (para casco)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 497,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Emisor de Luz (localizador de fallas para FO)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 498,
+    "fields": {
+      "category": 1,
+      "options": { "possible_values": ["SI", "NO", "N/A"] },
+      "value": "Kit de limpieza para conectores (FO, One Clic SC y LC)",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 499,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES Team Baja Altura",
+      "status": true,
+      "category_id": 1
+    }
+  },
+  {
+    "model": "backend_app.question",
+    "pk": 500,
+    "fields": {
+      "category": 4,
+      "options": { "possible_values": [] },
+      "value": "OBSERVACIONES CAMIONETA REDES",
+      "status": true,
+      "category_id": 1
+    }
+  }
+]

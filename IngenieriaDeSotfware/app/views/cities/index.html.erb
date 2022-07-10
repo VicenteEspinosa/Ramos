@@ -1,0 +1,19 @@
+<div class="wrapper">
+ <% @cities.each do |city| %>
+    <div class="card" style="width: 100%; text-align: center; margin: 2rem auto auto auto">
+      <header class="card-header">
+        <p class="card-header-title">
+          <%= city.name %>
+      </header>
+      <div class="card-content">
+        <div class="field">
+          <div class="field is-grouped is-grouped-centered">
+            <div class="control">
+              <%= link_to "Ver detalles", city, class: "button is-info is-light is-small" %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ <% end %>
+</div>

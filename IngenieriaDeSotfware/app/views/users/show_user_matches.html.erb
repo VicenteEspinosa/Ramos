@@ -1,0 +1,53 @@
+<% if !@real_matches.empty?%>
+  <div class="wrapper">
+  <% @real_matches.each do |user| %>
+    <div class="card" style="margin: 2rem auto 2rem auto; width: 100%; heigth: 50%">
+      <div class="card-image">
+          <figure class="image is-3by4">
+          <%if user.avatar? %>
+            <%= image_tag user.avatar.url %>
+          <% else %>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png">
+          <% end %>
+          </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <p class="title is-4"><%= user.name%></p>
+          </div>
+        </div>
+        <div class="content">
+          <%= user.description%>
+        </div>
+        <div class="field is-grouped is-grouped-centered">
+          <% if @match_has_date[user.id].nil?%>
+            <div class="control">
+              <%= link_to "Programar cita", new_citum_path(user_2_id: user.id), class: "button is-primary" %>
+            </div>
+          <% else %>
+            <div class="control">
+              <%= link_to "Ver cita programada", citum_path( @match_has_date[user.id].id), class: "button is-primary" %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  <% end%>
+  </div>
+<% else %>
+<div class="section">
+  <section class="hero is-primary" style="margin-top: 2rem; text-align: center">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          No tienes matches por el momento
+        </h1>
+      </div>
+    </div>
+  </section>
+</div>
+<% end %>
+<div section="class" style="text-align:center">
+  <%= link_to 'Buscar gente', show_user_recommendations_path,  class: "button is-danger" %>
+</div>

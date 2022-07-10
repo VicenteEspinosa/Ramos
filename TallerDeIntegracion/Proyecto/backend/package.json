@@ -1,0 +1,38 @@
+{
+  "name": "2022-1-tarea-1-raespinoza4",
+  "version": "1.0.0",
+  "description": "Tarea 1 - Rodrigo Espinoza",
+  "main": "index.js",
+  "repository": "https://github.com/IIC3103/2022-1-tarea-1-raespinoza4.git",
+  "author": "Rodrigo Espinoza <raespinoza4@uc.cl>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "node-cron": "^3.0.1",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.19.2",
+    "ssh2-sftp-client": "^8.1.0",
+    "underscore": "^1.13.4",
+    "xml2json": "^0.12.0"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "lint": "./node_modules/.bin/eslint . --ext .js,.jsx",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "sequelize-cli": "^6.4.1"
+  }
+}
