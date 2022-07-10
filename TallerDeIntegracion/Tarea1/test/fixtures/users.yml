@@ -1,0 +1,51 @@
+# == Schema Information
+#
+# Table name: users
+#
+#  id           :bigint           not null, primary key
+#  age          :integer          not null
+#  gpa_score    :float
+#  hospital     :string
+#  job          :string
+#  medical_debt :float
+#  name         :string           not null
+#  operations   :text             default([]), is an Array
+#  password     :string
+#  promotion    :boolean          default(FALSE), not null
+#  psu_score    :integer
+#  salary       :float
+#  university   :string
+#  username     :string           not null
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+one:
+  username: MyString
+  password: MyString
+  name: MyString
+  age: 1
+  psu_score: 1
+  university: MyString
+  gpa_score: 1.5
+  job: MyString
+  salary: 1.5
+  promotion: false
+  hospital: MyString
+  operations: MyText
+  medical_debt: 1.5
+
+two:
+  username: MyString
+  password: MyString
+  name: MyString
+  age: 1
+  psu_score: 1
+  university: MyString
+  gpa_score: 1.5
+  job: MyString
+  salary: 1.5
+  promotion: false
+  hospital: MyString
+  operations: MyText
+  medical_debt: 1.5
