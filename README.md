@@ -107,6 +107,10 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
 
     - [Taller de Integracion \[IIC3103\]]
 
+## **Typescript** <img src="icons/typescript.png" alt="typescript" width="20"/>
+
+  - [Desarrollo de Software \[IIC3143\]]
+
 
 ## **C** <img src="icons/c.png" alt="c" width="25"/>
 
