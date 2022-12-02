@@ -2,16 +2,19 @@
 
 Es mejor clonar solo una carpeta si se va a usar solo esta, ya que el repositorio es bastante grande.
 
-Escoge una carpeta y el nombre de esta sera tu \<folder_name>
+Escoge una carpeta y el nombre de esta será tu `<folder_name>`
+
+Por ejemplo si quieres ver Introduccion a la progamación, 
+`<folder_name>` = IntroduccionALaProgramacion
 
 **Se requiere git >= 2.25.0**
 
 ```console
-git clone --filter=blob:none --no-checkout https://github.com/VicenteEspinosa/Ramos.git <folder_name>
+git clone --filter=blob:none --no-checkout https://github.com/VicenteEspinosa/Ramos.git
 ```
 
 ```console
-cd <folder_name>
+cd Ramos
 ```
 
 ```console
