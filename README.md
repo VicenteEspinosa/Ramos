@@ -55,6 +55,9 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
   * [Diseño Detallado de Software \[IIC2113\]]
   * [Desarrollo de Software \[IIC3143\]]
 
+- 2022-2
+  * [Gestion De Proyectos De Tecnologias De Informacion \[IIC3113\]]
+
 
 # Ramos ordenados por tecnologías usadas
 
@@ -63,6 +66,8 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
   * [Introducción a la Programación \[IIC1103\]]
 
   * [Programación Avanzada \[IIC2233\]]
+
+  * [Gestion De Proyectos De Tecnologias De Informacion \[IIC3113\]]
 
   * ### Django <img src="icons/django.png" alt="django" width="15"/> 
 
@@ -100,6 +105,8 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
   * ### Next <img src="icons/next.png" alt="next" width="20"/>
 
     - [Desarrollo de Software \[IIC3143\]]
+
+    - [Gestion De Proyectos De Tecnologias De Informacion \[IIC3113\]]
 
   * ### Node <img src="icons/node.svg" alt="node" width="20"/>
 
@@ -153,6 +160,8 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
 [Diseño Detallado de Software \[IIC2113\]]: ./DisenoDetalladoDeSoftware
 
 [Estructuras de Datos y Algoritmos \[IIC2133\]]: ./EstructurasDeDatosYAlgoritmos
+
+[Gestion De Proyectos De Tecnologias De Informacion \[IIC3113\]]: ./GestionDeProyectosDeTecnologiasDeInformacion
 
 [Ingeniería de Software \[IIC2143\]]: ./IngenieriaDeSotfware
 
