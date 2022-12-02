@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+
+<head>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Escudo_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile.svg/200px-Escudo_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile.svg.png">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fútbol</title>
+</head>
+
+<link rel="stylesheet" href="../styles/input.css">
+
+<body>
+
+    <div class="header">
+        <a href="../index.html">Inicio</a>
+        <a href="futbol.html">Futbol</a>
+        <a href="tenis.html">Tenis</a>
+        <a href="info.html">Info</a>
+    </div>
+
+
+    <div class="titulo">
+        <div class="titulo1">
+            FÚTBOL
+        </div>
+    </div>
+    
+    <br><br>
+
+
+    <div class="form">
+        <div class="input">
+            <input type="number" min="1" max="20" id="vInicial" name="vInicial">
+            <input type="number" min="1" max="20" id="vAngular" name="vAngular">
+            <input type="number" min="0" max="360" id="phi" name="phi">
+            <input type="number" min="0" max="360" id="theta" name="theta">
+        </div>
+        <div class="label">
+            <p>Velocidad inicial</p>
+            <p>Velocidad angular</p>
+            <p>Phi</p>
+            <p>Theta</p>
+        </div>
+
+        <button onclick="return recibirInputs()">Simular</button>
+    </div>
+
+    <div class="plano">
+        <img src="../img/plano.png" alt="Plano" style="width: 18vw; height: 18vw;">
+    </div> 
+
+    <div class="uc">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Escudo_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile.svg/200px-Escudo_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile.svg.png" alt="Campo" style="width: 4vw; height: 4vw;">
+    </div>
+
+    <div class="texto">
+        Es de gran interés práctico estudiar el movimiento y trayectoria del balón provocada por el golpeo de un futbolista. 
+        La persona que practica este deporte tiene la capacidad para elegir cómo quiere pegarle al balón, y la canitad de efecto que necesita 
+        para lograr su objetivo, este puede ser un pase corto, largo o un tiro con dirección a portería. 
+        En el fútbol el efecto Magnus es común y está en constante demostración durante el partido, ya que los jugadores 
+        profesionales utilizan mucho el golpeo con efecto.
+    </div>
+</body>
+
+<script src="../scripts/resize.js"></script>
+<script src="../scripts/cookies.js"></script>
+<script src="../scripts/inputFutbol.js"></script>
+
+</html>

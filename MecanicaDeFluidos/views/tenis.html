@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+
+<head>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Escudo_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile.svg/200px-Escudo_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile.svg.png">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenis</title>
+</head>
+
+<link rel="stylesheet" href="../styles/input.css">
+
+<body>
+
+    <div class="header">
+        <a href="../index.html">Inicio</a>
+        <a href="futbol.html">Futbol</a>
+        <a href="tenis.html">Tenis</a>
+        <a href="info.html">Info</a>
+    </div>
+
+
+    <div class="titulo">
+        <div class="titulo1">
+            TENIS
+        </div>
+    </div>
+    
+    <br><br>
+
+
+    <div class="form">
+        <div class="input">
+            <input type="number" min="1" max="20" id="vInicial" name="vInicial">
+            <input type="number" min="1" max="20" id="vAngular" name="vAngular">
+            <input type="number" min="0" max="360" id="phi" name="phi">
+            <input type="number" min="0" max="360" id="theta" name="theta">
+        </div>
+        <div class="label">
+            <p>Velocidad inicial</p>
+            <p>Velocidad angular</p>
+            <p>Phi</p>
+            <p>Theta</p>
+        </div>
+
+        <button onclick="return recibirInputs()">Simular</button>
+    </div>
+
+    <div class="plano">
+        <img src="../img/plano.png" alt="Plano" style="width: 18vw; height: 18vw;">
+    </div> 
+
+    <div class="uc">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Escudo_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile.svg/200px-Escudo_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile.svg.png" alt="Campo" style="width: 4vw; height: 4vw;">
+    </div>
+
+    <div class="texto">
+        Analogo al fútbol, en el tenis el efecto de la pelota tabién es influyente para cumplir los diversos objetivos del tenista. 
+        Existe el golpe con 'top spin', el cual permite añadir más velocidad a la pelota y provoca que esta caiga más rapido dentro de la cancha. 
+        Por otro lado, el 'slice' es más lento, y la pelota "flota" en vez de caer rápido, generalmente los tenistas lo utilizan para defenderse o 
+        bajar el ritmo del juego. En estos dos casos el efecto Magnus esta presente, por lo que dependeiendo de dónde y con cuanta fuerza se golpee la 
+        pelota, esta tendrá una trayectoria distinta.
+    </div>
+</body>
+
+<script src="../scripts/resize.js"></script>
+<script src="../scripts/cookies.js"></script>
+<script src="../scripts/inputTenis.js"></script>
+
+</html>

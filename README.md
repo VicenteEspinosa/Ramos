@@ -43,6 +43,7 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
 
 - 2020-2
   * [Tecnologías y Aplicaciones Web \[IIC2513\]]
+  * [Mecánica de Fluidos \[ICH1104\]]
 
 - 2021-1
   * [Estructuras de Datos y Algoritmos \[IIC2133\]]
@@ -94,6 +95,8 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
 ## **Javascript** <img src="icons/javascript.png" alt="javascript" width="20"/>
 
   * [Tecnologías y Aplicaciones Web \[IIC2513\]]
+
+  * [Mecánica de Fluidos \[ICH1104\]]
 
   * ### React <img src="icons/react.png" alt="react" width="20"/> 
 
@@ -171,6 +174,8 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
 [Introducción a la Programación \[IIC1103\]]: ./IntroduccionALaProgramacion
 
 [Matemáticas Discretas \[IIC1253\]]: ./MatematicasDiscretas
+
+[Mecánica de Fluidos \[ICH1104\]]: ./MecanicaDeFluidos
 
 [Programación Avanzada \[IIC2233\]]: ./ProgramacionAvanzada
 
