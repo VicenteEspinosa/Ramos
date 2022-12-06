@@ -61,6 +61,7 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
 
 - 2022-2
   * [Gestion De Proyectos De Tecnologias De Informacion \[IIC3113\]]
+  * [Testing \[IIC3745\]]
 
 
 # Ramos ordenados por tecnologías usadas
@@ -72,6 +73,8 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
   * [Programación Avanzada \[IIC2233\]]
 
   * [Gestion De Proyectos De Tecnologias De Informacion \[IIC3113\]]
+
+  * [Testing \[IIC3745\]]
 
   * ### Django <img src="icons/django.png" alt="django" width="15"/> 
 
@@ -91,6 +94,8 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
     - [Taller de Integracion \[IIC3103\]]
 
     - [Diseño Detallado de Software \[IIC2113\]]
+
+    - [Testing \[IIC3745\]]
 
 ## **Javascript** <img src="icons/javascript.png" alt="javascript" width="20"/>
 
@@ -152,6 +157,8 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
 
   * [Bases de Datos \[IIC2413\]]
 
+  * [Testing \[IIC3745\]]
+
 
 <!-- Links -->
 
@@ -186,3 +193,5 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
 [Taller de Integracion \[IIC3103\]]: ./TallerDeIntegracion
 
 [Tecnologías y Aplicaciones Web \[IIC2513\]]: ./TecnologiasYAplicacionesWeb
+
+[Testing \[IIC3745\]]: ./Testing
