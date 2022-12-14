@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Door
+  - Canvas
+  - Mutant
+  - Firefighter
+  - Bullet
+  - Detective
+  - Fire
+  - Axe
+  - AxeSound
+  - Clue
+  - Tutorial
+  - BossDoor
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Proyectiles
+  - Water
+  - UI
+  - Players
+  - Enemies
+  - Hidden
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: UnderFloor
+    uniqueID: 4091306631
+    locked: 0
+  - name: Floor
+    uniqueID: 3709279423
+    locked: 0
+  - name: BlackSquares
+    uniqueID: 3400726637
+    locked: 0
+  - name: Objects
+    uniqueID: 3738446363
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: OutCoverLayer
+    uniqueID: 192156833
+    locked: 0
+  - name: Text
+    uniqueID: 3599483993
+    locked: 0

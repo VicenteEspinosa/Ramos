@@ -62,6 +62,7 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
 - 2022-2
   * [Gestion De Proyectos De Tecnologias De Informacion \[IIC3113\]]
   * [Testing \[IIC3745\]]
+  * [Creacion de Videojuegos \[IIC3685\]]
 
 
 # Ramos ordenados por tecnologías usadas
@@ -137,6 +138,11 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
   * [Estructuras de Datos y Algoritmos \[IIC2133\]]
 
 
+## **C#** <img src="icons/cSharp.png" alt="c" width="25"/>
+
+  * [Creacion de Videojuegos \[IIC3685\]]
+
+
 ## **Risk-V (assembly)** <img src="icons/risk-v.png" alt="risk" width="20"/>
 
   * [Arquitectura de Computadores \[IIC2343\]]
@@ -167,6 +173,8 @@ Fuente: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-spa
 [Arquitectura de Sistemas de Software \[IIC2173\]]: ./ArquitecturaDeSistemasDeSoftware
 
 [Bases de Datos \[IIC2413\]]: ./BasesDeDatos
+
+[Creacion de Videojuegos \[IIC3685\]]: ./CreacionDeVideojuegos
 
 [Desarrollo de Software \[IIC3143\]]: ./DesarrolloDeSoftware
 
